@@ -51,7 +51,7 @@
 ====================================================================
 
  ***/
-* {
+ * {
   margin:0px;
   padding:0px;
   border:none;
@@ -2547,14 +2547,14 @@ div#mCSB_1_container{
 
 .info-section .title-inner .year-box h2{
   position: relative;
-  font-size: 110px;
-  line-height: 94px;
+  font-size: 60px;
+  line-height: 50px;
   font-weight: 700;
 }
 
 .info-section .title-inner .year-box h3{
-  font-size: 22px;
-  line-height: 30px;
+  font-size: 20px;
+  line-height: 20px;
   color: #204669;
   text-transform: uppercase;
   font-weight: 400;
@@ -12772,3 +12772,124 @@ h4 a{
   display: block;
   height: 550px;
 }
+
+/** FAQs **/
+.accordion-item {
+  margin-bottom: 15px;
+}
+
+.accordion-button {
+  color: #ff69b4;
+  background-color: #ffffff;
+  border: 1px solid #ff69b4;
+  border-radius: 5px;
+  padding: 10px 15px;
+  width: 100%;
+  text-align: left;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.accordion-button:hover {
+  color: #ffffff;
+  background-color: #ff69b4;
+}
+
+.accordion-body {
+  padding: 10px 15px;
+  border: 1px solid #ff69b4;
+  border-top: none;
+  border-radius: 0 0 5px 5px;
+  background-color: #ffffff;
+}
+
+/** FAQs **/
+.faq-section {
+  margin: 0 auto;
+  max-width: 800px;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.faq-item {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.faq-question {
+  font-size: 16px;
+  color: #ff69b4;
+  background-color: #ffffff;
+  border: 1px solid #a020f0;
+  border-radius: 5px;
+  padding: 10px 15px;
+  width: 100%;
+  text-align: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.faq-question:hover {
+  color: #ffffff;
+  background-color: #a020f0;
+  border-color: #a020f0;
+}
+
+.faq-answer {
+  padding: 10px 15px;
+  border: 1px solid #ff69b4;
+  border-top: none;
+  border-radius: 0 0 5px 5px;
+  background-color: #ffffff;
+  width: 100%;
+  display: none;
+  font-weight: 400;
+}
+
+.faq-answer p {
+  margin-bottom: 10px;
+}
+
+.hc-contact {
+  margin: 0 auto;
+  max-width: 800px;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #353544; /* Deep purple-black background */
+  border-radius: 10px;
+  border: 1px solid #4d4d5c; /* Border for the contact section */
+  margin-bottom: 20px; /* Space below the contact section */
+}
+
+
+.hc-contact .img {
+  margin-bottom: 15px; /* Adjust margin as needed */
+}
+
+.hc-contact h2 {
+  font-size: 24px;
+  color: #ff69b4; /* Font color */
+  margin-bottom: 15px; /* Adjust margin as needed */
+}
+
+.hc-contact .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff69b4; /* Button background color */
+  color: #fff; /* Button text color */
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.hc-contact .btn:hover {
+  background-color: #fff; /* Hover background color */
+  color: #ff69b4; /* Hover text color */
+}
+

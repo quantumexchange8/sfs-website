@@ -1,42 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-
-<title>Fionca - HTML 5 Template Preview</title>
-
-<!-- Fav Icon -->
-<link rel="icon" href="/images/favicon.ico" type="image/x-icon">
-
-<!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i&display=swap" rel="stylesheet">
-
-<!-- Stylesheets -->
-<link href="/css/font-awesome-all.css" rel="stylesheet">
-<link href="/css/flaticon.css" rel="stylesheet">
-<link href="/css/owl.css" rel="stylesheet">
-<link href="/css/bootstrap.css" rel="stylesheet">
-<link href="/css/jquery.fancybox.min.css" rel="stylesheet">
-<link href="/css/animate.css" rel="stylesheet">
-<link href="/css/color.css" rel="stylesheet">
-<link href="/css/rtl.css" rel="stylesheet">
-<link href="/css/style.css" rel="stylesheet">
-<link href="/css/responsive.css" rel="stylesheet">
-
-</head>
-
+@include('master')
 
 <!-- page wrapper -->
+
 <body class="boxed_wrapper ltr">
 
     <!-- Preloader -->
     <div class="loader-wrap">
-        <div class="preloader"><div class="preloader-close">Preloader Close</div></div>
+        <div class="preloader">
+            <div class="preloader-close">Preloader Close</div>
+        </div>
         <div class="layer layer-one"><span class="overlay"></span></div>
-        <div class="layer layer-two"><span class="overlay"></span></div>        
-        <div class="layer layer-three"><span class="overlay"></span></div>        
+        <div class="layer layer-two"><span class="overlay"></span></div>
+        <div class="layer layer-three"><span class="overlay"></span></div>
     </div>
 
 
@@ -57,7 +32,8 @@
                 <form method="post" action="index.html">
                     <div class="form-group">
                         <fieldset>
-                            <input type="search" class="form-control" name="search-input" value="" placeholder="Search Here" required >
+                            <input type="search" class="form-control" name="search-input" value=""
+                                placeholder="Search Here" required>
                             <input type="submit" value="Search Now!" class="theme-btn style-four">
                         </fieldset>
                     </div>
@@ -76,175 +52,17 @@
     <!-- search-popup end -->
 
 
-    <!-- main header -->
-    <header class="main-header style-one">
-        <div class="header-top">
-            <div class="auto-container">
-                <div class="top-inner clearfix">
-                    <ul class="info top-left pull-left">
-                        <li><i class="fas fa-map-marker-alt"></i>838 Andy Street, Madison, NJ 08003</li>
-                        <li><i class="fas fa-headphones"></i>Support <a href="tel:01005200369">0100 5200 369</a></li>
-                    </ul>
-                    <div class="top-right pull-right">
-                        <ul class="social-links clearfix">
-                            <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="index.html"><i class="fab fa-google-plus-g"></i></a></li>
-                            <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="index.html"><i class="fab fa-linkedin-in"></i></a></li>
-                            <li><a href="index.html"><i class="fab fa-instagram"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="header-lower">
-            <div class="auto-container">
-                <div class="outer-box clearfix">
-                    <div class="logo-box pull-left">
-                        <figure class="logo"><a href="index.html"><img src="/images/logo.png" alt=""></a></figure>
-                    </div>
-                    <div class="menu-area pull-right">
-                        <!--Mobile Navigation Toggler-->
-                        <div class="mobile-nav-toggler">
-                            <i class="icon-bar"></i>
-                            <i class="icon-bar"></i>
-                            <i class="icon-bar"></i>
-                        </div>
-                        <nav class="main-menu navbar-expand-md navbar-light">
-                            <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
-                                <ul class="navigation clearfix">
-                                    <li><a href="index.html">Home</a></li>
-                                    <li class="dropdown"><a href="index.html">About</a>
-                                        <ul>
-                                            <li><a href="about-1.html">About Us 01</a></li>
-                                            <li><a href="about-2.html">About Us 02</a></li>
-                                            <li><a href="team.html">Experts Team</a></li>
-                                            <li><a href="pricing.html">Our Pricing</a></li>
-                                            <li><a href="error.html">Error Page</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><a href="index.html">Services</a>
-                                        <ul>
-                                            <li><a href="service-1.html">Service Page 01</a></li>
-                                            <li><a href="service-2.html">Service Page 02</a></li>
-                                            <li><a href="financial-analysis.html">Financial Analysis</a></li>
-                                            <li><a href="taxation-planning.html">Taxation Planning</a></li>
-                                            <li><a href="investment-trading.html">Investment Trading</a></li>
-                                            <li><a href="wealth-marketing.html">Wealth Marketing</a></li>
-                                            <li><a href="planning-strategies.html">Planning Strategies</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><a href="index.html">Elements</a>
-                                        <div class="megamenu">
-                                            <div class="row clearfix">
-                                                <div class="col-lg-3 column">
-                                                    <ul>
-                                                        <li><h4>Elements 1</h4></li>
-                                                        <li><a href="feature-element-1.html">Feature 01</a></li>
-                                                        <li><a href="feature-element-2.html">Feature 02</a></li>
-                                                        <li><a href="feature-element-3.html">Feature 03</a></li>
-                                                        <li><a href="about-element-1.html">About 01</a></li>
-                                                        <li><a href="about-element-2.html">About 02</a></li>
-                                                        <li><a href="about-element-3.html">About 03</a></li>
-                                                        <li><a href="about-element-4.html">About 04</a></li>
-                                                        <li><a href="stats-element.html">Stats Element</a></li>
-                                                    </ul>
-                                                </div>
-                                                <div class="col-lg-3 column">
-                                                    <ul>
-                                                        <li><h4>Elements 2</h4></li>
-                                                        <li><a href="news-element-1.html">News 01</a></li>
-                                                        <li><a href="news-element-2.html">News 02</a></li>
-                                                        <li><a href="funfact-element-1.html">Fun Fact 01</a></li>
-                                                        <li><a href="funfact-element-2.html">Fun Fact 02</a></li>
-                                                        <li><a href="service-element-1.html">Service 01</a></li>
-                                                        <li><a href="service-element-2.html">Service 02</a></li>
-                                                        <li><a href="skills-element.html">Skills Element</a></li>
-                                                        <li><a href="clients-element.html">Clients</a></li>
-                                                    </ul>
-                                                </div> 
-                                                <div class="col-lg-3 column">
-                                                    <ul>
-                                                        <li><h4>Elements 3</h4></li>
-                                                        <li><a href="team-element-1.html">Team 01</a></li>
-                                                        <li><a href="team-element-2.html">Team 02</a></li>
-                                                        <li><a href="pricing-element.html">Pricing</a></li>
-                                                        <li><a href="testimonial-element-1.html">Testimonial 01</a></li>
-                                                        <li><a href="testimonial-element-2.html">Testimonial 02</a></li>
-                                                        <li><a href="testimonial-element-3.html">Testimonial 03</a></li>
-                                                        <li><a href="work-element-1.html">Working 01</a></li>
-                                                        <li><a href="work-element-2.html">Working 02</a></li>
-                                                    </ul>
-                                                </div> 
-                                                <div class="col-lg-3 column">
-                                                    <ul>
-                                                        <li><h4>Elements 4</h4></li>
-                                                        <li><a href="project-element-1.html">Project 01</a></li>
-                                                        <li><a href="project-element-2.html">Project 02</a></li>
-                                                        <li><a href="chart-element.html">Chart Element</a></li>
-                                                        <li><a href="footer-element-1.html">Footer 01</a></li>
-                                                        <li><a href="footer-element-2.html">Footer 02</a></li>
-                                                        <li><a href="footer-element-3.html">Footer 03</a></li>
-                                                        <li><a href="footer-element-4.html">Footer 04</a></li>
-                                                        <li><a href="footer-element-5.html">Footer 05</a></li>
-                                                    </ul>
-                                                </div>                                       
-                                            </div>                                            
-                                        </div>
-                                    </li>
-                                    <li class="dropdown"><a href="index.html">Blog</a>
-                                        <ul>
-                                            <li><a href="blog-grid.html">Blog Grid</a></li>
-                                            <li><a href="blog-classic.html">Blog Classic</a></li>
-                                            <li><a href="blog-details.html">Blog Details</a></li>
-                                        </ul>
-                                    </li>                              
-                                    <li><a href="contact.html">Contact</a></li>
-                                </ul>
-                            </div>
-                        </nav>
-                        <div class="menu-right-content clearfix">
-                            <div class="search-btn">
-                                <button type="button" class="search-toggler"><i class="flaticon-search-1"></i></button>
-                            </div>
-                            <div class="nav-btn nav-toggler navSidebar-button clearfix">
-                                <i class="fas fa-align-right"></i>
-                            </div>
-                            <div class="btn-box">
-                                <a href="index.html" class="theme-btn style-one">Free Estimate</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!--sticky Header-->
-        <div class="sticky-header">
-            <div class="auto-container">
-                <div class="outer-box clearfix">
-                    <div class="logo-box pull-left">
-                        <figure class="logo"><a href="index.html"><img src="/images/small-logo.png" alt=""></a></figure>
-                    </div>
-                    <div class="menu-area pull-right">
-                        <nav class="main-menu clearfix">
-                            <!--Keep This Empty / Menu will come through Javascript-->
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- main-header end -->
+    @include('header')
 
     <!-- Mobile Menu  -->
     <div class="mobile-menu">
         <div class="menu-backdrop"></div>
         <div class="close-btn"><i class="fas fa-times"></i></div>
-        
+
         <nav class="menu-box">
             <div class="nav-logo"><a href="index.html"><img src="/images/mobile-logo.png" alt="" title=""></a></div>
-            <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
+            <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+            </div>
             <div class="contact-info">
                 <h4>Contact Info</h4>
                 <ul>
@@ -263,7 +81,8 @@
                 </ul>
             </div>
         </nav>
-    </div><!-- End Mobile Menu -->
+    </div>
+    <!-- End Mobile Menu -->
 
 
     <!-- banner-section -->
@@ -273,13 +92,14 @@
                 <div class="image-layer" style="background-image:url(/images/banner/banner-1.jpg)"></div>
                 <div class="auto-container">
                     <div class="content-box">
-                        <h5>get on the right way</h5>
-                        <h1>Financial Assistance<br />With True Purpose</h1>
+                        <h5>Take a ride on the success avalanche</h5>
+                        <h1>Monetary Support<br />With Sincere Intentions</h1>
                         <div class="btn-box">
-                            <a href="index.html" class="theme-btn style-one">How Can We Help</a>
-                            <a href="index" class="user-btn"><i class="far fa-user"></i><span>Find a Consultant</span></a>
+                            <a href="index.html" class="theme-btn style-one">How Should We Assist?</a>
+                            <a href="index" class="user-btn"><i class="far fa-user"></i><span>Make Contact With an
+                                    Expert</span></a>
                         </div>
-                    </div>  
+                    </div>
                 </div>
             </div>
             <div class="slide-item">
@@ -287,28 +107,28 @@
                 <div class="auto-container">
                     <div class="content-box centred">
                         <ul class="list-item clearfix">
-                            <li>.&nbsp;<a href="index.html">Experienced</a>&nbsp;.&nbsp;</li>
-                            <li><a href="index.html">Specialized</a>&nbsp;.&nbsp;</li>
-                            <li><a href="index.html">Professional</a>&nbsp;.&nbsp;</li>
+                            <li>.&nbsp;<a href="index.html">Knowledgeable</a>&nbsp;.&nbsp;</li>
+                            <li><a href="index.html">Skilled</a>&nbsp;.&nbsp;</li>
+                            <li><a href="index.html">Competent</a>&nbsp;.&nbsp;</li>
                         </ul>
-                        <h1>International Network To <br />Provide Assistance</h1>
+                        <h1>Worldwide Network To<br />Offer Support</h1>
                         <div class="btn-box">
-                            <a href="index.html" class="theme-btn style-one mar-0">How Can We Help</a>
+                            <a href="index.html" class="theme-btn style-one mar-0">How Should We Assist?</a>
                         </div>
-                    </div> 
+                    </div>
                 </div>
             </div>
             <div class="slide-item">
                 <div class="image-layer" style="background-image:url(/images/banner/banner-3.jpg)"></div>
                 <div class="auto-container">
                     <div class="content-box">
-                        <h5>get on the right way</h5>
-                        <h1>Boosting Relations & <br />Loyalty, Anytime</h1>
+                        <h5>Take a ride on the success avalanche</h5>
+                        <h1>Strengthening Bonds & <br />Faith at Any Time</h1>
                         <div class="btn-box">
-                            <a href="index.html" class="theme-btn style-one mr-10">How Can We Help</a>
-                            <a href="index.html" class="banner-btn-two">Find a Consultant</a>
+                            <a href="index.html" class="theme-btn style-one mr-10">How Should We Assist?</a>
+                            <a href="index.html" class="banner-btn-two">Make Contact With an Expert</a>
                         </div>
-                    </div>  
+                    </div>
                 </div>
             </div>
         </div>
@@ -324,17 +144,22 @@
                     <div class="title-inner">
                         <div class="year-box">
                             <figure class="image-box"><img src="/images/icons/year-icon.png" alt=""></figure>
-                            <h2>35</h2>
-                            <h3>FIONCA</h3>
+                            <h2>SFS</h2>
+                            <h3>SIXTY FOURTH SECURITIES</h3>
                         </div>
                         <div class="title">
-                            <h2>Years of Struggle <span>—</span> Better Strategy With Quality Business</h2>
+                            <h2>Testament To The Extraordinary Potential <span>—</span> of Collaboration, Innovation,
+                                and Expertise</h2>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-5 col-md-12 col-sm-12 text-column">
                     <div class="text">
-                        <p>Beniam quis nostrud exercitation sed lamco laboris nis aliquip sed conseqa sed rure repreh derit luptate velit excepteur ocaan dcats ipsum aliquip eduis aute irure reprehy enderit dui voluptate ipsum velit esse cillum dolore ipsum.</p>
+                        <p>Greetings from Sixty-Fourth Securities, where we are redefining the paradigm of the typical
+                            financial institution. We are a group of eminent financial experts, all of whom are
+                            recognized as leaders in their fields. Our unique combination of artificial intelligence
+                            (AI) and human intelligence sets us apart and drives our incredibly sophisticated trading
+                            techniques.</p>
                         <a href="index.html"><i class="fas fa-arrow-right"></i><span>Who We Are</span></a>
                     </div>
                 </div>
@@ -349,39 +174,42 @@
         <div class="auto-container">
             <div class="row clearfix">
                 <div class="col-lg-4 col-md-6 col-sm-12 feature-block">
-                    <div class="feature-block-one wow fadeInUp animated animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                    <div class="feature-block-one wow fadeInUp animated animated" data-wow-delay="00ms"
+                        data-wow-duration="1500ms">
                         <div class="inner-box">
                             <figure class="image-box"><img src="/images/resource/feature-1.jpg" alt=""></figure>
                             <div class="lower-content">
                                 <div class="inner">
-                                    <h3>Financial Analysis</h3>
-                                    <a href="index.html"><span>Read more</span><i class="fas fa-arrow-right"></i></a>
+                                    <h3>Wealth Management</h3>
+                                    <a href="index.html"><span>Learn more</span><i class="fas fa-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 feature-block">
-                    <div class="feature-block-one wow fadeInUp animated animated" data-wow-delay="300ms" data-wow-duration="1500ms">
+                    <div class="feature-block-one wow fadeInUp animated animated" data-wow-delay="300ms"
+                        data-wow-duration="1500ms">
                         <div class="inner-box">
                             <figure class="image-box"><img src="/images/resource/feature-2.jpg" alt=""></figure>
                             <div class="lower-content">
                                 <div class="inner">
-                                    <h3>Taxation Planning</h3>
-                                    <a href="index.html"><span>Read more</span><i class="fas fa-arrow-right"></i></a>
+                                    <h3>Real Estate</h3>
+                                    <a href="index.html"><span>Learn more</span><i class="fas fa-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 feature-block">
-                    <div class="feature-block-one wow fadeInUp animated animated" data-wow-delay="600ms" data-wow-duration="1500ms">
+                    <div class="feature-block-one wow fadeInUp animated animated" data-wow-delay="600ms"
+                        data-wow-duration="1500ms">
                         <div class="inner-box">
                             <figure class="image-box"><img src="/images/resource/feature-3.jpg" alt=""></figure>
                             <div class="lower-content">
                                 <div class="inner">
-                                    <h3>Investment Trading</h3>
-                                    <a href="index.html"><span>Read more</span><i class="fas fa-arrow-right"></i></a>
+                                    <h3>Hedge Funds</h3>
+                                    <a href="index.html"><span>Learn more</span><i class="fas fa-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -393,143 +221,252 @@
     <!-- feature-section end -->
 
 
-    <!-- about-section -->
-    <section class="about-section bg-color-1"> 
+    <!-- about-style-four -->
+    <section class="about-style-four">
         <div class="auto-container">
             <div class="row clearfix">
-                <div class="col-lg-6 col-md-12 col-sm-12 video-column">
-                    <div class="video-inner">
-                        <figure class="image-box"><img src="/images/resource/about-1.jpg" alt=""></figure>
-                        <div class="video-btn">
-                            <a href="https://www.youtube.com/watch?v=nfP5N9Yc72A&amp;t=28s" class="lightbox-image" data-caption="" style="background-image: url(/images/resource/btn-bg.png);"><i class="fas fa-play"></i></a>
-                        </div>
-                    </div>
-                </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 content-column">
-                    <div id="content_block_one">
+                    <div id="content_block_13">
                         <div class="content-box">
-                            <div class="sec-title left">
-                                <h5>About fionca</h5>
-                                <h2>Largest Demand Partnership Buidling Financial Experts</h2>
+                            <div class="sec-title style-four right">
+                                <h5>About SFS</h5>
+                                <h2>AI-Powered Digital Future Planning Based on Human Insight</h2>
                             </div>
                             <div class="text">
-                                <p>Exercitation llamco laboris nis aliquip sed conseqrure dolorn repreh deris luptate velit excepteur duis aute irure dolor voluptate.</p>
+                                <p>Sixty-fourth Securities uses human insight and artificial intelligence to inform their trading strategies.</p>
+                                <p> Since their establishment in 2022, they have overseen assets valued over $5 billion, demonstrating their
+                                    proficiency in foreign exchange, fund management, derivatives trading, and brokering.</p>
                             </div>
-                            <div class="inner-box">
-                                <div class="single-item">
-                                    <div class="icon-box">
-                                        <span class="bg-box"></span>
-                                        <i class="flaticon-computer-1"></i>
+                            <div class="progress-content">
+                                <div class="progress-box">
+                                    <p>Foreign Exchange</p>
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="70%"></div>
+                                        <span class="count-text">70%</span>
                                     </div>
-                                    <h4><a href="index.html">Support On Raising Funds</a></h4>
-                                    <p>Veniam quis nostrud exercitason ullamco ipsum laboris sed ut perspiciatis unde omnis iste natus.</p>
                                 </div>
-                                <div class="single-item">
-                                    <div class="icon-box">
-                                        <span class="bg-box"></span>
-                                        <i class="flaticon-browser-1"></i>
+                                <div class="progress-box">
+                                    <p>Fund Management</p>
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="90%"></div>
+                                        <span class="count-text">90%</span>
                                     </div>
-                                    <h4><a href="index.html">Outsourced Consulting Business</a></h4>
-                                    <p>Ad mini veniam quis nostrud exercitas tion ullamco ipsum sed ut perspiciatis unde omnis iste natus.</p>
+                                </div>
+                                <div class="progress-box">
+                                    <p>Derivatives Trading</p>
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="50%"></div>
+                                        <span class="count-text">50%</span>
+                                    </div>
+                                </div>
+                                <div class="progress-box">
+                                    <p>Brokering</p>
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="70%"></div>
+                                        <span class="count-text">70%</span>
+                                    </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 image-column">
+                    <div id="image_block_four">
+                        <div class="image-box">
+                            <div class="pattern-layer" style="background-image: url(/images/shape/shape-23.png);"></div>
+                            <figure class="image wow slideInRight animated animated" data-wow-delay="00ms"
+                                data-wow-duration="1500ms"><img src="/images/resource/about-3.jpg" alt=""></figure>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- about-section end -->
+    <!-- about-style-four end -->
 
 
-    <!-- service-section -->
-    <section class="service-section">
+    <!-- funfact-style-four -->
+    <section class="funfact-style-four centred">
+        <div class="pattern-layer" style="background-image: url(/images/shape/shape-24.png);"></div>
         <div class="auto-container">
-            <div class="title-box">
-                <div class="row clearfix">
-                    <div class="col-lg-6 col-md-12 col-sm-12 title-column">
-                        <div class="sec-title right">
-                            <h5>What we provides</h5>
-                            <h2>Get Exceptional <br />Service For Growth</h2>
+            <div class="row clearfix">
+                <div class="col-lg-3 col-md-6 col-sm-12 counter-column">
+                    <div class="counter-block-four wow slideInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                        <div class="count-outer count-box">
+                            <span class="count-text" data-speed="1500" data-stop="10">0</span>k
                         </div>
+                        <h3>Global <br />Customers</h3>
                     </div>
-                    <div class="col-lg-6 col-md-12 col-sm-12 text-column">
-                        <div class="text">
-                            <p>Tempor incididunt ut labore et dolore magna aliquat enim veniam quis nostrud exercitation ullamco laboris nis aliquip consequat duis aute irure dolor voluptate.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 counter-column">
+                    <div class="counter-block-four wow slideInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                        <div class="count-outer count-box">
+                            <span class="count-text" data-speed="1500" data-stop="5">0</span>k+
                         </div>
+                        <h3>Projects <br />Completed</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 counter-column">
+                    <div class="counter-block-four wow slideInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                        <div class="count-outer count-box">
+                            <span class="count-text" data-speed="1500" data-stop="370">0</span>
+                        </div>
+                        <h3>Expert <br />Employees</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 counter-column">
+                    <div class="counter-block-four wow slideInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                        <div class="count-outer count-box">
+                            <span class="count-text" data-speed="1500" data-stop="75">0</span>+
+                        </div>
+                        <h3>Countries <br />Served</h3>
                     </div>
                 </div>
             </div>
-            <div class="inner-content">
-                <div class="row clearfix">
-                    <div class="col-lg-4 col-md-6 col-sm-12 service-block">
-                        <div class="service-block-one wow fadeInUp animated animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                            <div class="inner-box">
-                                <h4><a href="planning-strategies.html">Planning Strategies</a></h4>
-                                <div class="inner">
-                                    <div class="icon-box"><i class="flaticon-rocket"></i></div>
-                                    <p>Acepteur sintas haecat sed non dui proident sunt culpa sed ipsum tempor.</p>
-                                    <a href="planning-strategies.html"><i class="fas fa-arrow-right"></i><span>Read More</span></a>
+        </div>
+    </section>
+    <!-- funfact-style-four -->
+
+
+    <!-- service-style-five -->
+    <section class="service-style-five bg-color-1">
+        <div class="auto-container">
+            <div class="sec-title style-four right">
+                <h5>Globaly renowned & trusted</h5>
+                <h2>Quality Services With Difference</h2>
+            </div>
+            <div class="tabs-box">
+                <div class="tab-btn-box">
+                    <ul class="tab-btns tab-buttons clearfix">
+                        <li class="tab-btn active-btn" data-tab="#tab-1">
+                            <i class="flaticon-rocket"></i>
+                            Planning Strategies
+                        </li>
+                        <li class="tab-btn" data-tab="#tab-2">
+                            <i class="flaticon-innovation-1"></i>
+                            Financial Advices
+                        </li>
+                        <li class="tab-btn" data-tab="#tab-3">
+                            <i class="flaticon-growth-3"></i>
+                            Manage Investment
+                        </li>
+                        <li class="tab-btn" data-tab="#tab-4">
+                            <i class="flaticon-idea"></i>
+                            Wealth Marketing
+                        </li>
+                        <li class="tab-btn" data-tab="#tab-5">
+                            <i class="flaticon-target"></i>
+                            Process Development
+                        </li>
+                    </ul>
+                </div>
+                <div class="tabs-content">
+                    <div class="tab active-tab" id="tab-1">
+                        <div class="row align-items-center clearfix">
+                            <div class="col-lg-6 col-md-6 col-sm-12 image-column">
+                                <figure class="image-box"><img src="/images/service/service-4.jpg" alt=""></figure>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 content-column">
+                                <div class="content-box">
+                                    <h3>Planning Strategies</h3>
+                                    <p>Exercitation llamco laboris nis aliquip sed conseqrure dolorn repreh deris
+                                        luptate velit excepteur duis aute irure dolor voluptate labore et dolore magn
+                                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                                        ut aliquip ex ea reprehenderit in voluptate.</p>
+                                    <ul class="list-item clearfix">
+                                        <li>Acepteur sintas haecat sed non duiy</li>
+                                        <li>Proident sunt culpa sed ipsum tempor sed</li>
+                                        <li>Ut enim ad minim veniam quis nostrud exercitation</li>
+                                        <li>Laboris nisi ut aliquip exy ea consequat duis</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 service-block">
-                        <div class="service-block-one wow fadeInUp animated animated" data-wow-delay="300ms" data-wow-duration="1500ms">
-                            <div class="inner-box">
-                                <h4><a href="financial-analysis.html">Financial Advices</a></h4>
-                                <div class="inner">
-                                    <div class="icon-box"><i class="flaticon-innovation-1"></i></div>
-                                    <p>Acepteur sintas haecat sed non dui proident sunt culpa sed ipsum tempor.</p>
-                                    <a href="financial-analysis.html"><i class="fas fa-arrow-right"></i><span>Read More</span></a>
+                    <div class="tab" id="tab-2">
+                        <div class="row align-items-center clearfix">
+                            <div class="col-lg-6 col-md-6 col-sm-12 image-column">
+                                <figure class="image-box"><img src="/images/service/service-4.jpg" alt=""></figure>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 content-column">
+                                <div class="content-box">
+                                    <h3>Financial Advices</h3>
+                                    <p>Exercitation llamco laboris nis aliquip sed conseqrure dolorn repreh deris
+                                        luptate velit excepteur duis aute irure dolor voluptate labore et dolore magn
+                                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                                        ut aliquip ex ea reprehenderit in voluptate.</p>
+                                    <ul class="list-item clearfix">
+                                        <li>Acepteur sintas haecat sed non duiy</li>
+                                        <li>Proident sunt culpa sed ipsum tempor sed</li>
+                                        <li>Ut enim ad minim veniam quis nostrud exercitation</li>
+                                        <li>Laboris nisi ut aliquip exy ea consequat duis</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 service-block">
-                        <div class="service-block-one wow fadeInUp animated animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                            <div class="inner-box">
-                                <h4><a href="investment-trading.html">Manage Investment</a></h4>
-                                <div class="inner">
-                                    <div class="icon-box"><i class="flaticon-presentation"></i></div>
-                                    <p>Acepteur sintas haecat sed non dui proident sunt culpa sed ipsum tempor.</p>
-                                    <a href="investment-trading.html"><i class="fas fa-arrow-right"></i><span>Read More</span></a>
+                    <div class="tab" id="tab-3">
+                        <div class="row align-items-center clearfix">
+                            <div class="col-lg-6 col-md-6 col-sm-12 image-column">
+                                <figure class="image-box"><img src="/images/service/service-4.jpg" alt=""></figure>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 content-column">
+                                <div class="content-box">
+                                    <h3>Manage Investment</h3>
+                                    <p>Exercitation llamco laboris nis aliquip sed conseqrure dolorn repreh deris
+                                        luptate velit excepteur duis aute irure dolor voluptate labore et dolore magn
+                                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                                        ut aliquip ex ea reprehenderit in voluptate.</p>
+                                    <ul class="list-item clearfix">
+                                        <li>Acepteur sintas haecat sed non duiy</li>
+                                        <li>Proident sunt culpa sed ipsum tempor sed</li>
+                                        <li>Ut enim ad minim veniam quis nostrud exercitation</li>
+                                        <li>Laboris nisi ut aliquip exy ea consequat duis</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 service-block">
-                        <div class="service-block-one wow fadeInUp animated animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                            <div class="inner-box">
-                                <h4><a href="investment-trading.html">Process Development</a></h4>
-                                <div class="inner">
-                                    <div class="icon-box"><i class="flaticon-target"></i></div>
-                                    <p>Acepteur sintas haecat sed non dui proident sunt culpa sed ipsum tempor.</p>
-                                    <a href="investment-trading.html"><i class="fas fa-arrow-right"></i><span>Read More</span></a>
+                    <div class="tab" id="tab-4">
+                        <div class="row align-items-center clearfix">
+                            <div class="col-lg-6 col-md-6 col-sm-12 image-column">
+                                <figure class="image-box"><img src="/images/service/service-4.jpg" alt=""></figure>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 content-column">
+                                <div class="content-box">
+                                    <h3>Wealth Marketing</h3>
+                                    <p>Exercitation llamco laboris nis aliquip sed conseqrure dolorn repreh deris
+                                        luptate velit excepteur duis aute irure dolor voluptate labore et dolore magn
+                                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                                        ut aliquip ex ea reprehenderit in voluptate.</p>
+                                    <ul class="list-item clearfix">
+                                        <li>Acepteur sintas haecat sed non duiy</li>
+                                        <li>Proident sunt culpa sed ipsum tempor sed</li>
+                                        <li>Ut enim ad minim veniam quis nostrud exercitation</li>
+                                        <li>Laboris nisi ut aliquip exy ea consequat duis</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 service-block">
-                        <div class="service-block-one wow fadeInUp animated animated" data-wow-delay="300ms" data-wow-duration="1500ms">
-                            <div class="inner-box">
-                                <h4><a href="wealth-marketing.html">Wealth Marketing</a></h4>
-                                <div class="inner">
-                                    <div class="icon-box"><i class="flaticon-idea"></i></div>
-                                    <p>Acepteur sintas haecat sed non dui proident sunt culpa sed ipsum tempor.</p>
-                                    <a href="wealth-marketing.html"><i class="fas fa-arrow-right"></i><span>Read More</span></a>
-                                </div>
+                    <div class="tab" id="tab-5">
+                        <div class="row align-items-center clearfix">
+                            <div class="col-lg-6 col-md-6 col-sm-12 image-column">
+                                <figure class="image-box"><img src="/images/service/service-4.jpg" alt=""></figure>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 service-block">
-                        <div class="service-block-one wow fadeInUp animated animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                            <div class="inner-box">
-                                <h4><a href="taxation-planning.html">Business Tax Reforms</a></h4>
-                                <div class="inner">
-                                    <div class="icon-box"><i class="flaticon-search"></i></div>
-                                    <p>Acepteur sintas haecat sed non dui proident sunt culpa sed ipsum tempor.</p>
-                                    <a href="taxation-planning.html"><i class="fas fa-arrow-right"></i><span>Read More</span></a>
+                            <div class="col-lg-6 col-md-6 col-sm-12 content-column">
+                                <div class="content-box">
+                                    <h3>Process Development</h3>
+                                    <p>Exercitation llamco laboris nis aliquip sed conseqrure dolorn repreh deris
+                                        luptate velit excepteur duis aute irure dolor voluptate labore et dolore magn
+                                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                                        ut aliquip ex ea reprehenderit in voluptate.</p>
+                                    <ul class="list-item clearfix">
+                                        <li>Acepteur sintas haecat sed non duiy</li>
+                                        <li>Proident sunt culpa sed ipsum tempor sed</li>
+                                        <li>Ut enim ad minim veniam quis nostrud exercitation</li>
+                                        <li>Laboris nisi ut aliquip exy ea consequat duis</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -538,7 +475,7 @@
             </div>
         </div>
     </section>
-    <!-- service-section end -->
+    <!-- service-style-five end -->
 
 
     <!-- project-section -->
@@ -590,12 +527,15 @@
                                 <h2>Graph Shows Net Value Profit Assembling</h2>
                             </div>
                             <div class="text">
-                                <p>Exercitation llamco laboris nis aliquip sed conseqrure dolorn repreh deris luptate velit excepteur duis aute irure dolor voluptate labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea reprehenderit in voluptate.</p>
+                                <p>Exercice llamco laboris nis aliquip sed conseqrure dolorn repreh deris luptate velit
+                                    excepteur duis aute irure dolor voluptate labore et dolore magna aliqua. Quis
+                                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea reprehenderit in
+                                    voluptate, ut enim ad minim veniam.</p>
                             </div>
                             <div class="inner-box clearfix">
                                 <div class="single-progress-box">
                                     <div class="box">
-                                        <div class="piechart"  data-fg-color="#204669" data-value=".75">
+                                        <div class="piechart" data-fg-color="#204669" data-value=".75">
                                             <span>.75</span>
                                         </div>
                                         <h5>Global Flexibility <br />Investment</h5>
@@ -604,7 +544,7 @@
                                 </div>
                                 <div class="single-progress-box">
                                     <div class="box">
-                                        <div class="piechart"  data-fg-color="#da2c46" data-value=".25">
+                                        <div class="piechart" data-fg-color="#da2c46" data-value=".25">
                                             <span>.25</span>
                                         </div>
                                         <h5>Security Financial <br />Solutions</h5>
@@ -710,7 +650,7 @@
                             <div class="sec-title light left">
                                 <h5>try our service</h5>
                                 <h2>Get Free Quote</h2>
-                                <p>Ad mini veniam quis nostrud ipsum exercitas tion ullamco ipsum laboris sed ut perspiciatis unde.</p>
+                                <p>Ad mini veniam, quis nostrud exercitation ullamco laboris.</p>
                             </div>
                             <form action="contact.html" method="post" class="submit-form">
                                 <div class="form-group">
@@ -738,7 +678,8 @@
                                 <figure class="info-logo"><img src="/images/icons/info-logo.png" alt=""></figure>
                                 <div class="icon-box"><i class="fas fa-phone"></i></div>
                                 <h2><a href="tel:18003698527">1-800-369-8527</a></h2>
-                                <div class="email"><a href="mailto:support@my-domain.net">support@my-domain.net</a></div>
+                                <div class="email"><a href="mailto:support@my-domain.net">support@my-domain.net</a>
+                                </div>
                                 <ul class="list-item clearfix">
                                     <li>.&nbsp;<a href="index.html">Experienced</a>&nbsp;.</li>
                                     <li><a href="index.html">Specialized</a>&nbsp;.</li>
@@ -767,7 +708,8 @@
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 text-column">
                         <div class="text">
-                            <p>Tempor incididunt ut labore et dolore magna aliquat enim veniam quis nostrud exercitation ullamco laboris nis aliquip consequat duis aute irure dolor voluptate.</p>
+                            <p>Enim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip consequat duis
+                                aute irure dolor voluptate.</p>
                         </div>
                     </div>
                 </div>
@@ -776,52 +718,82 @@
                 <div class="client-testimonial-carousel owl-carousel owl-theme owl-nav-none owl-dots-none">
                     <div class="testimonial-block">
                         <div class="text">
-                            <p>Aspernatur aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam estm qui dolorem ipsum quia dolor sit amet consectetur, adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam sd ipsum quaerat voluptatem.</p>
+                            <p>Aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
+                                nesciunt, consequuntur magni dolores. Neque porro quisquam est qui dolorem ipsum, quia
+                                dolor sit amet, adipisci velit, sed quia aliqua tempora incidunt ut labore et dolore
+                                magnam aliquam sd ipsum quaerat voluptatem.</p>
                         </div>
                     </div>
                     <div class="testimonial-block">
                         <div class="text">
-                            <p>Aspernatur aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam estm qui dolorem ipsum quia dolor sit amet consectetur, adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam sd ipsum quaerat voluptatem.</p>
+                            <p>Aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
+                                nesciunt, consequuntur magni dolores. Neque porro quisquam est qui dolorem ipsum, quia
+                                dolor sit amet, adipisci velit, sed quia aliqua tempora incidunt ut labore et dolore
+                                magnam aliquam sd ipsum quaerat voluptatem.</p>
                         </div>
                     </div>
                     <div class="testimonial-block">
                         <div class="text">
-                            <p>Aspernatur aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam estm qui dolorem ipsum quia dolor sit amet consectetur, adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam sd ipsum quaerat voluptatem.</p>
+                            <p>Aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
+                                nesciunt, consequuntur magni dolores. Neque porro quisquam est qui dolorem ipsum, quia
+                                dolor sit amet, adipisci velit, sed quia aliqua tempora incidunt ut labore et dolore
+                                magnam aliquam sd ipsum quaerat voluptatem.</p>
                         </div>
                     </div>
                     <div class="testimonial-block">
                         <div class="text">
-                            <p>Aspernatur aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam estm qui dolorem ipsum quia dolor sit amet consectetur, adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam sd ipsum quaerat voluptatem.</p>
+                            <p>Aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
+                                nesciunt, consequuntur magni dolores. Neque porro quisquam est qui dolorem ipsum, quia
+                                dolor sit amet, adipisci velit, sed quia aliqua tempora incidunt ut labore et dolore
+                                magnam aliquam sd ipsum quaerat voluptatem.</p>
                         </div>
                     </div>
                     <div class="testimonial-block">
                         <div class="text">
-                            <p>Aspernatur aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam estm qui dolorem ipsum quia dolor sit amet consectetur, adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam sd ipsum quaerat voluptatem.</p>
+                            <p>Aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
+                                nesciunt, consequuntur magni dolores. Neque porro quisquam est qui dolorem ipsum, quia
+                                dolor sit amet, adipisci velit, sed quia aliqua tempora incidunt ut labore et dolore
+                                magnam aliquam sd ipsum quaerat voluptatem.</p>
                         </div>
                     </div>
                     <div class="testimonial-block">
                         <div class="text">
-                            <p>Aspernatur aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam estm qui dolorem ipsum quia dolor sit amet consectetur, adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam sd ipsum quaerat voluptatem.</p>
+                            <p>Aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
+                                nesciunt, consequuntur magni dolores. Neque porro quisquam est qui dolorem ipsum, quia
+                                dolor sit amet, adipisci velit, sed quia aliqua tempora incidunt ut labore et dolore
+                                magnam aliquam sd ipsum quaerat voluptatem.</p>
                         </div>
                     </div>
                     <div class="testimonial-block">
                         <div class="text">
-                            <p>Aspernatur aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam estm qui dolorem ipsum quia dolor sit amet consectetur, adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam sd ipsum quaerat voluptatem.</p>
+                            <p>Aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
+                                nesciunt, consequuntur magni dolores. Neque porro quisquam est qui dolorem ipsum, quia
+                                dolor sit amet, adipisci velit, sed quia aliqua tempora incidunt ut labore et dolore
+                                magnam aliquam sd ipsum quaerat voluptatem.</p>
                         </div>
                     </div>
                     <div class="testimonial-block">
                         <div class="text">
-                            <p>Aspernatur aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam estm qui dolorem ipsum quia dolor sit amet consectetur, adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam sd ipsum quaerat voluptatem.</p>
+                            <p>Aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
+                                nesciunt, consequuntur magni dolores. Neque porro quisquam est qui dolorem ipsum, quia
+                                dolor sit amet, adipisci velit, sed quia aliqua tempora incidunt ut labore et dolore
+                                magnam aliquam sd ipsum quaerat voluptatem.</p>
                         </div>
                     </div>
                     <div class="testimonial-block">
                         <div class="text">
-                            <p>Aspernatur aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam estm qui dolorem ipsum quia dolor sit amet consectetur, adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam sd ipsum quaerat voluptatem.</p>
+                            <p>Aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
+                                nesciunt, consequuntur magni dolores. Neque porro quisquam est qui dolorem ipsum, quia
+                                dolor sit amet, adipisci velit, sed quia aliqua tempora incidunt ut labore et dolore
+                                magnam aliquam sd ipsum quaerat voluptatem.</p>
                         </div>
                     </div>
                     <div class="testimonial-block">
                         <div class="text">
-                            <p>Aspernatur aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam estm qui dolorem ipsum quia dolor sit amet consectetur, adipisci velit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam sd ipsum quaerat voluptatem.</p>
+                            <p>Aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
+                                nesciunt, consequuntur magni dolores. Neque porro quisquam est qui dolorem ipsum, quia
+                                dolor sit amet, adipisci velit, sed quia aliqua tempora incidunt ut labore et dolore
+                                magnam aliquam sd ipsum quaerat voluptatem.</p>
                         </div>
                     </div>
                 </div>
@@ -905,104 +877,20 @@
     <!-- testimonial-section end -->
 
 
-    <!-- news-section -->
-    <section class="news-section bg-color-1">
-        <div class="auto-container">
-            <div class="sec-title centred">
-                <h5>Read the articles</h5>
-                <h2>What’s Happening</h2>
-            </div>
-            <div class="row clearfix">
-                <div class="col-lg-4 col-md-6 col-sm-12 news-block">
-                    <div class="news-block-one wow fadeInUp animated animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                        <div class="inner-box">
-                            <figure class="image-box"><a href="blog-details.html"><img src="/images/news/news-1.jpg" alt=""></a></figure>
-                            <div class="lower-content">
-                                <ul class="post-info">
-                                    <li>By <a href="index.html">Fionca</a></li>
-                                    <li>January 31, 2020</li>
-                                    <li class="share">
-                                        <a href="#"><i class="fas fa-share-alt"></i></a>
-                                        <ul class="social-links">
-                                            <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a href="index.html"><i class="fab fa-vimeo-v"></i></a></li>
-                                            <li><a href="index.html"><i class="fab fa-linkedin-in"></i></a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                                <h3><a href="blog-details.html">Take Action For Benefits Of Your Business</a></h3>
-                                <p>Exea conse quat duis irurey dolor sed reprehen derit volupta velit cilum lorem incididunt labore sed magna exceptur aliqua.</p>
-                                <div class="link"><a href="blog-details.html"><i class="fas fa-arrow-right"></i><span>Read More</span></a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 news-block">
-                    <div class="news-block-one wow fadeInUp animated animated" data-wow-delay="300ms" data-wow-duration="1500ms">
-                        <div class="inner-box">
-                            <figure class="image-box"><a href="blog-details.html"><img src="/images/news/news-2.jpg" alt=""></a></figure>
-                            <div class="lower-content">
-                                <ul class="post-info">
-                                    <li>By <a href="index.html">Fionca</a></li>
-                                    <li>January 30, 2020</li>
-                                    <li class="share">
-                                        <a href="#"><i class="fas fa-share-alt"></i></a>
-                                        <ul class="social-links">
-                                            <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a href="index.html"><i class="fab fa-vimeo-v"></i></a></li>
-                                            <li><a href="index.html"><i class="fab fa-linkedin-in"></i></a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                                <h3><a href="blog-details.html">Improve Your Investment Through Money</a></h3>
-                                <p>Exea conse quat duis irurey dolor sed reprehen derit volupta velit cilum lorem incididunt labore sed magna exceptur aliqua.</p>
-                                <div class="link"><a href="blog-details.html"><i class="fas fa-arrow-right"></i><span>Read More</span></a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 news-block">
-                    <div class="news-block-one wow fadeInUp animated animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                        <div class="inner-box">
-                            <figure class="image-box"><a href="blog-details.html"><img src="/images/news/news-3.jpg" alt=""></a></figure>
-                            <div class="lower-content">
-                                <ul class="post-info">
-                                    <li>By <a href="index.html">Fionca</a></li>
-                                    <li>January 29, 2020</li>
-                                    <li class="share">
-                                        <a href="#"><i class="fas fa-share-alt"></i></a>
-                                        <ul class="social-links">
-                                            <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a href="index.html"><i class="fab fa-vimeo-v"></i></a></li>
-                                            <li><a href="index.html"><i class="fab fa-linkedin-in"></i></a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                                <h3><a href="blog-details.html">Isolate & Reframe Beliefs For The Future</a></h3>
-                                <p>Exea conse quat duis irurey dolor sed reprehen derit volupta velit cilum lorem incididunt labore sed magna exceptur aliqua.</p>
-                                <div class="link"><a href="blog-details.html"><i class="fas fa-arrow-right"></i><span>Read More</span></a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- news-section end -->
-
-
     <!-- clients-section -->
     <section class="clients-section">
         <div class="auto-container">
             <div class="clients-carousel owl-carousel owl-theme owl-dots-none owl-nav-none">
-                <figure class="client-logo"><a href="index.html"><img src="/images/clients/clients-1.png" alt=""></a></figure>
-                <figure class="client-logo"><a href="index.html"><img src="/images/clients/clients-2.png" alt=""></a></figure>
-                <figure class="client-logo"><a href="index.html"><img src="/images/clients/clients-3.png" alt=""></a></figure>
-                <figure class="client-logo"><a href="index.html"><img src="/images/clients/clients-4.png" alt=""></a></figure>
-                <figure class="client-logo"><a href="index.html"><img src="/images/clients/clients-5.png" alt=""></a></figure>
+                <figure class="client-logo"><a href="index.html"><img src="/images/clients/clients-1.png" alt=""></a>
+                </figure>
+                <figure class="client-logo"><a href="index.html"><img src="/images/clients/clients-2.png" alt=""></a>
+                </figure>
+                <figure class="client-logo"><a href="index.html"><img src="/images/clients/clients-3.png" alt=""></a>
+                </figure>
+                <figure class="client-logo"><a href="index.html"><img src="/images/clients/clients-4.png" alt=""></a>
+                </figure>
+                <figure class="client-logo"><a href="index.html"><img src="/images/clients/clients-5.png" alt=""></a>
+                </figure>
             </div>
         </div>
     </section>
@@ -1067,107 +955,7 @@
     </section>
     <!-- fun-fact end -->
 
-
-    <!-- main-footer -->
-    <footer class="main-footer">
-        <div class="footer-top">
-            <div class="auto-container">
-                <div class="widget-section">
-                    <div class="row clearfix">
-                        <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
-                            <div class="footer-widget logo-widget">
-                                <figure class="footer-logo"><a href="index.html"><img src="/images/footer-logo.png" alt=""></a></figure>
-                                <div class="text">
-                                    <p>Tempor incididunt ut labore eut dolore veniam quis nostrud exercitation ullamc consequat. Duis aute irure.</p>
-                                </div>
-                                <ul class="info-list clearfix">
-                                    <li><i class="fas fa-map-marker-alt"></i>838 Andy Street, Madison, NJ 08003</li>
-                                    <li><i class="fas fa-envelope"></i>Email <a href="mailto:support@my-domain.com">support@my-domain.com</a></li>
-                                    <li><i class="fas fa-headphones"></i>Support <a href="tel:01005200369">0100 5200 369</a></li>
-                                </ul>
-                                <ul class="social-links clearfix">
-                                    <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="index.html"><i class="fab fa-instagram"></i></a></li>
-                                    <li><a href="index.html"><i class="fab fa-linkedin-in"></i></a></li>
-                                    <li><a href="index.html"><i class="fab fa-pinterest-p"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
-                            <div class="footer-widget links-widget ml-70">
-                                <div class="widget-title">
-                                    <h4>Useful Links</h4>
-                                </div>
-                                <div class="widget-content">
-                                    <ul class="list clearfix">
-                                        <li><a href="index.html">About Us</a></li>
-                                        <li><a href="index.html">What We Offers</a></li>
-                                        <li><a href="index.html">Testimonials</a></li>
-                                        <li><a href="index.html">Our Projectss</a></li>
-                                        <li><a href="index.html">Latest News</a></li>
-                                        <li><a href="index.html">Privacy Policy</a></li>
-                                        <li><a href="index.html">Contact Us</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
-                            <div class="footer-widget links-widget">
-                                <div class="widget-title">
-                                    <h4>What We Do</h4>
-                                </div>
-                                <div class="widget-content">
-                                    <ul class="list clearfix">
-                                        <li><a href="index.html">Financial Advice</a></li>
-                                        <li><a href="index.html">Business Planning</a></li>
-                                        <li><a href="index.html">Startup Help</a></li>
-                                        <li><a href="index.html">Investment Strategy</a></li>
-                                        <li><a href="index.html">Management Services</a></li>
-                                        <li><a href="index.html">Market Research</a></li>
-                                        <li><a href="index.html">SEO Optimization</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
-                            <div class="footer-widget newsletter-widget">
-                                <div class="widget-title">
-                                    <h4>Newslette</h4>
-                                </div>
-                                <div class="widget-content">
-                                    <div class="text">
-                                        <p>Get in your inbox the latest News</p>
-                                    </div>
-                                    <form action="contact.html" method="post" class="newsletter-form">
-                                        <div class="form-group">
-                                            <i class="far fa-user"></i>
-                                            <input type="text" name="name" placeholder="Your Name" required="">
-                                        </div>
-                                        <div class="form-group">
-                                            <i class="far fa-envelope"></i>
-                                            <input type="email" name="email" placeholder="Email address" required="">
-                                        </div>
-                                        <div class="form-group message-btn">
-                                            <button class="theme-btn style-one" type="submit">subscribe</button>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <div class="auto-container">
-                <div class="copyright"><p>&copy; 2020 <a href="index.html">FIONCA</a> - Business & Consulting. All rights reserved.</p></div>
-            </div>
-        </div>
-    </footer>
-    <!-- main-footer end -->
-
-
+    @include('footer')
 
     <!--Scroll to top-->
     <button class="scroll-top scroll-to-target" data-target="html">
@@ -1184,51 +972,54 @@
                     <a href="#" class="close-side-widget">X</a>
                 </div>
                 <div class="sidebar-textwidget">
-                <div class="sidebar-info-contents">
-                    <div class="content-inner">
-                        <div class="upper-box">
-                            <div class="logo">
-                                <a href="index.html"><img src="/images/sidebar-logo.png" alt="" /></a>
-                            </div>
-                            <div class="text">
-                                <p>Exercitation ullamco laboris nis aliquip sed conseqrure dolorn repreh deris ptate velit ecepteur duis.</p>
-                            </div>
-                        </div>
-                        <div class="side-menu-box">
-                            <div class="side-menu">
-                                <nav class="menu-box">
-                                    <div class="menu-outer">
-                                        
-                                    </div>
-                                </nav>
-                            </div>
-                        </div>
-                        <div class="info-box">
-                            <h3>Get in touch</h3>
-                            <ul class="info-list clearfix">
-                                <li><i class="fas fa-map-marker-alt"></i>838 Andy Street, Madison, NJ</li>
-                                <li><i class="fas fa-envelope"></i><a href="mailto:support@my-domain.com">support@my-domain.com</a></li>
-                                <li><i class="fas fa-headphones-alt"></i><a href="tel:101005200369">+1  0100 5200 369</a></li>
-                                <li><i class="far fa-clock"></i>Monday to Friday: 9am - 6pm</li>
-                            </ul>
-                            <form action="contact.html" method="post" class="subscribe-form">
-                                <div class="form-group">
-                                    <input type="email" name="email" placeholder="Email address" required="">
-                                    <button type="submit" class="theme-btn style-one">subscribe now</button>
+                    <div class="sidebar-info-contents">
+                        <div class="content-inner">
+                            <div class="upper-box">
+                                <div class="logo">
+                                    <a href="index.html"><img src="/images/sidebar-logo.png" alt="" /></a>
                                 </div>
-                            </form>
-                            <ul class="social-links clearfix">
-                                <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="index.html"><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a href="index.html"><i class="fab fa-google-plus-g"></i></a></li>
-                                <li><a href="index.html"><i class="fab fa-pinterest-p"></i></a></li>
-                                <li><a href="index.html"><i class="fab fa-instagram"></i></a></li>
-                            </ul>
+                                <div class="text">
+                                    <p>Exercitation ullamco laboris nis aliquip sed conseqrure dolorn repreh deris ptate
+                                        velit ecepteur duis.</p>
+                                </div>
+                            </div>
+                            <div class="side-menu-box">
+                                <div class="side-menu">
+                                    <nav class="menu-box">
+                                        <div class="menu-outer">
+
+                                        </div>
+                                    </nav>
+                                </div>
+                            </div>
+                            <div class="info-box">
+                                <h3>Get in touch</h3>
+                                <ul class="info-list clearfix">
+                                    <li><i class="fas fa-map-marker-alt"></i>838 Andy Street, Madison, NJ</li>
+                                    <li><i class="fas fa-envelope"></i><a
+                                            href="mailto:support@my-domain.com">support@my-domain.com</a></li>
+                                    <li><i class="fas fa-headphones-alt"></i><a href="tel:101005200369">+1 0100 5200
+                                            369</a></li>
+                                    <li><i class="far fa-clock"></i>Monday to Friday: 9am - 6pm</li>
+                                </ul>
+                                <form action="contact.html" method="post" class="subscribe-form">
+                                    <div class="form-group">
+                                        <input type="email" name="email" placeholder="Email address" required="">
+                                        <button type="submit" class="theme-btn style-one">subscribe now</button>
+                                    </div>
+                                </form>
+                                <ul class="social-links clearfix">
+                                    <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="index.html"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a href="index.html"><i class="fab fa-google-plus-g"></i></a></li>
+                                    <li><a href="index.html"><i class="fab fa-pinterest-p"></i></a></li>
+                                    <li><a href="index.html"><i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                </div>
-                    
+
                 </div>
             </div>
         </div>
@@ -1236,24 +1027,25 @@
     <!-- END sidebar widget item -->
 
 
-<!-- jequery plugins -->
-<script src="/js/jquery.js"></script>
-<script src="/js/popper.min.js"></script>
-<script src="/js/bootstrap.min.js"></script>
-<script src="/js/owl.js"></script>
-<script src="/js/wow.js"></script>
-<script src="/js/validation.js"></script>
-<script src="/js/jquery.fancybox.js"></script>
-<script src="/js/appear.js"></script>
-<script src="/js/jquery.countTo.js"></script>
-<script src="/js/scrollbar.js"></script>
-<script src="/js/nav-tool.js"></script>
-<script src="/js/TweenMax.min.js"></script>
-<script src="/js/circle-progress.js"></script>
-<script src="/js/jquery.nice-select.min.js"></script>
+    <!-- jequery plugins -->
+    <script src="/js/jquery.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/owl.js"></script>
+    <script src="/js/wow.js"></script>
+    <script src="/js/validation.js"></script>
+    <script src="/js/jquery.fancybox.js"></script>
+    <script src="/js/appear.js"></script>
+    <script src="/js/jquery.countTo.js"></script>
+    <script src="/js/scrollbar.js"></script>
+    <script src="/js/nav-tool.js"></script>
+    <script src="/js/TweenMax.min.js"></script>
+    <script src="/js/circle-progress.js"></script>
+    <script src="/js/jquery.nice-select.min.js"></script>
 
-<!-- main-js -->
-<script src="/js/script.js"></script>
+    <!-- main-js -->
+    <script src="/js/script.js"></script>
 
 </body><!-- End of .page_wrapper -->
+
 </html>
