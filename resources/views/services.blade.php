@@ -1,14 +1,17 @@
 @include('master')
 
 <!-- page wrapper -->
+
 <body class="boxed_wrapper ltr">
 
     <!-- Preloader -->
     <div class="loader-wrap">
-        <div class="preloader"><div class="preloader-close">Preloader Close</div></div>
+        <div class="preloader">
+            <div class="preloader-close">Preloader Close</div>
+        </div>
         <div class="layer layer-one"><span class="overlay"></span></div>
-        <div class="layer layer-two"><span class="overlay"></span></div>        
-        <div class="layer layer-three"><span class="overlay"></span></div>        
+        <div class="layer layer-two"><span class="overlay"></span></div>
+        <div class="layer layer-three"><span class="overlay"></span></div>
     </div>
 
 
@@ -29,7 +32,8 @@
                 <form method="post" action="index.html">
                     <div class="form-group">
                         <fieldset>
-                            <input type="search" class="form-control" name="search-input" value="" placeholder="Search Here" required >
+                            <input type="search" class="form-control" name="search-input" value=""
+                                placeholder="Search Here" required>
                             <input type="submit" value="Search Now!" class="theme-btn style-four">
                         </fieldset>
                     </div>
@@ -53,10 +57,11 @@
     <div class="mobile-menu">
         <div class="menu-backdrop"></div>
         <div class="close-btn"><i class="fas fa-times"></i></div>
-        
+
         <nav class="menu-box">
             <div class="nav-logo"><a href="index.html"><img src="/images/mobile-logo.png" alt="" title=""></a></div>
-            <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
+            <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+            </div>
             <div class="contact-info">
                 <h4>Contact Info</h4>
                 <ul>
@@ -79,7 +84,7 @@
 
 
     <!--Page Title-->
-    <section class="page-title centred" style="background-image: url(/images/background/page-title-3.jpg);">
+    <section class="page-title centred" style="background-image: url(/images/background/page-title-4.jpg);">
         <div class="auto-container">
             <div class="content-box clearfix">
                 <h1>What We Do</h1>
@@ -103,30 +108,34 @@
                             <figure class="image-box">
                                 <div class="overlay-box-1"></div>
                                 <div class="overlay-box-2"></div>
+                                <img src="/images/service/service-1.jpg" alt="">
+                                <a href="financial-analysis.html"><i class="fas fa-link"></i></a>
+                            </figure>
+                            <div class="lower-content">
+                                <h3><a href="financial-analysis.html">Wealth Management</a></h3>
+                                <p>Wealth management encompasses a comprehensive approach to financial planning and ...
+                                </p>
+                                <div class="link"><a href="financial-analysis.html"><i
+                                            class="fas fa-arrow-right"></i><span>Read More</span></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 service-block">
+                    <div class="service-block-three">
+                        <div class="inner-box">
+                            <figure class="image-box">
+                                <div class="overlay-box-1"></div>
+                                <div class="overlay-box-2"></div>
                                 <img src="/images/service/service-5.jpg" alt="">
-                                <a href="financial-analysis.html"><i class="fas fa-link"></i></a>
-                            </figure>
-                            <div class="lower-content">
-                                <h3><a href="financial-analysis.html">Finance Consulting</a></h3>
-                                <p>Acepteur sintas haecat sed non dui proident sunt culpa ipsum ...</p>
-                                <div class="link"><a href="financial-analysis.html"><i class="fas fa-arrow-right"></i><span>Read More</span></a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 service-block">
-                    <div class="service-block-three">
-                        <div class="inner-box">
-                            <figure class="image-box">
-                                <div class="overlay-box-1"></div>
-                                <div class="overlay-box-2"></div>
-                                <img src="/images/service/service-6.jpg" alt="">
                                 <a href="taxation-planning.html"><i class="fas fa-link"></i></a>
                             </figure>
                             <div class="lower-content">
-                                <h3><a href="taxation-planning.html">Tax Management</a></h3>
-                                <p>Acepteur sintas haecat sed non dui proident sunt culpa ipsum ...</p>
-                                <div class="link"><a href="taxation-planning.html"><i class="fas fa-arrow-right"></i><span>Read More</span></a></div>
+                                <h3><a href="taxation-planning.html">Retirement Planning</a></h3>
+                                <p>Retirement planning involves strategic financial management to secure a comfortable
+                                    and ...</p>
+                                <div class="link"><a href="taxation-planning.html"><i
+                                            class="fas fa-arrow-right"></i><span>Read More</span></a></div>
                             </div>
                         </div>
                     </div>
@@ -137,13 +146,14 @@
                             <figure class="image-box">
                                 <div class="overlay-box-1"></div>
                                 <div class="overlay-box-2"></div>
-                                <img src="/images/service/service-7.jpg" alt="">
+                                <img src="/images/service/service-2.jpg" alt="">
                                 <a href="investment-trading.html"><i class="fas fa-link"></i></a>
                             </figure>
                             <div class="lower-content">
-                                <h3><a href="investment-trading.html">Economic Planning</a></h3>
-                                <p>Acepteur sintas haecat sed non dui proident sunt culpa ipsum ...</p>
-                                <div class="link"><a href="investment-trading.html"><i class="fas fa-arrow-right"></i><span>Read More</span></a></div>
+                                <h3><a href="investment-trading.html">Real Estate</a></h3>
+                                <p>Real estate refers to property consisting of land, buildings, and ...</p>
+                                <div class="link"><a href="investment-trading.html"><i
+                                            class="fas fa-arrow-right"></i><span>Read More</span></a></div>
                             </div>
                         </div>
                     </div>
@@ -154,13 +164,14 @@
                             <figure class="image-box">
                                 <div class="overlay-box-1"></div>
                                 <div class="overlay-box-2"></div>
-                                <img src="/images/service/service-8.jpg" alt="">
+                                <img src="/images/service/service-3.jpg" alt="">
                                 <a href="financial-analysis.html"><i class="fas fa-link"></i></a>
                             </figure>
                             <div class="lower-content">
-                                <h3><a href="financial-analysis.html">Strategy Thinking</a></h3>
-                                <p>Acepteur sintas haecat sed non dui proident sunt culpa ipsum ...</p>
-                                <div class="link"><a href="financial-analysis.html"><i class="fas fa-arrow-right"></i><span>Read More</span></a></div>
+                                <h3><a href="financial-analysis.html">Hedge Funds</a></h3>
+                                <p>Hedge funds are investment funds managed by professional managers using ...</p>
+                                <div class="link"><a href="financial-analysis.html"><i
+                                            class="fas fa-arrow-right"></i><span>Read More</span></a></div>
                             </div>
                         </div>
                     </div>
@@ -171,30 +182,14 @@
                             <figure class="image-box">
                                 <div class="overlay-box-1"></div>
                                 <div class="overlay-box-2"></div>
-                                <img src="/images/service/service-9.jpg" alt="">
+                                <img src="/images/service/service-4.jpg" alt="">
                                 <a href="taxation-planning.html"><i class="fas fa-link"></i></a>
                             </figure>
                             <div class="lower-content">
-                                <h3><a href="taxation-planning.html">Market Analysis</a></h3>
-                                <p>Acepteur sintas haecat sed non dui proident sunt culpa ipsum ...</p>
-                                <div class="link"><a href="taxation-planning.html"><i class="fas fa-arrow-right"></i><span>Read More</span></a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 service-block">
-                    <div class="service-block-three">
-                        <div class="inner-box">
-                            <figure class="image-box">
-                                <div class="overlay-box-1"></div>
-                                <div class="overlay-box-2"></div>
-                                <img src="/images/service/service-10.jpg" alt="">
-                                <a href="investment-trading.html"><i class="fas fa-link"></i></a>
-                            </figure>
-                            <div class="lower-content">
-                                <h3><a href="investment-trading.html">Content Optimize</a></h3>
-                                <p>Acepteur sintas haecat sed non dui proident sunt culpa ipsum ...</p>
-                                <div class="link"><a href="investment-trading.html"><i class="fas fa-arrow-right"></i><span>Read More</span></a></div>
+                                <h3><a href="taxation-planning.html">Private Equity</a></h3>
+                                <p>Private Equity involves investing in private companies or acquiring stakes ...</p>
+                                <div class="link"><a href="taxation-planning.html"><i
+                                            class="fas fa-arrow-right"></i><span>Read More</span></a></div>
                             </div>
                         </div>
                     </div>
@@ -214,10 +209,10 @@
                         <div class="content-box">
                             <div class="sec-title style-three left light">
                                 <h5>focus on work</h5>
-                                <h2>Let's Talk About Growing Your Business Always...</h2>
+                                <h2>Let's Embark On A Collaborative Journey Toward a Brighter Future ...</h2>
                             </div>
                             <div class="text">
-                                <p>Boluptatem sequi nesciunt neque porro quisquam est qui dolorem ipsum quia dolor sit amet consectetur adipiscivelits.</p>
+                                <p>Plan, research, choose wisely for a prosperous investment journey.</p>
                             </div>
                             <div class="form-inner">
                                 <form action="contact.html" method="post">
@@ -253,7 +248,9 @@
             <div class="sec-title centred">
                 <h5>We make it happen</h5>
                 <h2>Our Pricing Plans</h2>
-                <p>Tempor incididunt ut labore et dolore magna aliquat enim veniam quis nostrud exercitation ullamco laboris nis aliquip consequat duis.</p>
+                <p>Our company extends a range of diversified plans meticulously designed to cater to distinct client
+                    needs, ensuring maximum efficiency and effectiveness in assisting them to achieve their objectives.
+                </p>
             </div>
             <div class="row clearfix">
                 <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
@@ -269,13 +266,13 @@
                                 <span class="text">This Plan Includes Global Relations</span>
                             </div>
                             <div class="table-content">
-                                <ul class="clearfix"> 
+                                <ul class="clearfix">
                                     <li>All Financial Tasks</li>
-                                    <li>Economic Market Survey</li>
-                                    <li><del>Sales Operations</del></li>
-                                    <li><del>Auto Intelligence</del></li>
-                                    <li><del>24/7 Support</del></li>
-                                    <li><del>Technology Services</del></li>
+                                    <li>Wealth Management</li>
+                                    <li><del>Retirement Planning</del></li>
+                                    <li><del>Real Estate</del></li>
+                                    <li><del>Hedge Funds</del></li>
+                                    <li><del>Private Equity</del></li>
                                 </ul>
                             </div>
                             <div class="table-footer">
@@ -297,13 +294,13 @@
                                 <span class="text">This Plan Includes Financial Analysis</span>
                             </div>
                             <div class="table-content">
-                                <ul class="clearfix"> 
+                                <ul class="clearfix">
                                     <li>All Financial Tasks</li>
-                                    <li>Economic Market Survey</li>
-                                    <li>Sales Operations</li>
-                                    <li>Auto Intelligence</li>
-                                    <li><del>24/7 Support</del></li>
-                                    <li><del>Technology Services</del></li>
+                                    <li>Wealth Management</li>
+                                    <li>Retirement Planning</li>
+                                    <li>Real Estate</li>
+                                    <li><del>Hedge Funds</del></li>
+                                    <li><del>Private Equity</del></li>
                                 </ul>
                             </div>
                             <div class="table-footer">
@@ -325,13 +322,13 @@
                                 <span class="text">This Plan Includes Free Consultancy</span>
                             </div>
                             <div class="table-content">
-                                <ul class="clearfix"> 
+                                <ul class="clearfix">
                                     <li>All Financial Tasks</li>
-                                    <li>Economic Market Survey</li>
-                                    <li>Sales Operations</li>
-                                    <li>Auto Intelligence</li>
-                                    <li>24/7 Support</li>
-                                    <li>Technology Services</li>
+                                    <li>Wealth Management</li>
+                                    <li>Retirement Planning</li>
+                                    <li>Real Estate</li>
+                                    <li>Hedge Funds</li>
+                                    <li>Private Equity</li>
                                 </ul>
                             </div>
                             <div class="table-footer">
@@ -350,11 +347,16 @@
     <section class="clients-section">
         <div class="auto-container">
             <div class="clients-carousel owl-carousel owl-theme owl-dots-none owl-nav-none">
-                <figure class="client-logo"><a href="index.html"><img src="/images/clients/clients-1.png" alt=""></a></figure>
-                <figure class="client-logo"><a href="index.html"><img src="/images/clients/clients-2.png" alt=""></a></figure>
-                <figure class="client-logo"><a href="index.html"><img src="/images/clients/clients-3.png" alt=""></a></figure>
-                <figure class="client-logo"><a href="index.html"><img src="/images/clients/clients-4.png" alt=""></a></figure>
-                <figure class="client-logo"><a href="index.html"><img src="/images/clients/clients-5.png" alt=""></a></figure>
+                <figure class="client-logo"><a href="index.html"><img src="/images/clients/clients-1.png" alt=""></a>
+                </figure>
+                <figure class="client-logo"><a href="index.html"><img src="/images/clients/clients-2.png" alt=""></a>
+                </figure>
+                <figure class="client-logo"><a href="index.html"><img src="/images/clients/clients-3.png" alt=""></a>
+                </figure>
+                <figure class="client-logo"><a href="index.html"><img src="/images/clients/clients-4.png" alt=""></a>
+                </figure>
+                <figure class="client-logo"><a href="index.html"><img src="/images/clients/clients-5.png" alt=""></a>
+                </figure>
             </div>
         </div>
     </section>
@@ -403,93 +405,28 @@
     <!-- fun-fact end -->
 
     @include('footer')
-    
-    <!--Scroll to top-->
-    <button class="scroll-top scroll-to-target" data-target="html">
-        <span class="fa fa-arrow-up"></span>
-    </button>
 
+    @include('sidebar')
 
-    <!-- sidebar cart item -->
-    <div class="xs-sidebar-group info-group info-sidebar">
-        <div class="xs-overlay xs-bg-black"></div>
-        <div class="xs-sidebar-widget">
-            <div class="sidebar-widget-container">
-                <div class="widget-heading">
-                    <a href="#" class="close-side-widget">X</a>
-                </div>
-                <div class="sidebar-textwidget">
-                <div class="sidebar-info-contents">
-                    <div class="content-inner">
-                        <div class="upper-box">
-                            <div class="logo">
-                                <a href="index.html"><img src="/images/sidebar-logo.png" alt="" /></a>
-                            </div>
-                            <div class="text">
-                                <p>Exercitation ullamco laboris nis aliquip sed conseqrure dolorn repreh deris ptate velit ecepteur duis.</p>
-                            </div>
-                        </div>
-                        <div class="side-menu-box">
-                            <div class="side-menu">
-                                <nav class="menu-box">
-                                    <div class="menu-outer">
-                                        
-                                    </div>
-                                </nav>
-                            </div>
-                        </div>
-                        <div class="info-box">
-                            <h3>Get in touch</h3>
-                            <ul class="info-list clearfix">
-                                <li><i class="fas fa-map-marker-alt"></i>838 Andy Street, Madison, NJ</li>
-                                <li><i class="fas fa-envelope"></i><a href="mailto:support@my-domain.com">support@my-domain.com</a></li>
-                                <li><i class="fas fa-headphones-alt"></i><a href="tel:101005200369">+1  0100 5200 369</a></li>
-                                <li><i class="far fa-clock"></i>Monday to Friday: 9am - 6pm</li>
-                            </ul>
-                            <form action="contact.html" method="post" class="subscribe-form">
-                                <div class="form-group">
-                                    <input type="email" name="email" placeholder="Email address" required="">
-                                    <button type="submit" class="theme-btn style-one">subscribe now</button>
-                                </div>
-                            </form>
-                            <ul class="social-links clearfix">
-                                <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="index.html"><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a href="index.html"><i class="fab fa-google-plus-g"></i></a></li>
-                                <li><a href="index.html"><i class="fab fa-pinterest-p"></i></a></li>
-                                <li><a href="index.html"><i class="fab fa-instagram"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- END sidebar widget item -->
+    <!-- jequery plugins -->
+    <script src="/js/jquery.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/owl.js"></script>
+    <script src="/js/wow.js"></script>
+    <script src="/js/validation.js"></script>
+    <script src="/js/jquery.fancybox.js"></script>
+    <script src="/js/appear.js"></script>
+    <script src="/js/jquery.countTo.js"></script>
+    <script src="/js/scrollbar.js"></script>
+    <script src="/js/nav-tool.js"></script>
+    <script src="/js/TweenMax.min.js"></script>
+    <script src="/js/circle-progress.js"></script>
+    <script src="/js/jquery.nice-select.min.js"></script>
 
-
-<!-- jequery plugins -->
-<script src="/js/jquery.js"></script>
-<script src="/js/popper.min.js"></script>
-<script src="/js/bootstrap.min.js"></script>
-<script src="/js/owl.js"></script>
-<script src="/js/wow.js"></script>
-<script src="/js/validation.js"></script>
-<script src="/js/jquery.fancybox.js"></script>
-<script src="/js/appear.js"></script>
-<script src="/js/jquery.countTo.js"></script>
-<script src="/js/scrollbar.js"></script>
-<script src="/js/nav-tool.js"></script>
-<script src="/js/TweenMax.min.js"></script>
-<script src="/js/circle-progress.js"></script>
-<script src="/js/jquery.nice-select.min.js"></script>
-
-<!-- main-js -->
-<script src="/js/script.js"></script>
+    <!-- main-js -->
+    <script src="/js/script.js"></script>
 
 </body><!-- End of .page_wrapper -->
-</html>
 
+</html>

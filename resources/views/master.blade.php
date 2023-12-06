@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
-    <title>Fionca - HTML 5 Template Preview</title>
+    <title>SFS - HTML 5 Template Preview</title>
 
     <!-- Fav Icon -->
-    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/images/favicon-2.ico" type="image/x-icon">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i&display=swap" rel="stylesheet">

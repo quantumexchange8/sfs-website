@@ -159,7 +159,7 @@
         <div class="col-12">
             <div class="hc-contact media">
                 <div class="img">
-                    <img src="https://gpiconsultants.com//img/media/contact.png" alt="">
+                    <img src="https://gpiconsultants.com/assets/img/media/contact.png" alt="">
                 </div>
                 <div class="content media-body">
                     <h2>Unable to Find Your Answer?</h2>
@@ -176,6 +176,8 @@
     <!--End of FAQ contact-->
 
 @include('footer')
+
+@include('sidebar')
 
 <!-- jequery plugins -->
 <script src="/js/jquery.js"></script>

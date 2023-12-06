@@ -45,3 +45,22 @@ Route::get('/faq', function () {
     return view('faq');
 });
 
+Route::get('/wealth-management', function () {
+    return view('wealth-management');
+});
+
+Route::get('/retirement-planning', function () {
+    return view('retirement-planning');
+});
+
+Route::get('/real-estate', function () {
+    return view('real-estate');
+});
+
+Route::get('/hedge-funds', function () {
+    return view('hedge-funds');
+});
+
+Route::get('/private-equity', function () {
+    return view('private-equity');
+});

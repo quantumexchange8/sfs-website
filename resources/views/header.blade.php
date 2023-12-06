@@ -68,11 +68,11 @@
                                 </li>
                                 <li class="dropdown"><a href="index-2.html">Services</a>
                                     <ul>
-                                        <li><a href="financial-analysis.html">Financial Analysis</a></li>
-                                        <li><a href="taxation-planning.html">Taxation Planning</a></li>
-                                        <li><a href="investment-trading.html">Investment Trading</a></li>
-                                        <li><a href="wealth-marketing.html">Wealth Marketing</a></li>
-                                        <li><a href="planning-strategies.html">Planning Strategies</a></li>
+                                        <li><a href="wealth-management.html">Wealth Management</a></li>
+                                        <li><a href="retirement-planning.html">Retirement Planning</a></li>
+                                        <li><a href="real-estate.html">Real Estate</a></li>
+                                        <li><a href="hedge-funds.html">Hedge Funds</a></li>
+                                        <li><a href="private-equity.html" class="active">Private Equity</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="contact.html">Contact</a></li>
@@ -98,7 +98,8 @@
         <div class="auto-container">
             <div class="outer-box clearfix">
                 <div class="logo-box pull-left">
-                    <figure class="logo"><a href="index.html"><img src="/images/small-logo-black.png" alt=""></a></figure>
+                    <figure class="logo"><a href="index.html"><img src="/images/small-logo-black.png" alt=""></a>
+                    </figure>
                 </div>
                 <div class="menu-area pull-right">
                     <nav class="main-menu clearfix">

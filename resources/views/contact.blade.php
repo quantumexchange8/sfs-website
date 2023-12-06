@@ -99,7 +99,7 @@
         <div class="auto-container">
             <div class="sec-title right">
                 <h5>focused with work</h5>
-                <h2>We’re Global Management Consulting Firm <br />To Help With Financial Business</h2>
+                <h2>We're Global Management Consulting Firm <br />To Help With Financial Business</h2>
             </div>
             <div class="row clearfix">
                 <div class="col-lg-4 col-md-6 col-sm-12 single-column">
@@ -137,12 +137,12 @@
 
 
     <!-- world-cyber -->
-    <section class="world-cyber about-page-1">
+    <section class="world-cyber bg-color-1">
         <div class="pattern-layer" style="background-image: url(/images/shape/shape-2.png);"></div>
         <div class="auto-container">
             <div class="sec-title centred">
-                <h5>Globaly renowned & trusted</h5>
-                <h2>Fionca’s Working Everywhere</h2>
+                <h5>Worldwide Reputable, Reliable & Trustworthy</h5>
+                <h2>SFS's Around the World</h2>
             </div>
             <div class="office-location">
                 <div class="location-area">
@@ -250,7 +250,7 @@
                 <div class="sec-title left light">
                     <h5>try our service</h5>
                     <h2>Drop Us a Line</h2>
-                    <p>Ad mini veniam quis nostrud ipsum exercitas tion ullamco <br />ipsum laboris sed ut perspiciatis unde.</p>
+                    <p>Plan, research, choose wisely for a prosperous investment journey.</p>
                 </div>
                 <form method="post" action="sendemail.php" id="contact-form" class="default-form"> 
                     <div class="row clearfix">
@@ -270,7 +270,7 @@
                             <textarea name="message" placeholder="Message"></textarea>
                         </div>
                         <div class="col-lg-12 col-md-12 col-sm-12 form-group message-btn">
-                            <button class="theme-btn style-one" type="submit" name="submit-form">request estimate</button>
+                            <button class="theme-btn style-one" type="submit" name="submit-form">request service</button>
                         </div>
                     </div>
                 </form>
@@ -278,30 +278,6 @@
         </div>
     </section>
     <!-- contact-style-two end -->
-
-
-    <!-- google-map-section -->
-    <section class="google-map-section">
-        <div class="map-column">
-            <div class="google-map-area">
-                <div 
-                    class="google-map" 
-                    id="contact-google-map" 
-                    data-map-lat="40.712776" 
-                    data-map-lng="-74.005974" 
-                    data-icon-path="/images/icons/map-marker.png"  
-                    data-map-title="Brooklyn, New York, United Kingdom" 
-                    data-map-zoom="12" 
-                    data-markers='{
-                        "marker-1": [40.712776, -74.005974, "<h4>Branch Office</h4><p>77/99 New York</p>","/images/shape/map-marker.png"]
-                    }'>
-
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- google-map-section end -->
-
 
     <!-- clients-section -->
     <section class="clients-section">
@@ -319,72 +295,7 @@
 
     @include('footer')
     
-    <!--Scroll to top-->
-    <button class="scroll-top scroll-to-target" data-target="html">
-        <span class="fa fa-arrow-up"></span>
-    </button>
-
-
-    <!-- sidebar cart item -->
-    <div class="xs-sidebar-group info-group info-sidebar">
-        <div class="xs-overlay xs-bg-black"></div>
-        <div class="xs-sidebar-widget">
-            <div class="sidebar-widget-container">
-                <div class="widget-heading">
-                    <a href="#" class="close-side-widget">X</a>
-                </div>
-                <div class="sidebar-textwidget">
-                <div class="sidebar-info-contents">
-                    <div class="content-inner">
-                        <div class="upper-box">
-                            <div class="logo">
-                                <a href="index.html"><img src="/images/sidebar-logo.png" alt="" /></a>
-                            </div>
-                            <div class="text">
-                                <p>Exercitation ullamco laboris nis aliquip sed conseqrure dolorn repreh deris ptate velit ecepteur duis.</p>
-                            </div>
-                        </div>
-                        <div class="side-menu-box">
-                            <div class="side-menu">
-                                <nav class="menu-box">
-                                    <div class="menu-outer">
-                                        
-                                    </div>
-                                </nav>
-                            </div>
-                        </div>
-                        <div class="info-box">
-                            <h3>Get in touch</h3>
-                            <ul class="info-list clearfix">
-                                <li><i class="fas fa-map-marker-alt"></i>838 Andy Street, Madison, NJ</li>
-                                <li><i class="fas fa-envelope"></i><a href="mailto:support@my-domain.com">support@my-domain.com</a></li>
-                                <li><i class="fas fa-headphones-alt"></i><a href="tel:101005200369">+1  0100 5200 369</a></li>
-                                <li><i class="far fa-clock"></i>Monday to Friday: 9am - 6pm</li>
-                            </ul>
-                            <form action="contact.html" method="post" class="subscribe-form">
-                                <div class="form-group">
-                                    <input type="email" name="email" placeholder="Email address" required="">
-                                    <button type="submit" class="theme-btn style-one">subscribe now</button>
-                                </div>
-                            </form>
-                            <ul class="social-links clearfix">
-                                <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="index.html"><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a href="index.html"><i class="fab fa-google-plus-g"></i></a></li>
-                                <li><a href="index.html"><i class="fab fa-pinterest-p"></i></a></li>
-                                <li><a href="index.html"><i class="fab fa-instagram"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- END sidebar widget item -->
-
+    @include('sidebar')
 
 <!-- jequery plugins -->
 <script src="/js/jquery.js"></script>

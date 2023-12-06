@@ -105,13 +105,17 @@
                             <h3>SIXTY FOURTH SECURITIES</h3>
                         </div>
                         <div class="title">
-                            <h2>Years of Struggle <span>—</span> Better Strategy With Quality Business</h2>
+                            <h2>Testament To The Extraordinary Potential <span>—</span> of Collaboration, Innovation, and Expertise</h2>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-5 col-md-12 col-sm-12 text-column">
                     <div class="text">
-                        <p>Beniam quis nostrud exercitation sed lamco laboris nis aliquip sed conseqa sed rure repreh derit luptate velit excepteur ocaan dcats ipsum aliquip eduis aute irure reprehy enderit dui voluptate ipsum velit esse cillum dolore ipsum.</p>
+                        <p>Greetings from Sixty-Fourth Securities, where we are redefining the paradigm of the typical
+                            financial institution. We are a group of eminent financial experts, all of whom are
+                            recognized as leaders in their fields. Our unique combination of artificial intelligence
+                            (AI) and human intelligence sets us apart and drives our incredibly sophisticated trading
+                            techniques.</p>
                         <a href="index.html"><i class="fas fa-arrow-right"></i><span>Who We Are</span></a>
                     </div>
                 </div>
@@ -129,36 +133,44 @@
                     <div id="content_block_three">
                         <div class="content-box">
                             <div class="sec-title right">
-                                <h5>About fionca</h5>
-                                <h2>We Care About Your Life’s Important Things</h2>
+                                <h5>About SFS</h5>
+                                <h2>AI-Powered Digital Future Planning Based on Human Insight<</h2>
                             </div>
                             <div class="text">
-                                <p>Exercitation llamco laboris nis aliquip sed conseqrure dolorn repreh deris voluptate velit excepteur duis aute irure dolor voluptate voluptatem accusa ntium dolor lemq laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis ent quas sed ipsum dui architecto beatae.</p>
+                                <p>Sixty-fourth Securities uses human insight and artificial intelligence to inform their trading strategies. Since
+                                    their establishment in 2022, they have overseen assets valued over $5 billion, demonstrating their
+                                    proficiency in foreign exchange, fund management, derivatives trading, and brokering.</p>
                             </div>
                             <div class="tabs-box">
                                 <div class="tab-btn-box">
                                     <ul class="tab-btns tab-buttons clearfix">
                                         <li class="tab-btn active-btn" data-tab="#tab-1">Our Mission</li>
-                                        <li class="tab-btn" data-tab="#tab-2">Our Experience</li>
-                                        <li class="tab-btn" data-tab="#tab-3">Our Vision</li>
+                                        <li class="tab-btn" data-tab="#tab-2">Our Journey</li>
+                                        <li class="tab-btn" data-tab="#tab-3">Our Approach</li>
                                     </ul>
                                 </div>
                                 <div class="tabs-content">
                                     <div class="tab active-tab" id="tab-1">
                                         <div class="content-inner">
-                                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                                            <p>We combine AI and human expertise to craft pioneering trading strategies. Our goal is to optimize investments and
+                                                empower client success in dynamic markets. Our mission thrives on blending technology and human insight for
+                                                financial growth.</p>
                                             <a href="about-1.html"><i class="fas fa-arrow-right"></i><span>Read More</span></a>
                                         </div>
                                     </div>
                                     <div class="tab" id="tab-2">
                                         <div class="content-inner">
-                                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                                            <p>After meticulous data curation and successful market trading, we launched Sixty-Fourth Securities in September 2023
+                                                following a decisive 3-month feasibility study. Our journey blends AI and human expertise, yet your dreams drive our
+                                                decisions.</p>
                                             <a href="about-1.html"><i class="fas fa-arrow-right"></i><span>Read More</span></a>
                                         </div>
                                     </div>
                                     <div class="tab" id="tab-3">
                                         <div class="content-inner">
-                                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                                            <p>Our client-focused approach drives our success, managing assets exceeding USD $5 billion. By leveraging AI and human
+                                                interaction, we swiftly respond to market dynamics, much like the thrill of making crucial moves in high-stakes
+                                                scenarios. Your aspirations fuel our mission, inspiring our dedication to your success daily.</p>
                                             <a href="about-1.html"><i class="fas fa-arrow-right"></i><span>Read More</span></a>
                                         </div>
                                     </div>
@@ -187,12 +199,12 @@
 
 
     <!-- world-cyber -->
-    <section class="world-cyber about-page-1">
+    <section class="world-cyber bg-color-1">
         <div class="pattern-layer" style="background-image: url(/images/shape/shape-2.png);"></div>
         <div class="auto-container">
             <div class="sec-title centred">
-                <h5>Globaly renowned & trusted</h5>
-                <h2>Fionca’s Working Everywhere</h2>
+                <h5>Worldwide Reputable, Reliable & Trustworthy</h5>
+                <h2>SFS's Around the World</h2>
             </div>
             <div class="office-location">
                 <div class="location-area">
@@ -300,7 +312,7 @@
                 <div class="video-btn">
                     <a href="https://www.youtube.com/watch?v=nfP5N9Yc72A&amp;t=28s" class="lightbox-image" data-caption=""><i class="fas fa-play"></i></a>
                 </div>
-                <h2>Dynamic Performance Through Unlocking Power</h2>
+                <h2>Unleashing Potential for Vibrant Performance</h2>
             </div>
         </div>
     </section>
@@ -320,180 +332,12 @@
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 text-column">
                         <div class="text">
-                            <p>Tempor incididunt ut labore et dolore magna aliquat enim veniam quis nostrud exercitation ullamco laboris nis aliquip consequat duis aute irure dolor voluptate.</p>
+                            <p>Our team of experienced experts is committed to aiding your success in attaining your wealth goals.</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="four-item-carousel owl-carousel owl-theme owl-nav-none owl-dot-style-one">
-                <div class="team-block-one">
-                    <div class="inner-box">
-                        <figure class="image-box"><img src="/images/team/team-1.jpg" alt=""></figure>
-                        <div class="lower-content">
-                            <div class="content-box">
-                                <h3><a href="index-2.html">Christina Roy</a></h3>
-                                <span class="designation">Founder CEO</span>
-                            </div>
-                            <div class="ovellay-box">
-                                <h3><a href="index-2.html">Christina Roy</a></h3>
-                                <span class="designation">Founder CEO</span>
-                                <ul class="social-links clearfix">
-                                    <li><a href="index-2.html"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="index-2.html"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="index-2.html"><i class="fab fa-instagram"></i></a></li>
-                                    <li><a href="index-2.html"><i class="fab fa-linkedin-in"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="team-block-one">
-                    <div class="inner-box">
-                        <figure class="image-box"><img src="/images/team/team-2.jpg" alt=""></figure>
-                        <div class="lower-content">
-                            <div class="content-box">
-                                <h3><a href="index-2.html">Paul Wilson</a></h3>
-                                <span class="designation">Senior Manager</span>
-                            </div>
-                            <div class="ovellay-box">
-                                <h3><a href="index-2.html">Paul Wilson</a></h3>
-                                <span class="designation">Senior Manager</span>
-                                <ul class="social-links clearfix">
-                                    <li><a href="index-2.html"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="index-2.html"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="index-2.html"><i class="fab fa-instagram"></i></a></li>
-                                    <li><a href="index-2.html"><i class="fab fa-linkedin-in"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="team-block-one">
-                    <div class="inner-box">
-                        <figure class="image-box"><img src="/images/team/team-3.jpg" alt=""></figure>
-                        <div class="lower-content">
-                            <div class="content-box">
-                                <h3><a href="index-2.html">Amanda Tim</a></h3>
-                                <span class="designation">Insurance Agent</span>
-                            </div>
-                            <div class="ovellay-box">
-                                <h3><a href="index-2.html">Amanda Tim</a></h3>
-                                <span class="designation">Insurance Agent</span>
-                                <ul class="social-links clearfix">
-                                    <li><a href="index-2.html"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="index-2.html"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="index-2.html"><i class="fab fa-instagram"></i></a></li>
-                                    <li><a href="index-2.html"><i class="fab fa-linkedin-in"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="team-block-one">
-                    <div class="inner-box">
-                        <figure class="image-box"><img src="/images/team/team-4.jpg" alt=""></figure>
-                        <div class="lower-content">
-                            <div class="content-box">
-                                <h3><a href="index-2.html">Jasmine Olgin</a></h3>
-                                <span class="designation">Insurance Agent</span>
-                            </div>
-                            <div class="ovellay-box">
-                                <h3><a href="index-2.html">Jasmine Olgin</a></h3>
-                                <span class="designation">Insurance Agent</span>
-                                <ul class="social-links clearfix">
-                                    <li><a href="index-2.html"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="index-2.html"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="index-2.html"><i class="fab fa-instagram"></i></a></li>
-                                    <li><a href="index-2.html"><i class="fab fa-linkedin-in"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="team-block-one">
-                    <div class="inner-box">
-                        <figure class="image-box"><img src="/images/team/team-1.jpg" alt=""></figure>
-                        <div class="lower-content">
-                            <div class="content-box">
-                                <h3><a href="index-2.html">Christina Roy</a></h3>
-                                <span class="designation">Founder CEO</span>
-                            </div>
-                            <div class="ovellay-box">
-                                <h3><a href="index-2.html">Christina Roy</a></h3>
-                                <span class="designation">Founder CEO</span>
-                                <ul class="social-links clearfix">
-                                    <li><a href="index-2.html"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="index-2.html"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="index-2.html"><i class="fab fa-instagram"></i></a></li>
-                                    <li><a href="index-2.html"><i class="fab fa-linkedin-in"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="team-block-one">
-                    <div class="inner-box">
-                        <figure class="image-box"><img src="/images/team/team-2.jpg" alt=""></figure>
-                        <div class="lower-content">
-                            <div class="content-box">
-                                <h3><a href="index-2.html">Paul Wilson</a></h3>
-                                <span class="designation">Senior Manager</span>
-                            </div>
-                            <div class="ovellay-box">
-                                <h3><a href="index-2.html">Paul Wilson</a></h3>
-                                <span class="designation">Senior Manager</span>
-                                <ul class="social-links clearfix">
-                                    <li><a href="index-2.html"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="index-2.html"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="index-2.html"><i class="fab fa-instagram"></i></a></li>
-                                    <li><a href="index-2.html"><i class="fab fa-linkedin-in"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="team-block-one">
-                    <div class="inner-box">
-                        <figure class="image-box"><img src="/images/team/team-3.jpg" alt=""></figure>
-                        <div class="lower-content">
-                            <div class="content-box">
-                                <h3><a href="index-2.html">Amanda Tim</a></h3>
-                                <span class="designation">Insurance Agent</span>
-                            </div>
-                            <div class="ovellay-box">
-                                <h3><a href="index-2.html">Amanda Tim</a></h3>
-                                <span class="designation">Insurance Agent</span>
-                                <ul class="social-links clearfix">
-                                    <li><a href="index-2.html"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="index-2.html"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="index-2.html"><i class="fab fa-instagram"></i></a></li>
-                                    <li><a href="index-2.html"><i class="fab fa-linkedin-in"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="team-block-one">
-                    <div class="inner-box">
-                        <figure class="image-box"><img src="/images/team/team-4.jpg" alt=""></figure>
-                        <div class="lower-content">
-                            <div class="content-box">
-                                <h3><a href="index-2.html">Jasmine Olgin</a></h3>
-                                <span class="designation">Insurance Agent</span>
-                            </div>
-                            <div class="ovellay-box">
-                                <h3><a href="index-2.html">Jasmine Olgin</a></h3>
-                                <span class="designation">Insurance Agent</span>
-                                <ul class="social-links clearfix">
-                                    <li><a href="index-2.html"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="index-2.html"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="index-2.html"><i class="fab fa-instagram"></i></a></li>
-                                    <li><a href="index-2.html"><i class="fab fa-linkedin-in"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 <div class="team-block-one">
                     <div class="inner-box">
                         <figure class="image-box"><img src="/images/team/team-1.jpg" alt=""></figure>
@@ -598,187 +442,9 @@
     </section>
     <!-- clients-section end -->
 
+    @include('footer')
 
-    <!-- main-footer -->
-    <footer class="main-footer alternet-5">
-        <div class="footer-upper">
-            <div class="auto-container">
-                <div class="upper-inner clearfix">
-                    <div class="text pull-left">
-                        <h2>Do you want to learn about us?</h2>
-                        <p>Consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore magna aliqua.</p>
-                    </div>
-                    <div class="btn-box pull-right">
-                        <a href="index-5.html" class="theme-btn style-one">Get In Touch Today</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-top">
-            <div class="auto-container">
-                <div class="widget-section">
-                    <div class="row clearfix">
-                        <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
-                            <div class="footer-widget logo-widget">
-                                <figure class="footer-logo"><a href="index.html"><img src="/images/footer-logo.png" alt=""></a></figure>
-                                <div class="text">
-                                    <p>Tempor incididunt ut labore eut dolore veniam quis nostrud exercitation ullamc consequat. Duis aute irure.</p>
-                                </div>
-                                <ul class="info-list clearfix">
-                                    <li><i class="fas fa-map-marker-alt"></i>838 Andy Street, Madison, NJ 08003</li>
-                                    <li><i class="fas fa-envelope"></i>Email <a href="mailto:support@my-domain.com">support@my-domain.com</a></li>
-                                    <li><i class="fas fa-headphones"></i>Support <a href="tel:01005200369">0100 5200 369</a></li>
-                                </ul>
-                                <ul class="social-links clearfix">
-                                    <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="index.html"><i class="fab fa-instagram"></i></a></li>
-                                    <li><a href="index.html"><i class="fab fa-linkedin-in"></i></a></li>
-                                    <li><a href="index.html"><i class="fab fa-pinterest-p"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
-                            <div class="footer-widget links-widget ml-70">
-                                <div class="widget-title">
-                                    <h4>Useful Links</h4>
-                                </div>
-                                <div class="widget-content">
-                                    <ul class="list clearfix">
-                                        <li><a href="index.html">About Us</a></li>
-                                        <li><a href="index.html">What We Offers</a></li>
-                                        <li><a href="index.html">Testimonials</a></li>
-                                        <li><a href="index.html">Our Projectss</a></li>
-                                        <li><a href="index.html">Latest News</a></li>
-                                        <li><a href="index.html">Privacy Policy</a></li>
-                                        <li><a href="index.html">Contact Us</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
-                            <div class="footer-widget links-widget">
-                                <div class="widget-title">
-                                    <h4>What We Do</h4>
-                                </div>
-                                <div class="widget-content">
-                                    <ul class="list clearfix">
-                                        <li><a href="index.html">Financial Advice</a></li>
-                                        <li><a href="index.html">Business Planning</a></li>
-                                        <li><a href="index.html">Startup Help</a></li>
-                                        <li><a href="index.html">Investment Strategy</a></li>
-                                        <li><a href="index.html">Management Services</a></li>
-                                        <li><a href="index.html">Market Research</a></li>
-                                        <li><a href="index.html">SEO Optimization</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
-                            <div class="footer-widget newsletter-widget">
-                                <div class="widget-title">
-                                    <h4>Newslette</h4>
-                                </div>
-                                <div class="widget-content">
-                                    <div class="text">
-                                        <p>Get in your inbox the latest News</p>
-                                    </div>
-                                    <form action="contact.html" method="post" class="newsletter-form">
-                                        <div class="form-group">
-                                            <i class="far fa-user"></i>
-                                            <input type="text" name="name" placeholder="Your Name" required="">
-                                        </div>
-                                        <div class="form-group">
-                                            <i class="far fa-envelope"></i>
-                                            <input type="email" name="email" placeholder="Email address" required="">
-                                        </div>
-                                        <div class="form-group message-btn">
-                                            <button type="submit">subscribe</button>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <div class="auto-container">
-                <div class="copyright"><p>&copy; 2020 <a href="index.html">FIONCA</a> - Business & Consulting. All rights reserved.</p></div>
-            </div>
-        </div>
-    </footer>
-    <!-- main-footer end -->
-
-
-
-    <!--Scroll to top-->
-    <button class="scroll-top scroll-to-target" data-target="html">
-        <span class="fa fa-arrow-up"></span>
-    </button>
-
-
-    <!-- sidebar cart item -->
-    <div class="xs-sidebar-group info-group info-sidebar">
-        <div class="xs-overlay xs-bg-black"></div>
-        <div class="xs-sidebar-widget">
-            <div class="sidebar-widget-container">
-                <div class="widget-heading">
-                    <a href="#" class="close-side-widget">X</a>
-                </div>
-                <div class="sidebar-textwidget">
-                <div class="sidebar-info-contents">
-                    <div class="content-inner">
-                        <div class="upper-box">
-                            <div class="logo">
-                                <a href="index.html"><img src="/images/sidebar-logo.png" alt="" /></a>
-                            </div>
-                            <div class="text">
-                                <p>Exercitation ullamco laboris nis aliquip sed conseqrure dolorn repreh deris ptate velit ecepteur duis.</p>
-                            </div>
-                        </div>
-                        <div class="side-menu-box">
-                            <div class="side-menu">
-                                <nav class="menu-box">
-                                    <div class="menu-outer">
-                                        
-                                    </div>
-                                </nav>
-                            </div>
-                        </div>
-                        <div class="info-box">
-                            <h3>Get in touch</h3>
-                            <ul class="info-list clearfix">
-                                <li><i class="fas fa-map-marker-alt"></i>838 Andy Street, Madison, NJ</li>
-                                <li><i class="fas fa-envelope"></i><a href="mailto:support@my-domain.com">support@my-domain.com</a></li>
-                                <li><i class="fas fa-headphones-alt"></i><a href="tel:101005200369">+1  0100 5200 369</a></li>
-                                <li><i class="far fa-clock"></i>Monday to Friday: 9am - 6pm</li>
-                            </ul>
-                            <form action="contact.html" method="post" class="subscribe-form">
-                                <div class="form-group">
-                                    <input type="email" name="email" placeholder="Email address" required="">
-                                    <button type="submit" class="theme-btn style-one">subscribe now</button>
-                                </div>
-                            </form>
-                            <ul class="social-links clearfix">
-                                <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="index.html"><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a href="index.html"><i class="fab fa-google-plus-g"></i></a></li>
-                                <li><a href="index.html"><i class="fab fa-pinterest-p"></i></a></li>
-                                <li><a href="index.html"><i class="fab fa-instagram"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- END sidebar widget item -->
-
+    @include('sidebar')
 
 <!-- jequery plugins -->
 <script src="/js/jquery.js"></script>

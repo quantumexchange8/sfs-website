@@ -34,7 +34,7 @@
                         <fieldset>
                             <input type="search" class="form-control" name="search-input" value=""
                                 placeholder="Search Here" required>
-                            <input type="submit" value="Search Now!" class="theme-btn style-four">
+                            <input type="submit" value="Search Now!" class="theme-btn style-two">
                         </fieldset>
                     </div>
                 </form>
@@ -86,7 +86,7 @@
 
 
     <!-- banner-section -->
-    <section class="banner-section">
+    <section class="banner-section style-two">
         <div class="banner-carousel owl-theme owl-carousel owl-dots-none">
             <div class="slide-item">
                 <div class="image-layer" style="background-image:url(/images/banner/banner-1.jpg)"></div>
@@ -95,7 +95,7 @@
                         <h5>Take a ride on the success avalanche</h5>
                         <h1>Monetary Support<br />With Sincere Intentions</h1>
                         <div class="btn-box">
-                            <a href="index.html" class="theme-btn style-one">How Should We Assist?</a>
+                            <a href="index.html" class="theme-btn style-two">How Should We Assist?</a>
                             <a href="index" class="user-btn"><i class="far fa-user"></i><span>Make Contact With an
                                     Expert</span></a>
                         </div>
@@ -113,7 +113,7 @@
                         </ul>
                         <h1>Worldwide Network To<br />Offer Support</h1>
                         <div class="btn-box">
-                            <a href="index.html" class="theme-btn style-one mar-0">How Should We Assist?</a>
+                            <a href="index.html" class="theme-btn style-two mar-0">How Should We Assist?</a>
                         </div>
                     </div>
                 </div>
@@ -125,7 +125,7 @@
                         <h5>Take a ride on the success avalanche</h5>
                         <h1>Strengthening Bonds & <br />Faith at Any Time</h1>
                         <div class="btn-box">
-                            <a href="index.html" class="theme-btn style-one mr-10">How Should We Assist?</a>
+                            <a href="index.html" class="theme-btn style-two mr-10">How Should We Assist?</a>
                             <a href="index.html" class="banner-btn-two">Make Contact With an Expert</a>
                         </div>
                     </div>
@@ -228,14 +228,17 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 content-column">
                     <div id="content_block_13">
                         <div class="content-box">
-                            <div class="sec-title style-four right">
+                            <div class="sec-title style-two right">
                                 <h5>About SFS</h5>
                                 <h2>AI-Powered Digital Future Planning Based on Human Insight</h2>
                             </div>
                             <div class="text">
-                                <p>Sixty-fourth Securities uses human insight and artificial intelligence to inform their trading strategies.</p>
-                                <p> Since their establishment in 2022, they have overseen assets valued over $5 billion, demonstrating their
-                                    proficiency in foreign exchange, fund management, derivatives trading, and brokering.</p>
+                                <p>Sixty-fourth Securities uses human insight and artificial intelligence to inform
+                                    their trading strategies.</p>
+                                <p> Since their establishment in 2022, they have overseen assets valued over $5 billion,
+                                    demonstrating their
+                                    proficiency in foreign exchange, fund management, derivatives trading, and
+                                    brokering.</p>
                             </div>
                             <div class="progress-content">
                                 <div class="progress-box">
@@ -331,32 +334,32 @@
     <!-- service-style-five -->
     <section class="service-style-five bg-color-1">
         <div class="auto-container">
-            <div class="sec-title style-four right">
-                <h5>Globaly renowned & trusted</h5>
-                <h2>Quality Services With Difference</h2>
+            <div class="sec-title style-two right">
+                <h5>Worldwide Reputable, Reliable & Trustworthy</h5>
+                <h2>Superior Services That Make An Impact</h2>
             </div>
             <div class="tabs-box">
                 <div class="tab-btn-box">
                     <ul class="tab-btns tab-buttons clearfix">
                         <li class="tab-btn active-btn" data-tab="#tab-1">
                             <i class="flaticon-rocket"></i>
-                            Planning Strategies
+                            Wealth Management
                         </li>
                         <li class="tab-btn" data-tab="#tab-2">
                             <i class="flaticon-innovation-1"></i>
-                            Financial Advices
+                            Real Estate
                         </li>
                         <li class="tab-btn" data-tab="#tab-3">
                             <i class="flaticon-growth-3"></i>
-                            Manage Investment
+                            Hedge Funds
                         </li>
                         <li class="tab-btn" data-tab="#tab-4">
                             <i class="flaticon-idea"></i>
-                            Wealth Marketing
+                            Private Equity
                         </li>
                         <li class="tab-btn" data-tab="#tab-5">
                             <i class="flaticon-target"></i>
-                            Process Development
+                            Retirement Planning
                         </li>
                     </ul>
                 </div>
@@ -364,20 +367,25 @@
                     <div class="tab active-tab" id="tab-1">
                         <div class="row align-items-center clearfix">
                             <div class="col-lg-6 col-md-6 col-sm-12 image-column">
-                                <figure class="image-box"><img src="/images/service/service-4.jpg" alt=""></figure>
+                                <figure class="image-box"><img src="/images/service/service-1.jpg" alt=""></figure>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-12 content-column">
                                 <div class="content-box">
-                                    <h3>Planning Strategies</h3>
-                                    <p>Exercitation llamco laboris nis aliquip sed conseqrure dolorn repreh deris
-                                        luptate velit excepteur duis aute irure dolor voluptate labore et dolore magn
-                                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                                        ut aliquip ex ea reprehenderit in voluptate.</p>
+                                    <h3>Wealth Management</h3>
+                                    <p>Wealth management is a comprehensive financial service designed to optimize and
+                                        protect your financial well-being. It
+                                        involves personalized financial planning, expert investment guidance, risk
+                                        management, tax optimization, estate
+                                        planning, education funding and wealth transfer strategies. By tailoring these
+                                        services to individual goals and
+                                        circumstances, wealth management aims to ensure financial stability, maximize
+                                        returns, minimize risk and achieve both
+                                        near- and long-term financial aspirations.</p>
                                     <ul class="list-item clearfix">
-                                        <li>Acepteur sintas haecat sed non duiy</li>
-                                        <li>Proident sunt culpa sed ipsum tempor sed</li>
-                                        <li>Ut enim ad minim veniam quis nostrud exercitation</li>
-                                        <li>Laboris nisi ut aliquip exy ea consequat duis</li>
+                                        <li>Tax Optimization</li>
+                                        <li>Investment Guidance</li>
+                                        <li>Risk Management</li>
+                                        <li>Education Funding</li>
                                     </ul>
                                 </div>
                             </div>
@@ -386,20 +394,25 @@
                     <div class="tab" id="tab-2">
                         <div class="row align-items-center clearfix">
                             <div class="col-lg-6 col-md-6 col-sm-12 image-column">
-                                <figure class="image-box"><img src="/images/service/service-4.jpg" alt=""></figure>
+                                <figure class="image-box"><img src="/images/service/service-2.jpg" alt=""></figure>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-12 content-column">
                                 <div class="content-box">
-                                    <h3>Financial Advices</h3>
-                                    <p>Exercitation llamco laboris nis aliquip sed conseqrure dolorn repreh deris
-                                        luptate velit excepteur duis aute irure dolor voluptate labore et dolore magn
-                                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                                        ut aliquip ex ea reprehenderit in voluptate.</p>
+                                    <h3>Real Estate</h3>
+                                    <p>Real Estate management is about optimizing property investments. It involves
+                                        tailored strategies for property
+                                        acquisition, maximizing value, minimizing risks, and navigating operational
+                                        complexities. Services include expert
+                                        guidance on investments, risk management, tax planning, and enhancing property
+                                        performance to meet financial
+                                        objectives effectively. Real Estate managers oversee property portfolios, aiming
+                                        to enhance value and achieve the
+                                        best outcomes from real estate investments.</p>
                                     <ul class="list-item clearfix">
-                                        <li>Acepteur sintas haecat sed non duiy</li>
-                                        <li>Proident sunt culpa sed ipsum tempor sed</li>
-                                        <li>Ut enim ad minim veniam quis nostrud exercitation</li>
-                                        <li>Laboris nisi ut aliquip exy ea consequat duis</li>
+                                        <li>Property Acquisition</li>
+                                        <li>Leasing and Tenant Management</li>
+                                        <li>Tax Planning for Real Estate</li>
+                                        <li>Property Portfolio Enhancement</li>
                                     </ul>
                                 </div>
                             </div>
@@ -408,20 +421,25 @@
                     <div class="tab" id="tab-3">
                         <div class="row align-items-center clearfix">
                             <div class="col-lg-6 col-md-6 col-sm-12 image-column">
-                                <figure class="image-box"><img src="/images/service/service-4.jpg" alt=""></figure>
+                                <figure class="image-box"><img src="/images/service/service-3.jpg" alt=""></figure>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-12 content-column">
                                 <div class="content-box">
-                                    <h3>Manage Investment</h3>
-                                    <p>Exercitation llamco laboris nis aliquip sed conseqrure dolorn repreh deris
-                                        luptate velit excepteur duis aute irure dolor voluptate labore et dolore magn
-                                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                                        ut aliquip ex ea reprehenderit in voluptate.</p>
+                                    <h3>Hedge Funds</h3>
+                                    <p>Hedge Funds are managed investment pools employing diverse strategies beyond
+                                        typical investments to pursue higher
+                                        returns. They use techniques like leveraging and alternative assets, aiming to
+                                        generate profits regardless of market
+                                        conditions. Managers closely watch risks, diversify investments, and adapt
+                                        strategies to maximize gains. Hedge Funds
+                                        often cater to high-net-worth individuals or institutions seeking potentially
+                                        higher returns than traditional
+                                        investments offer.</p>
                                     <ul class="list-item clearfix">
-                                        <li>Acepteur sintas haecat sed non duiy</li>
-                                        <li>Proident sunt culpa sed ipsum tempor sed</li>
-                                        <li>Ut enim ad minim veniam quis nostrud exercitation</li>
-                                        <li>Laboris nisi ut aliquip exy ea consequat duis</li>
+                                        <li>Sophisticated Investment Strategies</li>
+                                        <li>Absolute Return Objective</li>
+                                        <li>Risk Management Techniques</li>
+                                        <li>Alternative Asset Classes</li>
                                     </ul>
                                 </div>
                             </div>
@@ -434,16 +452,21 @@
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-12 content-column">
                                 <div class="content-box">
-                                    <h3>Wealth Marketing</h3>
-                                    <p>Exercitation llamco laboris nis aliquip sed conseqrure dolorn repreh deris
-                                        luptate velit excepteur duis aute irure dolor voluptate labore et dolore magn
-                                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                                        ut aliquip ex ea reprehenderit in voluptate.</p>
+                                    <h3>Private Equity</h3>
+                                    <p>Private Equity involves investing in private companies or acquiring stakes in
+                                        existing ones with the goal of
+                                        long-term growth. These investments are not publicly traded and typically
+                                        require active management to enhance
+                                        operations and profitability. Though less liquid, they offer potential for
+                                        higher returns upon eventual sale or
+                                        exit, often through strategic sales or IPOs. Private Equity represents an
+                                        active, hands-on investment strategy
+                                        focused on fostering growth and increasing the value of private companies.</p>
                                     <ul class="list-item clearfix">
-                                        <li>Acepteur sintas haecat sed non duiy</li>
-                                        <li>Proident sunt culpa sed ipsum tempor sed</li>
-                                        <li>Ut enim ad minim veniam quis nostrud exercitation</li>
-                                        <li>Laboris nisi ut aliquip exy ea consequat duis</li>
+                                        <li>Long-Term Investments</li>
+                                        <li>Active Management and Value Creation</li>
+                                        <li>Illiquid Investments</li>
+                                        <li>Capital Structure Adjustments</li>
                                     </ul>
                                 </div>
                             </div>
@@ -452,20 +475,27 @@
                     <div class="tab" id="tab-5">
                         <div class="row align-items-center clearfix">
                             <div class="col-lg-6 col-md-6 col-sm-12 image-column">
-                                <figure class="image-box"><img src="/images/service/service-4.jpg" alt=""></figure>
+                                <figure class="image-box"><img src="/images/service/service-5.jpg" alt=""></figure>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-12 content-column">
                                 <div class="content-box">
-                                    <h3>Process Development</h3>
-                                    <p>Exercitation llamco laboris nis aliquip sed conseqrure dolorn repreh deris
-                                        luptate velit excepteur duis aute irure dolor voluptate labore et dolore magn
-                                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                                        ut aliquip ex ea reprehenderit in voluptate.</p>
+                                    <h3>Retirement Planning</h3>
+                                    <p>Retirement planning is a strategic financial process that individuals undertake
+                                        to ensure financial security during their post-employment years. It involves
+                                        assessing future financial needs, setting savings goals, and selecting
+                                        appropriate investment vehicles to accumulate a sufficient nest egg. This
+                                        planning typically considers various factors such as desired lifestyle, expected
+                                        expenses, retirement age, and sources of income, aiming to build a diversified
+                                        portfolio that balances risk and return. The objective is to create a
+                                        sustainable income stream that supports one's lifestyle throughout retirement,
+                                        often utilizing retirement accounts like 401(k)s, IRAs, pensions, or other
+                                        investment vehicles to achieve these goals.
+                                    </p>
                                     <ul class="list-item clearfix">
-                                        <li>Acepteur sintas haecat sed non duiy</li>
-                                        <li>Proident sunt culpa sed ipsum tempor sed</li>
-                                        <li>Ut enim ad minim veniam quis nostrud exercitation</li>
-                                        <li>Laboris nisi ut aliquip exy ea consequat duis</li>
+                                        <li>Financial Goal Setting</li>
+                                        <li>Investment Strategy</li>
+                                        <li>Income Sources and Streams</li>
+                                        <li>Risk Management and Contingency Planning</li>
                                     </ul>
                                 </div>
                             </div>
@@ -487,7 +517,7 @@
                         <figure class="image-box"><img src="/images/gallery/project-1.jpg" alt=""></figure>
                         <div class="lower-content">
                             <p>Corporate Management</p>
-                            <h2><a href="index.html">Global Management Apps</a></h2>
+                            <h2><a href="index.html">Strategic Asset Allocation</a></h2>
                         </div>
                     </div>
                 </div>
@@ -496,7 +526,7 @@
                         <figure class="image-box"><img src="/images/gallery/project-2.jpg" alt=""></figure>
                         <div class="lower-content">
                             <p>Financial Initiatives</p>
-                            <h2><a href="index.html">Planning & Task Completion</a></h2>
+                            <h2><a href="index.html">Early Investments</a></h2>
                         </div>
                     </div>
                 </div>
@@ -505,7 +535,7 @@
                         <figure class="image-box"><img src="/images/gallery/project-3.jpg" alt=""></figure>
                         <div class="lower-content">
                             <p>Corporate Management</p>
-                            <h2><a href="index.html">Private Workshop Assistant</a></h2>
+                            <h2><a href="index.html">Advisory Portfolios</a></h2>
                         </div>
                     </div>
                 </div>
@@ -523,14 +553,14 @@
                     <div id="content_block_two">
                         <div class="content-box">
                             <div class="sec-title left">
-                                <h5>annual Stats</h5>
+                                <h5>Annual Stats</h5>
                                 <h2>Graph Shows Net Value Profit Assembling</h2>
                             </div>
                             <div class="text">
-                                <p>Exercice llamco laboris nis aliquip sed conseqrure dolorn repreh deris luptate velit
-                                    excepteur duis aute irure dolor voluptate labore et dolore magna aliqua. Quis
-                                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea reprehenderit in
-                                    voluptate, ut enim ad minim veniam.</p>
+                                <p>Exercise and labor aren't always synonymous with hardship. They often pave the way
+                                    for growth and improvement.Exercise leads to fitness and mental clarity, while
+                                    labor, driven by passion, can bring fulfillment and success. Despite challenges,
+                                    both can yield progress, learning, and eventual rewards..</p>
                             </div>
                             <div class="inner-box clearfix">
                                 <div class="single-progress-box">
@@ -544,7 +574,7 @@
                                 </div>
                                 <div class="single-progress-box">
                                     <div class="box">
-                                        <div class="piechart" data-fg-color="#da2c46" data-value=".25">
+                                        <div class="piechart" data-fg-color="#da2c46" data-value=".75">
                                             <span>.25</span>
                                         </div>
                                         <h5>Security Financial <br />Solutions</h5>
@@ -563,7 +593,7 @@
                             <div class="award-box">
                                 <div class="box">
                                     <figure class="icon-box"><img src="/images/icons/icon-1.png" alt=""></figure>
-                                    <span>Financial & Consulting Award 2019-2020</span>
+                                    <span>Financial & Consulting Award 2022-2023</span>
                                 </div>
                             </div>
                         </div>
@@ -580,8 +610,8 @@
         <div class="pattern-layer" style="background-image: url(/images/shape/shape-2.png);"></div>
         <div class="auto-container">
             <div class="sec-title centred">
-                <h5>Globaly renowned & trusted</h5>
-                <h2>Fionca’s Working Everywhere</h2>
+                <h5>Worldwide Reputable, Reliable & Trustworthy</h5>
+                <h2>SFS's Around the World</h2>
             </div>
             <div class="office-location">
                 <div class="location-area">
@@ -650,7 +680,7 @@
                             <div class="sec-title light left">
                                 <h5>try our service</h5>
                                 <h2>Get Free Quote</h2>
-                                <p>Ad mini veniam, quis nostrud exercitation ullamco laboris.</p>
+                                <p>Plan, research, choose wisely for a prosperous investment journey.</p>
                             </div>
                             <form action="contact.html" method="post" class="submit-form">
                                 <div class="form-group">
@@ -666,7 +696,7 @@
                                     <textarea name="message" placeholder="Message"></textarea>
                                 </div>
                                 <div class="form-group message-btn">
-                                    <button type="submit" class="theme-btn style-one">request estimate</button>
+                                    <button type="submit" class="theme-btn style-two">request service</button>
                                 </div>
                             </form>
                         </div>
@@ -681,9 +711,9 @@
                                 <div class="email"><a href="mailto:support@my-domain.net">support@my-domain.net</a>
                                 </div>
                                 <ul class="list-item clearfix">
-                                    <li>.&nbsp;<a href="index.html">Experienced</a>&nbsp;.</li>
-                                    <li><a href="index.html">Specialized</a>&nbsp;.</li>
-                                    <li><a href="index.html">Professional</a>&nbsp;.</li>
+                                    <li>.&nbsp;<a href="index.html">Knowledgeable</a>&nbsp;.</li>
+                                    <li><a href="index.html">Skilled</a>&nbsp;.</li>
+                                    <li><a href="index.html">Competent</a>&nbsp;.</li>
                                 </ul>
                             </div>
                         </div>
@@ -702,14 +732,14 @@
                 <div class="row clearfix">
                     <div class="col-lg-6 col-md-12 col-sm-12 title-column">
                         <div class="sec-title right">
-                            <h5>testimonials</h5>
-                            <h2>What Our Loving <br />Clients Saying</h2>
+                            <h5>Testimonials</h5>
+                            <h2>The Comment of <br />Our Clients</h2>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 text-column">
                         <div class="text">
-                            <p>Enim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip consequat duis
-                                aute irure dolor voluptate.</p>
+                            <p>The valuable feedback given by the client who has experienced the quality of our service
+                                offering.</p>
                         </div>
                     </div>
                 </div>
@@ -718,152 +748,127 @@
                 <div class="client-testimonial-carousel owl-carousel owl-theme owl-nav-none owl-dots-none">
                     <div class="testimonial-block">
                         <div class="text">
-                            <p>Aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
-                                nesciunt, consequuntur magni dolores. Neque porro quisquam est qui dolorem ipsum, quia
-                                dolor sit amet, adipisci velit, sed quia aliqua tempora incidunt ut labore et dolore
-                                magnam aliquam sd ipsum quaerat voluptatem.</p>
+                            <p>Partnering with this stock trading firm was a pivotal move for me. Their expert guidance
+                                and tailored
+                                strategies transformed my trading experience. I witnessed substantial growth in my
+                                portfolio thanks
+                                to their invaluable support and commitment to client success.</p>
                         </div>
                     </div>
                     <div class="testimonial-block">
                         <div class="text">
-                            <p>Aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
-                                nesciunt, consequuntur magni dolores. Neque porro quisquam est qui dolorem ipsum, quia
-                                dolor sit amet, adipisci velit, sed quia aliqua tempora incidunt ut labore et dolore
-                                magnam aliquam sd ipsum quaerat voluptatem.</p>
+                            <p>Partnering with this stock trading firm was a pivotal move for me. Their expert guidance
+                                and tailored
+                                strategies transformed my trading experience. I witnessed substantial growth in my
+                                portfolio thanks
+                                to their invaluable support and commitment to client success.</p>
                         </div>
                     </div>
                     <div class="testimonial-block">
                         <div class="text">
-                            <p>Aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
-                                nesciunt, consequuntur magni dolores. Neque porro quisquam est qui dolorem ipsum, quia
-                                dolor sit amet, adipisci velit, sed quia aliqua tempora incidunt ut labore et dolore
-                                magnam aliquam sd ipsum quaerat voluptatem.</p>
+                            <p>Partnering with this stock trading firm was a pivotal move for me. Their expert guidance
+                                and tailored
+                                strategies transformed my trading experience. I witnessed substantial growth in my
+                                portfolio thanks
+                                to their invaluable support and commitment to client success.</p>
                         </div>
                     </div>
                     <div class="testimonial-block">
                         <div class="text">
-                            <p>Aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
-                                nesciunt, consequuntur magni dolores. Neque porro quisquam est qui dolorem ipsum, quia
-                                dolor sit amet, adipisci velit, sed quia aliqua tempora incidunt ut labore et dolore
-                                magnam aliquam sd ipsum quaerat voluptatem.</p>
+                            <p>Partnering with this stock trading firm was a pivotal move for me. Their expert guidance
+                                and tailored
+                                strategies transformed my trading experience. I witnessed substantial growth in my
+                                portfolio thanks
+                                to their invaluable support and commitment to client success.</p>
                         </div>
                     </div>
                     <div class="testimonial-block">
                         <div class="text">
-                            <p>Aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
-                                nesciunt, consequuntur magni dolores. Neque porro quisquam est qui dolorem ipsum, quia
-                                dolor sit amet, adipisci velit, sed quia aliqua tempora incidunt ut labore et dolore
-                                magnam aliquam sd ipsum quaerat voluptatem.</p>
+                            <p>Partnering with this stock trading firm was a pivotal move for me. Their expert guidance
+                                and tailored
+                                strategies transformed my trading experience. I witnessed substantial growth in my
+                                portfolio thanks
+                                to their invaluable support and commitment to client success.</p>
                         </div>
                     </div>
                     <div class="testimonial-block">
                         <div class="text">
-                            <p>Aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
-                                nesciunt, consequuntur magni dolores. Neque porro quisquam est qui dolorem ipsum, quia
-                                dolor sit amet, adipisci velit, sed quia aliqua tempora incidunt ut labore et dolore
-                                magnam aliquam sd ipsum quaerat voluptatem.</p>
+                            <p>Partnering with this stock trading firm was a pivotal move for me. Their expert guidance
+                                and tailored
+                                strategies transformed my trading experience. I witnessed substantial growth in my
+                                portfolio thanks
+                                to their invaluable support and commitment to client success.</p>
                         </div>
                     </div>
                     <div class="testimonial-block">
                         <div class="text">
-                            <p>Aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
-                                nesciunt, consequuntur magni dolores. Neque porro quisquam est qui dolorem ipsum, quia
-                                dolor sit amet, adipisci velit, sed quia aliqua tempora incidunt ut labore et dolore
-                                magnam aliquam sd ipsum quaerat voluptatem.</p>
+                            <p>Partnering with this stock trading firm was a pivotal move for me. Their expert guidance
+                                and tailored
+                                strategies transformed my trading experience. I witnessed substantial growth in my
+                                portfolio thanks
+                                to their invaluable support and commitment to client success.</p>
                         </div>
                     </div>
                     <div class="testimonial-block">
                         <div class="text">
-                            <p>Aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
-                                nesciunt, consequuntur magni dolores. Neque porro quisquam est qui dolorem ipsum, quia
-                                dolor sit amet, adipisci velit, sed quia aliqua tempora incidunt ut labore et dolore
-                                magnam aliquam sd ipsum quaerat voluptatem.</p>
+                            <p>Partnering with this stock trading firm was a pivotal move for me. Their expert guidance
+                                and tailored
+                                strategies transformed my trading experience. I witnessed substantial growth in my
+                                portfolio thanks
+                                to their invaluable support and commitment to client success.</p>
                         </div>
                     </div>
                     <div class="testimonial-block">
                         <div class="text">
-                            <p>Aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
-                                nesciunt, consequuntur magni dolores. Neque porro quisquam est qui dolorem ipsum, quia
-                                dolor sit amet, adipisci velit, sed quia aliqua tempora incidunt ut labore et dolore
-                                magnam aliquam sd ipsum quaerat voluptatem.</p>
+                            <p>Partnering with this stock trading firm was a pivotal move for me. Their expert guidance
+                                and tailored
+                                strategies transformed my trading experience. I witnessed substantial growth in my
+                                portfolio thanks
+                                to their invaluable support and commitment to client success.</p>
                         </div>
                     </div>
                     <div class="testimonial-block">
                         <div class="text">
-                            <p>Aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
-                                nesciunt, consequuntur magni dolores. Neque porro quisquam est qui dolorem ipsum, quia
-                                dolor sit amet, adipisci velit, sed quia aliqua tempora incidunt ut labore et dolore
-                                magnam aliquam sd ipsum quaerat voluptatem.</p>
+                            <p>Partnering with this stock trading firm was a pivotal move for me. Their expert guidance
+                                and tailored
+                                strategies transformed my trading experience. I witnessed substantial growth in my
+                                portfolio thanks
+                                to their invaluable support and commitment to client success.</p>
                         </div>
                     </div>
                 </div>
                 <div class="client-thumb-outer">
                     <div class="client-thumbs-carousel owl-carousel owl-theme owl-nav-none owl-dots-none">
                         <div class="thumb-item">
-                            <figure class="thumb-box"><img src="/images/resource/testimonial-1.png" alt=""></figure>
+                            <figure class="thumb-box"><img src="/images/resource/testimonial-1.jpg" alt=""></figure>
                             <div class="info-box">
                                 <h5>Robert Smith</h5>
                                 <span class="designation">Senior Manager</span>
                             </div>
                         </div>
                         <div class="thumb-item">
-                            <figure class="thumb-box"><img src="/images/resource/testimonial-2.png" alt=""></figure>
+                            <figure class="thumb-box"><img src="/images/resource/testimonial-2.jpg" alt=""></figure>
                             <div class="info-box">
                                 <h5>Christine Eva</h5>
                                 <span class="designation">Senior Manager</span>
                             </div>
                         </div>
                         <div class="thumb-item">
-                            <figure class="thumb-box"><img src="/images/resource/testimonial-3.png" alt=""></figure>
+                            <figure class="thumb-box"><img src="/images/resource/testimonial-3.jpg" alt=""></figure>
                             <div class="info-box">
                                 <h5>Jhon Doe</h5>
                                 <span class="designation">Senior Manager</span>
                             </div>
                         </div>
                         <div class="thumb-item">
-                            <figure class="thumb-box"><img src="/images/resource/testimonial-4.png" alt=""></figure>
+                            <figure class="thumb-box"><img src="/images/resource/testimonial-4.jpg" alt=""></figure>
                             <div class="info-box">
                                 <h5>Robert</h5>
                                 <span class="designation">Senior Manager</span>
                             </div>
                         </div>
                         <div class="thumb-item">
-                            <figure class="thumb-box"><img src="/images/resource/testimonial-5.png" alt=""></figure>
-                            <div class="info-box">
-                                <h5>Tomas Tom</h5>
-                                <span class="designation">Senior Manager</span>
-                            </div>
-                        </div>
-                        <div class="thumb-item">
-                            <figure class="thumb-box"><img src="/images/resource/testimonial-1.png" alt=""></figure>
-                            <div class="info-box">
-                                <h5>Robert Smith</h5>
-                                <span class="designation">Senior Manager</span>
-                            </div>
-                        </div>
-                        <div class="thumb-item">
-                            <figure class="thumb-box"><img src="/images/resource/testimonial-2.png" alt=""></figure>
-                            <div class="info-box">
-                                <h5>Christine Eva</h5>
-                                <span class="designation">Senior Manager</span>
-                            </div>
-                        </div>
-                        <div class="thumb-item">
-                            <figure class="thumb-box"><img src="/images/resource/testimonial-3.png" alt=""></figure>
-                            <div class="info-box">
-                                <h5>Jhon Doe</h5>
-                                <span class="designation">Senior Manager</span>
-                            </div>
-                        </div>
-                        <div class="thumb-item">
-                            <figure class="thumb-box"><img src="/images/resource/testimonial-4.png" alt=""></figure>
-                            <div class="info-box">
-                                <h5>Robert</h5>
-                                <span class="designation">Senior Manager</span>
-                            </div>
-                        </div>
-                        <div class="thumb-item">
-                            <figure class="thumb-box"><img src="/images/resource/testimonial-5.png" alt=""></figure>
+                            <figure class="thumb-box"><img src="/images/resource/testimonial-5.jpg" alt=""></figure>
                             <div class="info-box">
                                 <h5>Tomas Tom</h5>
                                 <span class="designation">Senior Manager</span>
@@ -896,136 +901,9 @@
     </section>
     <!-- clients-section end -->
 
-
-    <!-- cta-section -->
-    <section class="cta-section">
-        <div class="pattern-layer" style="background-image: url(/images/shape/shape-3.png);"></div>
-        <div class="auto-container">
-            <div class="inner-container clearfix">
-                <div class="title pull-left">
-                    <h2>We help you to unlock & unleash the power within.</h2>
-                </div>
-                <div class="btn-box pull-right">
-                    <a href="index.html">get in touch</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- cta-section end -->
-
-
-    <!-- fun-fact -->
-    <section class="fun-fact centred">
-        <div class="auto-container">
-            <div class="row clearfix">
-                <div class="col-lg-3 col-md-6 col-sm-12 counter-column">
-                    <div class="counter-block-one wow slideInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                        <div class="count-outer count-box">
-                            <span class="count-text" data-speed="1500" data-stop="254">0</span>
-                        </div>
-                        <p>Expert Consultants</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 counter-column">
-                    <div class="counter-block-one wow slideInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                        <div class="count-outer count-box">
-                            <span class="count-text" data-speed="1500" data-stop="930">0</span>
-                        </div>
-                        <p>Our Trusted Clients</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 counter-column">
-                    <div class="counter-block-one wow slideInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                        <div class="count-outer count-box">
-                            <span class="count-text" data-speed="1500" data-stop="826">0</span>
-                        </div>
-                        <p>Orders in Queue</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 counter-column">
-                    <div class="counter-block-one wow slideInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                        <div class="count-outer count-box">
-                            <span class="count-text" data-speed="1500" data-stop="720">0</span>
-                        </div>
-                        <p>Projects Delivered</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- fun-fact end -->
-
     @include('footer')
 
-    <!--Scroll to top-->
-    <button class="scroll-top scroll-to-target" data-target="html">
-        <span class="fa fa-arrow-up"></span>
-    </button>
-
-
-    <!-- sidebar cart item -->
-    <div class="xs-sidebar-group info-group info-sidebar">
-        <div class="xs-overlay xs-bg-black"></div>
-        <div class="xs-sidebar-widget">
-            <div class="sidebar-widget-container">
-                <div class="widget-heading">
-                    <a href="#" class="close-side-widget">X</a>
-                </div>
-                <div class="sidebar-textwidget">
-                    <div class="sidebar-info-contents">
-                        <div class="content-inner">
-                            <div class="upper-box">
-                                <div class="logo">
-                                    <a href="index.html"><img src="/images/sidebar-logo.png" alt="" /></a>
-                                </div>
-                                <div class="text">
-                                    <p>Exercitation ullamco laboris nis aliquip sed conseqrure dolorn repreh deris ptate
-                                        velit ecepteur duis.</p>
-                                </div>
-                            </div>
-                            <div class="side-menu-box">
-                                <div class="side-menu">
-                                    <nav class="menu-box">
-                                        <div class="menu-outer">
-
-                                        </div>
-                                    </nav>
-                                </div>
-                            </div>
-                            <div class="info-box">
-                                <h3>Get in touch</h3>
-                                <ul class="info-list clearfix">
-                                    <li><i class="fas fa-map-marker-alt"></i>838 Andy Street, Madison, NJ</li>
-                                    <li><i class="fas fa-envelope"></i><a
-                                            href="mailto:support@my-domain.com">support@my-domain.com</a></li>
-                                    <li><i class="fas fa-headphones-alt"></i><a href="tel:101005200369">+1 0100 5200
-                                            369</a></li>
-                                    <li><i class="far fa-clock"></i>Monday to Friday: 9am - 6pm</li>
-                                </ul>
-                                <form action="contact.html" method="post" class="subscribe-form">
-                                    <div class="form-group">
-                                        <input type="email" name="email" placeholder="Email address" required="">
-                                        <button type="submit" class="theme-btn style-one">subscribe now</button>
-                                    </div>
-                                </form>
-                                <ul class="social-links clearfix">
-                                    <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="index.html"><i class="fab fa-linkedin-in"></i></a></li>
-                                    <li><a href="index.html"><i class="fab fa-google-plus-g"></i></a></li>
-                                    <li><a href="index.html"><i class="fab fa-pinterest-p"></i></a></li>
-                                    <li><a href="index.html"><i class="fab fa-instagram"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- END sidebar widget item -->
-
+    @include('sidebar')
 
     <!-- jequery plugins -->
     <script src="/js/jquery.js"></script>
