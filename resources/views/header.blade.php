@@ -59,7 +59,7 @@
                     <nav class="main-menu navbar-expand-md navbar-light">
                         <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                             <ul class="navigation clearfix">
-                                <li class="current dropdown"><a href="index-2.html">Home</a></li>
+                                <li><a href="index-2.html">Home</a></li>
                                 <li class="dropdown"><a href="index-2.html">About</a>
                                     <ul>
                                         <li><a href="experts_team">Experts Team</a></li>
