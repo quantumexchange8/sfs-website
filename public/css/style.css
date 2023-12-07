@@ -2569,6 +2569,13 @@ div#mCSB_1_container{
   color: #222;
 }
 
+@media screen and (max-width: 599px) {
+  .info-section .title-inner .title h2 {
+    margin-top: 12%;
+    /* Any additional styles specific to this screen size */
+  }
+}
+
 .info-section .title-inner .title h2 span{
 
 }
