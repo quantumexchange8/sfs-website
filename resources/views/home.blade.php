@@ -59,7 +59,7 @@
                 <div class="col-lg-7 col-md-12 col-sm-12 title-column">
                     <div class="title-inner">
                         <div class="year-box">
-                            <figure class="image-box"><img src="/images/icons/year-icon.png" alt=""></figure>
+                            <figure class="image-box"><img src="{{ asset('images/icons/year-icon.png') }}" alt=""></figure>
                             <h2>SFS</h2>
                             <h3>SIXTY FOURTH SECURITIES</h3>
                         </div>
@@ -93,7 +93,7 @@
                     <div class="feature-block-one wow fadeInUp animated animated" data-wow-delay="00ms"
                         data-wow-duration="1500ms">
                         <div class="inner-box">
-                            <figure class="image-box"><img src="/images/resource/feature-1.jpg" alt=""></figure>
+                            <figure class="image-box"><img src="{{ asset('images/resource/feature-1.jpg') }}" alt=""></figure>
                             <div class="lower-content">
                                 <div class="inner">
                                     <h3>Wealth Management</h3>
@@ -107,7 +107,7 @@
                     <div class="feature-block-one wow fadeInUp animated animated" data-wow-delay="300ms"
                         data-wow-duration="1500ms">
                         <div class="inner-box">
-                            <figure class="image-box"><img src="/images/resource/feature-2.jpg" alt=""></figure>
+                            <figure class="image-box"><img src="{{ asset('images/resource/feature-2.jpg') }}" alt=""></figure>
                             <div class="lower-content">
                                 <div class="inner">
                                     <h3>Real Estate</h3>
@@ -121,7 +121,7 @@
                     <div class="feature-block-one wow fadeInUp animated animated" data-wow-delay="600ms"
                         data-wow-duration="1500ms">
                         <div class="inner-box">
-                            <figure class="image-box"><img src="/images/resource/feature-3.jpg" alt=""></figure>
+                            <figure class="image-box"><img src="{{ asset('images/resource/feature-3.jpg') }}" alt=""></figure>
                             <div class="lower-content">
                                 <div class="inner">
                                     <h3>Hedge Funds</h3>
@@ -194,7 +194,7 @@
                         <div class="image-box">
                             <div class="pattern-layer" style="background-image: url(/images/shape/shape-23.png);"></div>
                             <figure class="image wow slideInRight animated animated" data-wow-delay="00ms"
-                                data-wow-duration="1500ms"><img src="/images/resource/about-3.jpg" alt=""></figure>
+                                data-wow-duration="1500ms"><img src="{{ asset('images/resource/about-3.jpg') }}" alt=""></figure>
                         </div>
                     </div>
                 </div>
@@ -283,7 +283,7 @@
                     <div class="tab active-tab" id="tab-1">
                         <div class="row align-items-center clearfix">
                             <div class="col-lg-6 col-md-6 col-sm-12 image-column">
-                                <figure class="image-box"><img src="/images/service/service-1.jpg" alt=""></figure>
+                                <figure class="image-box"><img src="{{ asset('images/service/service-1.jpg') }}" alt=""></figure>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-12 content-column">
                                 <div class="content-box">
@@ -310,7 +310,7 @@
                     <div class="tab" id="tab-2">
                         <div class="row align-items-center clearfix">
                             <div class="col-lg-6 col-md-6 col-sm-12 image-column">
-                                <figure class="image-box"><img src="/images/service/service-2.jpg" alt=""></figure>
+                                <figure class="image-box"><img src="{{ asset('images/service/service-2.jpg') }}" alt=""></figure>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-12 content-column">
                                 <div class="content-box">
@@ -337,7 +337,7 @@
                     <div class="tab" id="tab-3">
                         <div class="row align-items-center clearfix">
                             <div class="col-lg-6 col-md-6 col-sm-12 image-column">
-                                <figure class="image-box"><img src="/images/service/service-3.jpg" alt=""></figure>
+                                <figure class="image-box"><img src="{{ asset('images/service/service-3.jpg') }}" alt=""></figure>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-12 content-column">
                                 <div class="content-box">
@@ -364,7 +364,7 @@
                     <div class="tab" id="tab-4">
                         <div class="row align-items-center clearfix">
                             <div class="col-lg-6 col-md-6 col-sm-12 image-column">
-                                <figure class="image-box"><img src="/images/service/service-4.jpg" alt=""></figure>
+                                <figure class="image-box"><img src="{{ asset('images/service/service-4.jpg') }}" alt=""></figure>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-12 content-column">
                                 <div class="content-box">
@@ -391,7 +391,7 @@
                     <div class="tab" id="tab-5">
                         <div class="row align-items-center clearfix">
                             <div class="col-lg-6 col-md-6 col-sm-12 image-column">
-                                <figure class="image-box"><img src="/images/service/service-5.jpg" alt=""></figure>
+                                <figure class="image-box"><img src="{{ asset('images/service/service-5.jpg') }}" alt=""></figure>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-12 content-column">
                                 <div class="content-box">
@@ -430,7 +430,7 @@
             <div class="project-carousel theme-carousel owl-theme owl-carousel owl-dots-none owl-nav-none">
                 <div class="project-block-one">
                     <div class="inner-box">
-                        <figure class="image-box"><img src="/images/gallery/project-1.jpg" alt=""></figure>
+                        <figure class="image-box"><img src="{{ asset('images/gallery/project-1.jpg') }}" alt=""></figure>
                         <div class="lower-content">
                             <p>Corporate Management</p>
                             <h2><a href="index.html">Strategic Asset Allocation</a></h2>
@@ -439,7 +439,7 @@
                 </div>
                 <div class="project-block-one">
                     <div class="inner-box">
-                        <figure class="image-box"><img src="/images/gallery/project-2.jpg" alt=""></figure>
+                        <figure class="image-box"><img src="{{ asset('images/gallery/project-2.jpg') }}" alt=""></figure>
                         <div class="lower-content">
                             <p>Financial Initiatives</p>
                             <h2><a href="index.html">Early Investments</a></h2>
@@ -448,7 +448,7 @@
                 </div>
                 <div class="project-block-one">
                     <div class="inner-box">
-                        <figure class="image-box"><img src="/images/gallery/project-3.jpg" alt=""></figure>
+                        <figure class="image-box"><img src="{{ asset('images/gallery/project-3.jpg') }}" alt=""></figure>
                         <div class="lower-content">
                             <p>Corporate Management</p>
                             <h2><a href="index.html">Advisory Portfolios</a></h2>
@@ -505,10 +505,10 @@
                     <div id="image_block_one">
                         <div class="image-box">
                             <div class="pattern-layer" style="background-image: url(/images/shape/shape-1.png);"></div>
-                            <figure class="image"><img src="/images/resource/state-1.jpg" alt=""></figure>
+                            <figure class="image"><img src="{{ asset('images/resource/state-1.jpg') }}" alt=""></figure>
                             <div class="award-box">
                                 <div class="box">
-                                    <figure class="icon-box"><img src="/images/icons/icon-1.png" alt=""></figure>
+                                    <figure class="icon-box"><img src="{{ asset('images/icons/icon-1.png') }}" alt=""></figure>
                                     <span>Financial & Consulting Award 2022-2023</span>
                                 </div>
                             </div>
@@ -533,49 +533,49 @@
                 <div class="location-area">
                     <div class="location-box">
                         <div class="address-box">
-                            <figure class="icon-box"><img src="/images/icons/icon-2.png" alt=""></figure>
+                            <figure class="icon-box"><img src="{{ asset('images/icons/icon-2.png') }}" alt=""></figure>
                             <p>Serve you to reach best profits and goals.</p>
                         </div>
                     </div>
                     <div class="location-box">
                         <div class="address-box">
-                            <figure class="icon-box"><img src="/images/icons/icon-2.png" alt=""></figure>
+                            <figure class="icon-box"><img src="{{ asset('images/icons/icon-2.png') }}" alt=""></figure>
                             <p>Serve you to reach best profits and goals.</p>
                         </div>
                     </div>
                     <div class="location-box">
                         <div class="address-box">
-                            <figure class="icon-box"><img src="/images/icons/icon-2.png" alt=""></figure>
+                            <figure class="icon-box"><img src="{{ asset('images/icons/icon-2.png') }}" alt=""></figure>
                             <p>Serve you to reach best profits and goals.</p>
                         </div>
                     </div>
                     <div class="location-box">
                         <div class="address-box">
-                            <figure class="icon-box"><img src="/images/icons/icon-2.png" alt=""></figure>
+                            <figure class="icon-box"><img src="{{ asset('images/icons/icon-2.png') }}" alt=""></figure>
                             <p>Serve you to reach best profits and goals.</p>
                         </div>
                     </div>
                     <div class="location-box">
                         <div class="address-box">
-                            <figure class="icon-box"><img src="/images/icons/icon-2.png" alt=""></figure>
+                            <figure class="icon-box"><img src="{{ asset('images/icons/icon-2.png') }}" alt=""></figure>
                             <p>Serve you to reach best profits and goals.</p>
                         </div>
                     </div>
                     <div class="location-box">
                         <div class="address-box">
-                            <figure class="icon-box"><img src="/images/icons/icon-2.png" alt=""></figure>
+                            <figure class="icon-box"><img src="{{ asset('images/icons/icon-2.png') }}" alt=""></figure>
                             <p>Serve you to reach best profits and goals.</p>
                         </div>
                     </div>
                     <div class="location-box">
                         <div class="address-box">
-                            <figure class="icon-box"><img src="/images/icons/icon-2.png" alt=""></figure>
+                            <figure class="icon-box"><img src="{{ asset('images/icons/icon-2.png') }}" alt=""></figure>
                             <p>Serve you to reach best profits and goals.</p>
                         </div>
                     </div>
                     <div class="location-box">
                         <div class="address-box">
-                            <figure class="icon-box"><img src="/images/icons/icon-2.png" alt=""></figure>
+                            <figure class="icon-box"><img src="{{ asset('images/icons/icon-2.png') }}" alt=""></figure>
                             <p>Serve you to reach best profits and goals.</p>
                         </div>
                     </div>
@@ -619,9 +619,9 @@
                     </div>
                     <div class="col-lg-5 col-md-12 col-sm-12 info-column">
                         <div class="info-inner">
-                            <figure class="image-box"><img src="/images/resource/info-1.jpg" alt=""></figure>
+                            <figure class="image-box"><img src="{{ asset('images/resource/info-1.jpg') }}" alt=""></figure>
                             <div class="info-box">
-                                <figure class="info-logo"><img src="/images/icons/info-logo.png" alt=""></figure>
+                                <figure class="info-logo"><img src="{{ asset('images/icons/info-logo.png') }}" alt=""></figure>
                                 <div class="icon-box"><i class="fas fa-phone"></i></div>
                                 <h2><a href="tel:18003698527">1-800-369-8527</a></h2>
                                 <div class="email"><a href="mailto:support@my-domain.net">support@my-domain.net</a>
@@ -756,35 +756,35 @@
                 <div class="client-thumb-outer">
                     <div class="client-thumbs-carousel owl-carousel owl-theme owl-nav-none owl-dots-none">
                         <div class="thumb-item">
-                            <figure class="thumb-box"><img src="/images/resource/testimonial-1.jpg" alt=""></figure>
+                            <figure class="thumb-box"><img src="{{ asset('images/resource/testimonial-1.jpg') }}" alt=""></figure>
                             <div class="info-box">
                                 <h5>Robert Smith</h5>
                                 <span class="designation">Senior Manager</span>
                             </div>
                         </div>
                         <div class="thumb-item">
-                            <figure class="thumb-box"><img src="/images/resource/testimonial-2.jpg" alt=""></figure>
+                            <figure class="thumb-box"><img src="{{ asset('images/resource/testimonial-2.jpg') }}" alt=""></figure>
                             <div class="info-box">
                                 <h5>Christine Eva</h5>
                                 <span class="designation">Senior Manager</span>
                             </div>
                         </div>
                         <div class="thumb-item">
-                            <figure class="thumb-box"><img src="/images/resource/testimonial-3.jpg" alt=""></figure>
+                            <figure class="thumb-box"><img src="{{ asset('images/resource/testimonial-3.jpg') }}" alt=""></figure>
                             <div class="info-box">
                                 <h5>Jhon Doe</h5>
                                 <span class="designation">Senior Manager</span>
                             </div>
                         </div>
                         <div class="thumb-item">
-                            <figure class="thumb-box"><img src="/images/resource/testimonial-4.jpg" alt=""></figure>
+                            <figure class="thumb-box"><img src="{{ asset('images/resource/testimonial-4.jpg') }}" alt=""></figure>
                             <div class="info-box">
                                 <h5>Robert</h5>
                                 <span class="designation">Senior Manager</span>
                             </div>
                         </div>
                         <div class="thumb-item">
-                            <figure class="thumb-box"><img src="/images/resource/testimonial-5.jpg" alt=""></figure>
+                            <figure class="thumb-box"><img src="{{ asset('images/resource/testimonial-5.jpg') }}" alt=""></figure>
                             <div class="info-box">
                                 <h5>Tomas Tom</h5>
                                 <span class="designation">Senior Manager</span>
@@ -802,15 +802,15 @@
     <section class="clients-section">
         <div class="auto-container">
             <div class="clients-carousel owl-carousel owl-theme owl-dots-none owl-nav-none">
-                <figure class="client-logo"><a href="index.html"><img src="/images/clients/clients-1.png" alt=""></a>
+                <figure class="client-logo"><a href="index.html"><img src="{{ asset('images/clients/clients-1.png') }}" alt=""></a>
                 </figure>
-                <figure class="client-logo"><a href="index.html"><img src="/images/clients/clients-2.png" alt=""></a>
+                <figure class="client-logo"><a href="index.html"><img src="{{ asset('images/clients/clients-2.png') }}" alt=""></a>
                 </figure>
-                <figure class="client-logo"><a href="index.html"><img src="/images/clients/clients-3.png" alt=""></a>
+                <figure class="client-logo"><a href="index.html"><img src="{{ asset('images/clients/clients-3.png') }}" alt=""></a>
                 </figure>
-                <figure class="client-logo"><a href="index.html"><img src="/images/clients/clients-4.png" alt=""></a>
+                <figure class="client-logo"><a href="index.html"><img src="{{ asset('images/clients/clients-4.png') }}" alt=""></a>
                 </figure>
-                <figure class="client-logo"><a href="index.html"><img src="/images/clients/clients-5.png" alt=""></a>
+                <figure class="client-logo"><a href="index.html"><img src="{{ asset('images/clients/clients-5.png') }}" alt=""></a>
                 </figure>
             </div>
         </div>

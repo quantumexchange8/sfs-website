@@ -38,6 +38,8 @@
 37. Blog Sidebar
 38. Contact Section
 39. Google Map
+40. Faq
+
 
 
 **********************************************/
@@ -2567,12 +2569,10 @@ div#mCSB_1_container{
   line-height: 42px;
   font-weight: 700;
   color: #222;
-}
-
-@media screen and (max-width: 599px) {
-  .info-section .title-inner .title h2 {
-    margin-top: 12%;
-    /* Any additional styles specific to this screen size */
+  @media screen and (max-width: 599px) {
+    .info-section .title-inner .title h2 {
+      margin-top: 12%;
+    }
   }
 }
 
