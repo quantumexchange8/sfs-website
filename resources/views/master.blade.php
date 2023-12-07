@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<meta name="robots" content="noindex, nofollow">
 
 <head>
     <meta charset="utf-8">

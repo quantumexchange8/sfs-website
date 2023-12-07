@@ -95,15 +95,15 @@
             <div class="faq-section">
                 <div class="faq-item">
                     <h2 class="faq-question">
-                        <span>Is GPI Consultants a registered company?</span>
+                        <span>Is SFS a registered company?</span>
                     </h2>
                     <div class="faq-answer">
-                        <p>Yes, GPI Consultants is a registered company.</p>
+                        <p>Yes, SFS is a registered company.</p>
                     </div>
                 </div>
                 <div class="faq-item">
                     <h2 class="faq-question">
-                        <span>What steps do I need to take to join GPI Consultants?</span>
+                        <span>What steps do I need to take to join SFS?</span>
                     </h2>
                     <div class="faq-answer">
                         <p>Simply complete our online application form and submit the required KYC papers. Alternately, you may contact us and we will assist you with the various procedures.</p>
@@ -111,7 +111,7 @@
                 </div>
                 <div class="faq-item">
                     <h2 class="faq-question">
-                        <span>How soon can I begin investing or trading with GPI Consultants?</span>
+                        <span>How soon can I begin investing or trading with SFS?</span>
                     </h2>
                     <div class="faq-answer">
                         <p>As soon as we have evaluated your investment requirements and received your KYC documentation, one of our specialists will initiate your journey immediately.</p>
@@ -135,7 +135,7 @@
                 </div>
                 <div class="faq-item">
                     <h2 class="faq-question">
-                        <span>Does GPI Consultants have an internship program?</span>
+                        <span>Does SFS have an internship program?</span>
                     </h2>
                     <div class="faq-answer">
                         <p>We hire a small number of interns each year, so if you have any questions about upcoming opportunities, please send us an email and a member of our staff will respond as soon as possible. We hire a small number of interns each year, so if you have any questions about upcoming opportunities, please send us an email and a member of our staff will respond as soon as possible.</p>
@@ -146,7 +146,7 @@
                         <span>Can I invest or trade using Cryptocurrency?</span>
                     </h2>
                     <div class="faq-answer">
-                        <p>Here at GPI Consultants, we accept all major Cryptocurrencies.</p>
+                        <p>Here at SFS, we accept all major Cryptocurrencies.</p>
                     </div>
                 </div>
             </div>
