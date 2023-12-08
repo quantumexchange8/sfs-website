@@ -26,7 +26,7 @@
                         <figure class="image-box">
                             <div class="overlay-box-1"></div>
                             <div class="overlay-box-2"></div>
-                            <img src="/images/service/service-1.jpg" alt="">
+                            <img src="{{ asset('images/service/service-1.jpg') }}" alt="">
                             <a href="financial-analysis.html"><i class="fas fa-link"></i></a>
                         </figure>
                         <div class="lower-content">
@@ -45,7 +45,7 @@
                         <figure class="image-box">
                             <div class="overlay-box-1"></div>
                             <div class="overlay-box-2"></div>
-                            <img src="/images/service/service-5.jpg" alt="">
+                            <img src="{{ asset('images/service/service-5.jpg') }}" alt="">
                             <a href="taxation-planning.html"><i class="fas fa-link"></i></a>
                         </figure>
                         <div class="lower-content">
@@ -64,7 +64,7 @@
                         <figure class="image-box">
                             <div class="overlay-box-1"></div>
                             <div class="overlay-box-2"></div>
-                            <img src="/images/service/service-2.jpg" alt="">
+                            <img src="{{ asset('images/service/service-2.jpg') }}" alt="">
                             <a href="investment-trading.html"><i class="fas fa-link"></i></a>
                         </figure>
                         <div class="lower-content">
@@ -82,7 +82,7 @@
                         <figure class="image-box">
                             <div class="overlay-box-1"></div>
                             <div class="overlay-box-2"></div>
-                            <img src="/images/service/service-3.jpg" alt="">
+                            <img src="{{ asset('images/service/service-3.jpg') }}" alt="">
                             <a href="financial-analysis.html"><i class="fas fa-link"></i></a>
                         </figure>
                         <div class="lower-content">
@@ -100,7 +100,7 @@
                         <figure class="image-box">
                             <div class="overlay-box-1"></div>
                             <div class="overlay-box-2"></div>
-                            <img src="/images/service/service-4.jpg" alt="">
+                            <img src="{{ asset('images/service/service-4.jpg') }}" alt="">
                             <a href="taxation-planning.html"><i class="fas fa-link"></i></a>
                         </figure>
                         <div class="lower-content">
@@ -265,15 +265,20 @@
 <section class="clients-section">
     <div class="auto-container">
         <div class="clients-carousel owl-carousel owl-theme owl-dots-none owl-nav-none">
-            <figure class="client-logo"><a href="index.html"><img src="/images/clients/clients-1.png" alt=""></a>
+            <figure class="client-logo"><a href="index.html"><img src="{{ asset('images/clients/clients-1.png') }}"
+                        alt=""></a>
             </figure>
-            <figure class="client-logo"><a href="index.html"><img src="/images/clients/clients-2.png" alt=""></a>
+            <figure class="client-logo"><a href="index.html"><img src="{{ asset('images/clients/clients-2.png') }}"
+                        alt=""></a>
             </figure>
-            <figure class="client-logo"><a href="index.html"><img src="/images/clients/clients-3.png" alt=""></a>
+            <figure class="client-logo"><a href="index.html"><img src="{{ asset('images/clients/clients-3.png') }}"
+                        alt=""></a>
             </figure>
-            <figure class="client-logo"><a href="index.html"><img src="/images/clients/clients-4.png" alt=""></a>
+            <figure class="client-logo"><a href="index.html"><img src="{{ asset('images/clients/clients-4.png') }}"
+                        alt=""></a>
             </figure>
-            <figure class="client-logo"><a href="index.html"><img src="/images/clients/clients-5.png" alt=""></a>
+            <figure class="client-logo"><a href="index.html"><img src="{{ asset('images/clients/clients-5.png') }}"
+                        alt=""></a>
             </figure>
         </div>
     </div>

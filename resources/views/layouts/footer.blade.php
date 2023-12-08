@@ -8,7 +8,7 @@
                     <p>We're eager to assist you promptly with your planning needs.</p>
                 </div>
                 <div class="btn-box pull-right">
-                    <a href="index-5.html" class="theme-btn style-two">Get In Touch Today</a>
+                    <a href="{{ url('contact') }}" class="theme-btn style-two">Get In Touch Today</a>
                 </div>
             </div>
         </div>
@@ -19,7 +19,7 @@
                 <div class="row clearfix">
                     <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
                         <div class="footer-widget logo-widget">
-                            <figure class="footer-logo"><a href="index.html"><img src="{{asset('/images/footer-logo-white.png')}}"
+                            <figure class="footer-logo"><a href="{{ url('home') }}"><img src="{{asset('/images/footer-logo-white.png')}}"
                                         alt=""></a></figure>
                             <div class="text">
                                 <p>Should you have any inquiries, please do not hesitate to contact us.</p>
@@ -32,11 +32,11 @@
                                 </li>
                             </ul>
                             <ul class="social-links clearfix">
-                                <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="index.html"><i class="fab fa-instagram"></i></a></li>
-                                <li><a href="index.html"><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a href="index.html"><i class="fab fa-pinterest-p"></i></a></li>
+                                <li><a href="{{ url('home') }}"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="{{ url('home') }}"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="{{ url('home') }}"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="{{ url('home') }}"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="{{ url('home') }}"><i class="fab fa-pinterest-p"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -47,11 +47,11 @@
                             </div>
                             <div class="widget-content">
                                 <ul class="list clearfix">
-                                    <li><a href="index.html">About Us</a></li>
-                                    <li><a href="index.html">What We Offers</a></li>
-                                    <li><a href="index.html">Testimonials</a></li>
-                                    <li><a href="index.html">Our Projectss</a></li>
-                                    <li><a href="index.html">Contact Us</a></li>
+                                    <li><a href="{{ url('about') }}">About Us</a></li>
+                                    <li><a href="{{ url('experts_team') }}">Our Professional</a></li>
+                                    <li><a href="{{ url('pricing') }}">Our Plan</a></li>
+                                    <li><a href="{{ url('contact') }}">Contact Us</a></li>
+                                    <li><a href="{{ url('faq') }}">FAQs</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -63,11 +63,11 @@
                             </div>
                             <div class="widget-content">
                                 <ul class="list clearfix">
-                                    <li><a href="index.html">Wealth Management</a></li>
-                                    <li><a href="index.html">Real Estate</a></li>
-                                    <li><a href="index.html">Hedge Funds</a></li>
-                                    <li><a href="index.html">Private Equity</a></li>
-                                    <li><a href="index.html">Retirement Planning</a></li>
+                                    <li><a href="{{ url('wealth_management') }}">Wealth Management</a></li>
+                                    <li><a href="{{ url('retirement_planning') }}">Retirement Planning</a></li>
+                                    <li><a href="{{ url('real_estate') }}">Real Estate</a></li>
+                                    <li><a href="{{ url('hedge_funds') }}">Hedge Funds</a></li>
+                                    <li><a href="{{ url('private_equity') }}">Private Equity</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -104,7 +104,7 @@
     <div class="footer-bottom">
         <div class="auto-container">
             <div class="copyright">
-                <p>&copy; 2023 <a href="index.html">SFS</a> - Business & Consulting. All rights reserved.</p>
+                <p>&copy; 2023 <a href="{{ url('home') }}">SFS</a> - Business & Consulting. All rights reserved.</p>
             </div>
         </div>
     </div>

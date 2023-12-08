@@ -4,18 +4,18 @@
         <div class="auto-container">
             <div class="top-inner clearfix">
                 <ul class="info top-left pull-left">
-                    <li><a href="index-2.html">About</a></li>
-                    <li><a href="index-2.html">Careers</a></li>
-                    <li><a href="index-2.html">Services</a></li>
-                    <li><a href="index-2.html">Agents</a></li>
+                    <li><a href="{{ url('about') }}">About</a></li>
+                    <li><a href="{{ url('home') }}">Careers</a></li>
+                    <li><a href="{{ url('services') }}">Services</a></li>
+                    <li><a href="{{ url('experts_team') }}">Agents</a></li>
                 </ul>
                 <div class="top-right pull-right">
                     <ul class="social-links clearfix">
                         <li>Connect Socially</li>
-                        <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="index.html"><i class="fab fa-linkedin-in"></i></a></li>
-                        <li><a href="index.html"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="{{ url('home') }}"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="{{ url('home') }}"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="{{ url('home') }}"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="{{ url('home') }}"><i class="fab fa-instagram"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -25,7 +25,7 @@
         <div class="auto-container">
             <div class="upper-inner clearfix">
                 <div class="logo-box pull-left">
-                    <figure class="logo"><a href="index.html"><img src="{{ asset('images/logo-black.png') }}" alt=""></a></figure>
+                    <figure class="logo"><a href="{{ url('home') }}"><img src="{{ asset('images/logo-black.png') }}" alt=""></a></figure>
                 </div>
                 <div class="info-box pull-right">
                     <ul class="info-list clearfix">
@@ -59,24 +59,24 @@
                     <nav class="main-menu navbar-expand-md navbar-light">
                         <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                             <ul class="navigation clearfix">
-                                <li><a href="index-2.html">Home</a></li>
-                                <li class="dropdown"><a href="index-2.html">About</a>
+                                <li><a href="{{ url('home') }}">Home</a></li>
+                                <li class="dropdown"><a href="{{ url('about') }}">About</a>
                                     <ul>
-                                        <li><a href="experts_team">Experts Team</a></li>
-                                        <li><a href="pricing.html">Our Pricing</a></li>
+                                        <li><a href="{{ url('experts_team') }}">Experts Team</a></li>
+                                        <li><a href="{{ url('pricing') }}">Our Plan</a></li>
                                     </ul>
                                 </li>
-                                <li class="dropdown"><a href="index-2.html">Services</a>
+                                <li class="dropdown"><a href="{{ url('services') }}">Services</a>
                                     <ul>
-                                        <li><a href="wealth-management.html">Wealth Management</a></li>
-                                        <li><a href="retirement-planning.html">Retirement Planning</a></li>
-                                        <li><a href="real-estate.html">Real Estate</a></li>
-                                        <li><a href="hedge-funds.html">Hedge Funds</a></li>
-                                        <li><a href="private-equity.html" class="active">Private Equity</a></li>
+                                        <li><a href="{{ url('wealth_management') }}">Wealth Management</a></li>
+                                        <li><a href="{{ url('retirement_planning') }}">Retirement Planning</a></li>
+                                        <li><a href="{{ url('real_estate') }}">Real Estate</a></li>
+                                        <li><a href="{{ url('hedge_funds') }}">Hedge Funds</a></li>
+                                        <li><a href="{{ url('private_equity') }}" class="active">Private Equity</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="contact.html">Contact</a></li>
-                                <li><a href="FAQ.html">FAQs</a></li>
+                                <li><a href="{{ url('contact') }}">Contact</a></li>
+                                <li><a href="{{ url('faq') }}">FAQs</a></li>
                             </ul>
                         </div>
                     </nav>
@@ -85,7 +85,7 @@
                             <button type="button" class="search-toggler"><i class="flaticon-search-1"></i></button>
                         </div>
                         <div class="btn-box">
-                            <a href="index-2.html" class="theme-btn style-two">Get Free Quote</a>
+                            <a href="{{ url('contact') }}" class="theme-btn style-two">Get Free Quote</a>
                         </div>
                     </div>
                 </div>
@@ -98,7 +98,7 @@
         <div class="auto-container">
             <div class="outer-box clearfix">
                 <div class="logo-box pull-left">
-                    <figure class="logo"><a href="index.html"><img src="{{ asset('images/small-logo-black.png') }}" alt=""></a>
+                    <figure class="logo"><a href="{{ url('home') }}"><img src="{{ asset('images/small-logo-black.png') }}" alt=""></a>
                     </figure>
                 </div>
                 <div class="menu-area pull-right">

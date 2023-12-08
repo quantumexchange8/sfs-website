@@ -13,7 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::view('/', 'home');
+
+Route::get('/home', function () {
     return view('home');
 });
 
@@ -45,26 +47,22 @@ Route::get('/faq', function () {
     return view('faq');
 });
 
-Route::get('/wealth-management', function () {
-    return view('wealth-management');
+Route::get('/wealth_management', function () {
+    return view('services.wealth_management');
 });
 
-Route::get('/retirement-planning', function () {
-    return view('retirement-planning');
+Route::get('/retirement_planning', function () {
+    return view('services.retirement_planning');
 });
 
-Route::get('/real-estate', function () {
-    return view('real-estate');
+Route::get('/real_estate', function () {
+    return view('services.real_estate');
 });
 
-Route::get('/hedge-funds', function () {
-    return view('hedge-funds');
+Route::get('/hedge_funds', function () {
+    return view('services.hedge_funds');
 });
 
-Route::get('/private-equity', function () {
-    return view('private-equity');
-});
-
-Route::get('/1', function () {
-    return view('accordian');
+Route::get('/private_equity', function () {
+    return view('services.private_equity');
 });

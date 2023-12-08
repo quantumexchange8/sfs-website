@@ -38,7 +38,7 @@
 37. Blog Sidebar
 38. Contact Section
 39. Google Map
-40. Faq
+40. faq
 
 
 
@@ -5517,7 +5517,7 @@ h4 a{
   position: relative;
   display: block;
   overflow: hidden;
-  background: #063c83;
+  background: #f8952c;
 }
 
 .team-block-one .inner-box .image-box img{
@@ -12780,55 +12780,61 @@ h4 a{
   height: 550px;
 }
 
-/** FAQs **/
-.faq-section {
+/** Faqs **/
+.faq {
   margin: 0 auto;
   max-width: 800px;
   text-align: center;
   padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
-.faq-item {
-  width: 100%;
+.faq .card {
   margin-bottom: 15px;
-}
-
-.faq-question {
-  font-size: 16px;
-  color: #f8952c;
-  background-color: #ffffff;
-  border: 1px solid #f8952c;
+  border: none;
   border-radius: 5px;
-  padding: 10px 15px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.faq .card-header {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.faq .card-header button {
   width: 100%;
-  text-align: center;
-  transition: background-color 0.3s ease, color 0.3s ease;
-  cursor: pointer;
-  font-weight: 600;
+  text-align: left;
+  padding: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #f8952c;
+  text-decoration: none;
 }
 
-.faq-question:hover {
-  color: #ffffff;
-  background-color: #f8952c;
-  border-color: #f8952c;
+.faq .card-header button:focus {
+  outline: none;
 }
 
-.faq-answer {
-  padding: 10px 15px;
-  border: 1px solid #f8952c;
-  border-top: none;
-  border-radius: 0 0 5px 5px;
-  background-color: #ffffff;
-  width: 100%;
-  display: none;
-  font-weight: 400;
+.faq .collapse {
+  background-color: #fff;
+  padding: 15px;
+  border-top: 1px solid #dee2e6;
 }
 
-.faq-answer p {
-  margin-bottom: 10px;
+/* Change the icon on the button when collapsed */
+.faq .card-header button.collapsed::after {
+  content: '\002B'; /* Plus symbol */
+  float: right;
+  color: #f8952c;
+  font-weight: bold;
+}
+
+.faq .card-header button::after {
+  content: '\2212'; /* Minus symbol */
+  float: right;
+  color: #f8952c;
+  font-weight: bold;
 }
 
 .hc-contact {
