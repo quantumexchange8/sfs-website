@@ -39,10 +39,6 @@ Route::get('/experts_team', function () {
     return view('experts_team');
 });
 
-Route::get('/pricing', function () {
-    return view('pricing');
-});
-
 Route::get('/faq', function () {
     return view('faq');
 });

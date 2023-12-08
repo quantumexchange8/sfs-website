@@ -33,13 +33,11 @@
 <body>
 
     @include('layouts.preloader')
-    @include('layouts.page_direction')
     @include('layouts.search_pop_up')
     @include('layouts.mobile_menu')
     @include('layouts.header')
     @yield('contents')
     @include('layouts.cta')
-    @include('layouts.fun_fact')
     @include('layouts.footer')
     @include('layouts.scroll_up')
     @include('layouts.sidebar')

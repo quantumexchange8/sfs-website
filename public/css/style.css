@@ -854,6 +854,7 @@ img {
   font-size:16px;
   line-height:30px;
   font-weight:700;
+  text-decoration: none;
   opacity:1;
   font-family: 'Arimo', sans-serif;
   color:#fff;
@@ -2297,10 +2298,10 @@ div#mCSB_1_container{
   position: absolute;
   left: 0px;
   top: 0px;
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 60px;
   line-height: 70px;
-  font-size: 24px;
+  font-size: 20px;
   color: #fff;
   border: 2px solid #fff;
   border-radius: 50%;
@@ -2312,9 +2313,9 @@ div#mCSB_1_container{
 .banner-carousel .content-box .btn-box .user-btn span{
   position: relative;
   display: inline-block;
-  font-size: 16px;
+  font-size: 16x;
   line-height: 16px;
-  border-bottom: 1px solid #fff;
+  text-decoration: underline;
 }
 
 .banner-carousel .content-box .btn-box .banner-btn-two{
@@ -2569,10 +2570,11 @@ div#mCSB_1_container{
   line-height: 42px;
   font-weight: 700;
   color: #222;
-  @media screen and (max-width: 599px) {
-    .info-section .title-inner .title h2 {
-      margin-top: 12%;
-    }
+}
+
+@media screen and (max-width: 480px) {
+  .info-section .title-inner .title h2 {
+    margin-top: 12%;
   }
 }
 
@@ -3233,6 +3235,7 @@ h4 a{
 .annual-stats{
   position: relative;
   padding: 95px 0px;
+  margin: 0;
 }
 
 #content_block_two .content-box .sec-title{
@@ -3347,6 +3350,7 @@ h4 a{
 
 #image_block_one .image-box .award-box{
   position: absolute;
+  size: 20%;
   left: 50%;
   bottom: 0px;
   transform: translateX(-50%);
@@ -3427,24 +3431,22 @@ h4 a{
 
 .world-cyber .office-location .location-area .location-box{
   position: absolute;
-  left: 200px;
-  top: 0px;
-  width: 15px;
-  height: 15px;
+  width: 1.5vw;
+  height: 1.5vw;
   background: #fff;
-  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0px 1vw rgba(0, 0, 0, 0.05);
   cursor: pointer;
   transition: all 500ms ease;
 }
 
 .world-cyber .office-location .location-area .location-box:nth-child(2){
-  left: 295px;
-  top: 95px;
+  left: 15%;
+  top: 10%;
 }
 
-.world-cyber .office-location .location-area .location-box:nth-child(3){
-  left: 390px;
-  top: 260px;
+.world-cyber .office-location .location-area .location-box:nth-child(2) {
+  left: 35%;
+  top: 30%;
 }
 
 .world-cyber .office-location .location-area .location-box:nth-child(4){
@@ -3543,6 +3545,7 @@ h4 a{
 .support-section{
   position: relative;
   margin-bottom: -663px;
+  margin-top: 100px;
 }
 
 .support-section .inner-container{
@@ -4634,11 +4637,9 @@ h4 a{
 .main-header.style-two .header-lower .menu-right-content .btn-box{
   position: relative;
   display: inline-block;
-}
-
-.main-header.style-two .header-lower .menu-right-content .btn-box{
   margin-left: 80px;
 }
+
 
 .main-header.style-two .header-lower .menu-right-content .btn-box .theme-btn{
   padding: 20px 57px;

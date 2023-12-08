@@ -11,7 +11,6 @@
                         <h5>Take a ride on the success avalanche</h5>
                         <h1>Monetary Support<br />With Sincere Intentions</h1>
                         <div class="btn-box">
-                            <a href="index.html" class="theme-btn style-two">How Should We Assist?</a>
                             <a href="index" class="user-btn"><i class="far fa-user"></i><span>Make Contact With an
                                     Expert</span></a>
                         </div>
@@ -23,14 +22,11 @@
                 <div class="auto-container">
                     <div class="content-box centred">
                         <ul class="list-item clearfix">
-                            <li>.&nbsp;<a href="index.html">Knowledgeable</a>&nbsp;.&nbsp;</li>
-                            <li><a href="index.html">Skilled</a>&nbsp;.&nbsp;</li>
-                            <li><a href="index.html">Competent</a>&nbsp;.&nbsp;</li>
+                            <li>.&nbsp;Knowledgeable&nbsp;.&nbsp;</li>
+                            <li>Skilled&nbsp;.&nbsp;</li>
+                            <li>Competent&nbsp;.&nbsp;</li>
                         </ul>
                         <h1>Worldwide Network To<br />Offer Support</h1>
-                        <div class="btn-box">
-                            <a href="index.html" class="theme-btn style-two mar-0">How Should We Assist?</a>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -41,8 +37,7 @@
                         <h5>Take a ride on the success avalanche</h5>
                         <h1>Strengthening Bonds & <br />Faith at Any Time</h1>
                         <div class="btn-box">
-                            <a href="index.html" class="theme-btn style-two mr-10">How Should We Assist?</a>
-                            <a href="index.html" class="banner-btn-two">Make Contact With an Expert</a>
+                            <a href="{{ url('contact') }}" class="banner-btn-two">Make Contact With an Expert</a>
                         </div>
                     </div>
                 </div>
@@ -76,7 +71,7 @@
                             recognized as leaders in their fields. Our unique combination of artificial intelligence
                             (AI) and human intelligence sets us apart and drives our incredibly sophisticated trading
                             techniques.</p>
-                        <a href="index.html"><i class="fas fa-arrow-right"></i><span>Who We Are</span></a>
+                        <a href="{{ url('about') }}"><i class="fas fa-arrow-right"></i><span>Who We Are</span></a>
                     </div>
                 </div>
             </div>
@@ -97,7 +92,7 @@
                             <div class="lower-content">
                                 <div class="inner">
                                     <h3>Wealth Management</h3>
-                                    <a href="index.html"><span>Learn more</span><i class="fas fa-arrow-right"></i></a>
+                                    <a href="{{ url('wealth_management') }}"><span>Learn more</span><i class="fas fa-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -111,7 +106,7 @@
                             <div class="lower-content">
                                 <div class="inner">
                                     <h3>Real Estate</h3>
-                                    <a href="index.html"><span>Learn more</span><i class="fas fa-arrow-right"></i></a>
+                                    <a href="{{ url('real_estate') }}"><span>Learn more</span><i class="fas fa-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -125,7 +120,7 @@
                             <div class="lower-content">
                                 <div class="inner">
                                     <h3>Hedge Funds</h3>
-                                    <a href="index.html"><span>Learn more</span><i class="fas fa-arrow-right"></i></a>
+                                    <a href="{{ url('hedge_funds') }}"><span>Learn more</span><i class="fas fa-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -202,50 +197,6 @@
         </div>
     </section>
     <!-- about-style-four end -->
-
-
-    <!-- funfact-style-four -->
-    <section class="funfact-style-four centred">
-        <div class="pattern-layer" style="background-image: url(/images/shape/shape-24.png);"></div>
-        <div class="auto-container">
-            <div class="row clearfix">
-                <div class="col-lg-3 col-md-6 col-sm-12 counter-column">
-                    <div class="counter-block-four wow slideInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                        <div class="count-outer count-box">
-                            <span class="count-text" data-speed="1500" data-stop="10">0</span>k
-                        </div>
-                        <h3>Global <br />Customers</h3>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 counter-column">
-                    <div class="counter-block-four wow slideInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                        <div class="count-outer count-box">
-                            <span class="count-text" data-speed="1500" data-stop="5">0</span>k+
-                        </div>
-                        <h3>Projects <br />Completed</h3>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 counter-column">
-                    <div class="counter-block-four wow slideInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                        <div class="count-outer count-box">
-                            <span class="count-text" data-speed="1500" data-stop="370">0</span>
-                        </div>
-                        <h3>Expert <br />Employees</h3>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 counter-column">
-                    <div class="counter-block-four wow slideInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                        <div class="count-outer count-box">
-                            <span class="count-text" data-speed="1500" data-stop="75">0</span>+
-                        </div>
-                        <h3>Countries <br />Served</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- funfact-style-four -->
-
 
     <!-- service-style-five -->
     <section class="service-style-five bg-color-1">
@@ -433,7 +384,7 @@
                         <figure class="image-box"><img src="{{ asset('images/gallery/project-1.jpg') }}" alt=""></figure>
                         <div class="lower-content">
                             <p>Corporate Management</p>
-                            <h2><a href="index.html">Strategic Asset Allocation</a></h2>
+                            <h2>Strategic Asset Allocation</h2>
                         </div>
                     </div>
                 </div>
@@ -442,7 +393,7 @@
                         <figure class="image-box"><img src="{{ asset('images/gallery/project-2.jpg') }}" alt=""></figure>
                         <div class="lower-content">
                             <p>Financial Initiatives</p>
-                            <h2><a href="index.html">Early Investments</a></h2>
+                            <h2>Early Investments</h2>
                         </div>
                     </div>
                 </div>
@@ -451,7 +402,7 @@
                         <figure class="image-box"><img src="{{ asset('images/gallery/project-3.jpg') }}" alt=""></figure>
                         <div class="lower-content">
                             <p>Corporate Management</p>
-                            <h2><a href="index.html">Advisory Portfolios</a></h2>
+                            <h2>>Advisory Portfolios</h2>
                         </div>
                     </div>
                 </div>
@@ -520,72 +471,6 @@
     </section>
     <!-- annual-stats end -->
 
-
-    <!-- world-cyber -->
-    <section class="world-cyber bg-color-1">
-        <div class="pattern-layer" style="background-image: url(/images/shape/shape-2.png);"></div>
-        <div class="auto-container">
-            <div class="sec-title centred">
-                <h5>Worldwide Reputable, Reliable & Trustworthy</h5>
-                <h2>SFS's Around the World</h2>
-            </div>
-            <div class="office-location">
-                <div class="location-area">
-                    <div class="location-box">
-                        <div class="address-box">
-                            <figure class="icon-box"><img src="{{ asset('images/icons/icon-2.png') }}" alt=""></figure>
-                            <p>Serve you to reach best profits and goals.</p>
-                        </div>
-                    </div>
-                    <div class="location-box">
-                        <div class="address-box">
-                            <figure class="icon-box"><img src="{{ asset('images/icons/icon-2.png') }}" alt=""></figure>
-                            <p>Serve you to reach best profits and goals.</p>
-                        </div>
-                    </div>
-                    <div class="location-box">
-                        <div class="address-box">
-                            <figure class="icon-box"><img src="{{ asset('images/icons/icon-2.png') }}" alt=""></figure>
-                            <p>Serve you to reach best profits and goals.</p>
-                        </div>
-                    </div>
-                    <div class="location-box">
-                        <div class="address-box">
-                            <figure class="icon-box"><img src="{{ asset('images/icons/icon-2.png') }}" alt=""></figure>
-                            <p>Serve you to reach best profits and goals.</p>
-                        </div>
-                    </div>
-                    <div class="location-box">
-                        <div class="address-box">
-                            <figure class="icon-box"><img src="{{ asset('images/icons/icon-2.png') }}" alt=""></figure>
-                            <p>Serve you to reach best profits and goals.</p>
-                        </div>
-                    </div>
-                    <div class="location-box">
-                        <div class="address-box">
-                            <figure class="icon-box"><img src="{{ asset('images/icons/icon-2.png') }}" alt=""></figure>
-                            <p>Serve you to reach best profits and goals.</p>
-                        </div>
-                    </div>
-                    <div class="location-box">
-                        <div class="address-box">
-                            <figure class="icon-box"><img src="{{ asset('images/icons/icon-2.png') }}" alt=""></figure>
-                            <p>Serve you to reach best profits and goals.</p>
-                        </div>
-                    </div>
-                    <div class="location-box">
-                        <div class="address-box">
-                            <figure class="icon-box"><img src="{{ asset('images/icons/icon-2.png') }}" alt=""></figure>
-                            <p>Serve you to reach best profits and goals.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- world-cyber end -->
-
-
     <!-- support-section -->
     <section class="support-section">
         <div class="auto-container">
@@ -598,7 +483,7 @@
                                 <h2>Get Free Quote</h2>
                                 <p>Plan, research, choose wisely for a prosperous investment journey.</p>
                             </div>
-                            <form action="contact.html" method="post" class="submit-form">
+                            <form action="{{ url('contact') }}" method="post" class="submit-form">
                                 <div class="form-group">
                                     <input type="text" name="name" placeholder="Your Name" required="">
                                 </div>
@@ -627,9 +512,9 @@
                                 <div class="email"><a href="mailto:support@my-domain.net">support@my-domain.net</a>
                                 </div>
                                 <ul class="list-item clearfix">
-                                    <li>.&nbsp;<a href="index.html">Knowledgeable</a>&nbsp;.</li>
-                                    <li><a href="index.html">Skilled</a>&nbsp;.</li>
-                                    <li><a href="index.html">Competent</a>&nbsp;.</li>
+                                    <li>.&nbsp;Knowledgeable&nbsp;.</li>
+                                    <li>Skilled&nbsp;.</li>
+                                    <li>Competent&nbsp;.</li>
                                 </ul>
                             </div>
                         </div>

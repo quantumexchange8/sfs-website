@@ -1232,11 +1232,11 @@
 }
 
 .service-style-three.service-page-2 .service-block-three .inner-box .image-box .overlay-box-1{
-    background: rgba(218, 44, 70, 0.8);
+    background-color: rgba(248, 149, 44, 0.5);
 }
 
 .service-style-three.service-page-2 .service-block-three .inner-box .image-box .overlay-box-2{
-	background: rgba(218, 44, 70, 0.8);
+	background-color: rgba(248, 149, 44, 0.5);
 }
 
 .service-style-three.service-page-2 .service-block-three .inner-box .lower-content h3 a:hover{
@@ -1485,7 +1485,7 @@
 }
 
 .contact-information .single-item .inner-box:hover .icon-box i{
-	background: -webkit-linear-gradient(0deg, #da2c47, #e76a7d 50%);
+	background: -webkit-linear-gradient(0deg, #f8952c, #f8952c 50%);
 }
 
 .contact-information .single-item .inner-box p a:hover{

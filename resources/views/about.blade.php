@@ -58,7 +58,7 @@
                     <div class="content-box">
                         <div class="sec-title right">
                             <h5>About SFS</h5>
-                            <h2>AI-Powered Digital Future Planning Based on Human Insight<< /h2>
+                            <h2>AI-Powered Digital Future Planning Based on Human Insight</h2>
                         </div>
                         <div class="text">
                             <p>Sixty-fourth Securities uses human insight and artificial intelligence to inform their
@@ -84,8 +84,6 @@
                                             empower client success in dynamic markets. Our mission thrives on blending
                                             technology and human insight for
                                             financial growth.</p>
-                                        <a href="about-1.html"><i class="fas fa-arrow-right"></i><span>Read
-                                                More</span></a>
                                     </div>
                                 </div>
                                 <div class="tab" id="tab-2">
@@ -95,8 +93,6 @@
                                             following a decisive 3-month feasibility study. Our journey blends AI and
                                             human expertise, yet your dreams drive our
                                             decisions.</p>
-                                        <a href="about-1.html"><i class="fas fa-arrow-right"></i><span>Read
-                                                More</span></a>
                                     </div>
                                 </div>
                                 <div class="tab" id="tab-3">
@@ -107,8 +103,6 @@
                                             making crucial moves in high-stakes
                                             scenarios. Your aspirations fuel our mission, inspiring our dedication to
                                             your success daily.</p>
-                                        <a href="about-1.html"><i class="fas fa-arrow-right"></i><span>Read
-                                                More</span></a>
                                     </div>
                                 </div>
                             </div>
@@ -123,8 +117,8 @@
                         <figure class="image"><img src="{{ asset('images/resource/about-2.jpg') }}" alt=""></figure>
                         <div class="content-box">
                             <i class="fas fa-headphones-alt"></i>
-                            <h4>Save Money, Save Life!</h4>
-                            <h5>Any questions? Call <a href="tel:01005200369">0100 5200 369</a></h5>
+                            <h4>Plan Well, Live Well</h4>
+                            <h5>Interested? Call <a href="tel:01005200369">0100 5200 369</a></h5>
                         </div>
                     </div>
                 </div>
@@ -133,114 +127,6 @@
     </div>
 </section>
 <!-- about-style-two end -->
-
-
-<!-- world-cyber -->
-<section class="world-cyber bg-color-1">
-    <div class="pattern-layer" style="background-image: url(images/shape/shape-2.png);"></div>
-    <div class="auto-container">
-        <div class="sec-title centred">
-            <h5>Worldwide Reputable, Reliable & Trustworthy</h5>
-            <h2>SFS's Around the World</h2>
-        </div>
-        <div class="office-location">
-            <div class="location-area">
-                <div class="location-box">
-                    <div class="address-box">
-                        <figure class="icon-box"><img src="{{ asset('images/icons/icon-2.png') }}" alt=""></figure>
-                        <p>Serve you to reach best profits and goals.</p>
-                    </div>
-                </div>
-                <div class="location-box">
-                    <div class="address-box">
-                        <figure class="icon-box"><img src="{{ asset('images/icons/icon-2.png') }}" alt=""></figure>
-                        <p>Serve you to reach best profits and goals.</p>
-                    </div>
-                </div>
-                <div class="location-box">
-                    <div class="address-box">
-                        <figure class="icon-box"><img src="{{ asset('images/icons/icon-2.png') }}" alt=""></figure>
-                        <p>Serve you to reach best profits and goals.</p>
-                    </div>
-                </div>
-                <div class="location-box">
-                    <div class="address-box">
-                        <figure class="icon-box"><img src="{{ asset('images/icons/icon-2.png') }}" alt=""></figure>
-                        <p>Serve you to reach best profits and goals.</p>
-                    </div>
-                </div>
-                <div class="location-box">
-                    <div class="address-box">
-                        <figure class="icon-box"><img src="{{ asset('images/icons/icon-2.png') }}" alt=""></figure>
-                        <p>Serve you to reach best profits and goals.</p>
-                    </div>
-                </div>
-                <div class="location-box">
-                    <div class="address-box">
-                        <figure class="icon-box"><img src="{{ asset('images/icons/icon-2.png') }}" alt=""></figure>
-                        <p>Serve you to reach best profits and goals.</p>
-                    </div>
-                </div>
-                <div class="location-box">
-                    <div class="address-box">
-                        <figure class="icon-box"><img src="{{ asset('images/icons/icon-2.png') }}" alt=""></figure>
-                        <p>Serve you to reach best profits and goals.</p>
-                    </div>
-                </div>
-                <div class="location-box">
-                    <div class="address-box">
-                        <figure class="icon-box"><img src="{{ asset('images/icons/icon-2.png') }}" alt=""></figure>
-                        <p>Serve you to reach best profits and goals.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- world-cyber end -->
-
-
-<!-- funfact-style-four -->
-<section class="funfact-style-four about-page-1 centred">
-    <div class="auto-container">
-        <div class="row clearfix">
-            <div class="col-lg-3 col-md-6 col-sm-12 counter-column">
-                <div class="counter-block-four wow slideInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                    <div class="count-outer count-box">
-                        <span class="count-text" data-speed="1500" data-stop="10">0</span>k
-                    </div>
-                    <h3>Global <br />Customers</h3>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 counter-column">
-                <div class="counter-block-four wow slideInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                    <div class="count-outer count-box">
-                        <span class="count-text" data-speed="1500" data-stop="5">0</span>k+
-                    </div>
-                    <h3>Projects <br />Completed</h3>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 counter-column">
-                <div class="counter-block-four wow slideInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                    <div class="count-outer count-box">
-                        <span class="count-text" data-speed="1500" data-stop="370">0</span>
-                    </div>
-                    <h3>Expert <br />Employees</h3>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 counter-column">
-                <div class="counter-block-four wow slideInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                    <div class="count-outer count-box">
-                        <span class="count-text" data-speed="1500" data-stop="75">0</span>+
-                    </div>
-                    <h3>Countries <br />Served</h3>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- funfact-style-four -->
-
 
 <!-- video-section -->
 <section class="video-section about-page-1 centred" style="background-image: url(images/background/video-bg.jpg);">
