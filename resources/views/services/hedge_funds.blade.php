@@ -7,7 +7,7 @@
         <div class="content-box clearfix">
             <h1>Hedge Funds</h1>
             <ul class="bread-crumb clearfix">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="{{ url('home') }}">Home</a></li>
                 <li>Services</li>
                 <li>Full Details</li>
             </ul>
@@ -114,7 +114,7 @@
                                             <span class="bg-box"></span>
                                             <i class="flaticon-computer-1"></i>
                                         </div>
-                                        <h4><a href="index.html">Support On Raising Funds</a></h4>
+                                        <h4><a href="{{ url('home') }}">Support On Raising Funds</a></h4>
                                         <p>Fostering support for fundraising requires a clear vision, strategic
                                             outreach, and impactful storytelling.
                                         </p>
@@ -124,7 +124,7 @@
                                             <span class="bg-box"></span>
                                             <i class="flaticon-browser-1"></i>
                                         </div>
-                                        <h4><a href="index.html">Outsourced Consulting Business</a></h4>
+                                        <h4><a href="{{ url('home') }}">Outsourced Consulting Business</a></h4>
                                         <p>Success in an outsourced consulting business thrives on expertise, client
                                             focus, and innovative solutions.
                                         </p>
@@ -139,11 +139,11 @@
                 <div class="service-sidebar">
                     <div class="sidebar-categories">
                         <ul class="categories-list clearfix">
-                            <li><a href="wealth-management.html">Wealth Management</a></li>
-                            <li><a href="retirement-planning.html">Retirement Planning</a></li>
-                            <li><a href="real-estate.html">Real Estate</a></li>
-                            <li><a href="hedge-funds.html" class="active">Hedge Funds</a></li>
-                            <li><a href="private-equity.html">Private Equity</a></li>
+                            <li><a href="{{ url('wealth_management') }}">Wealth Management</a></li>
+                            <li><a href="{{ url('retirement_planning') }}">Retirement Planning</a></li>
+                            <li><a href="{{ url('real_estate') }}">Real Estate</a></li>
+                            <li><a href="{{ url('hedge_funds') }}"  class="active">Hedge Funds</a></li>
+                            <li><a href="{{ url('private_equity') }}">Private Equity</a></li>
                         </ul>
                     </div>
                     <div class="sidebar-testimonial">
@@ -204,11 +204,11 @@
                                 </li>
                             </ul>
                             <ul class="social-links clearfix">
-                                <li><a href="financial-analysis.html"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="financial-analysis.html"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="financial-analysis.html"><i class="fab fa-instagram"></i></a></li>
-                                <li><a href="financial-analysis.html"><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a href="financial-analysis.html"><i class="fab fa-pinterest-p"></i></a></li>
+                                <li><a href="{{ url('hedge_funds') }}"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="{{ url('hedge_funds') }}"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="{{ url('hedge_funds') }}"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="{{ url('hedge_funds') }}"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="{{ url('hedge_funds') }}"><i class="fab fa-pinterest-p"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -217,9 +217,10 @@
                             <h3>Downloads</h3>
                         </div>
                         <ul class="download-file clearfix">
-                            <li><a href="financial-analysis.html"><i class="fas fa-file-pdf"></i>Presentation
+                            <li><a href="{{ url('hedge_funds') }}"><i class="fas fa-file-pdf"></i>Presentation
                                     PDF</a></li>
-                            <li><a href="financial-analysis.html"><i class="fas fa-file"></i>Brochure DOC</a></li>
+                            <li><a href="{{ url('hedge_funds') }}"><i class="fas fa-file"></i>Brochure DOC</a>
+                            </li>
                         </ul>
                     </div>
                 </div>

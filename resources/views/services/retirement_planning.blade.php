@@ -7,7 +7,7 @@
         <div class="content-box clearfix">
             <h1>Retirement Planning</h1>
             <ul class="bread-crumb clearfix">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="{{ url('home') }}">Home</a></li>
                 <li>Services</li>
                 <li>Full Details</li>
             </ul>
@@ -24,7 +24,8 @@
             <div class="col-lg-8 col-md-12 col-sm-12 content-side">
                 <div class="service-details-content">
                     <div class="content-style-one">
-                        <figure class="image-box"><img src="{{ asset('images/service/service-15.jpg') }}" alt=""></figure>
+                        <figure class="image-box"><img src="{{ asset('images/service/service-15.jpg') }}" alt="">
+                        </figure>
                         <div class="sec-title left">
                             <h5>Best services SFS</h5>
                             <h2>Cultivating Future Financial Security through Expert Collaborations</h2>
@@ -51,11 +52,13 @@
                         <div class="image-box">
                             <div class="row clearfix">
                                 <div class="col-lg-6 col-md-6 col-sm-12 image-column">
-                                    <figure class="image"><img src="{{ asset('images/service/service-12.jpg') }}" alt="">
+                                    <figure class="image"><img src="{{ asset('images/service/service-12.jpg') }}"
+                                            alt="">
                                     </figure>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-12 image-column">
-                                    <figure class="image"><img src="{{ asset('images/service/service-13.jpg') }}" alt="">
+                                    <figure class="image"><img src="{{ asset('images/service/service-13.jpg') }}"
+                                            alt="">
                                     </figure>
                                 </div>
                             </div>
@@ -108,7 +111,7 @@
                                             <span class="bg-box"></span>
                                             <i class="flaticon-computer-1"></i>
                                         </div>
-                                        <h4><a href="index.html">Support On Raising Funds</a></h4>
+                                        <h4><a href="{{ url('home') }}">Support On Raising Funds</a></h4>
                                         <p>Fostering support for fundraising requires a clear vision, strategic
                                             outreach, and impactful storytelling.
                                         </p>
@@ -118,7 +121,7 @@
                                             <span class="bg-box"></span>
                                             <i class="flaticon-browser-1"></i>
                                         </div>
-                                        <h4><a href="index.html">Outsourced Consulting Business</a></h4>
+                                        <h4><a href="{{ url('home') }}">Outsourced Consulting Business</a></h4>
                                         <p>Success in an outsourced consulting business thrives on expertise, client
                                             focus, and innovative solutions.
                                         </p>
@@ -133,11 +136,11 @@
                 <div class="service-sidebar">
                     <div class="sidebar-categories">
                         <ul class="categories-list clearfix">
-                            <li><a href="wealth-management.html">Wealth Management</a></li>
-                            <li><a href="retirement-planning.html" class="active">Retirement Planning</a></li>
-                            <li><a href="real-estate.html">Real Estate</a></li>
-                            <li><a href="hedge-funds.html">Hedge Funds</a></li>
-                            <li><a href="private-equity.html">Private Equity</a></li>
+                            <li><a href="{{ url('wealth_management') }}">Wealth Management</a></li>
+                            <li><a href="{{ url('retirement_planning') }}" class="active">Retirement Planning</a></li>
+                            <li><a href="{{ url('real_estate') }}">Real Estate</a></li>
+                            <li><a href="{{ url('hedge_funds') }}">Hedge Funds</a></li>
+                            <li><a href="{{ url('private_equity') }}">Private Equity</a></li>
                         </ul>
                     </div>
                     <div class="sidebar-testimonial">
@@ -149,7 +152,8 @@
                                         planning and investment strategies.</p>
                                 </div>
                                 <div class="author-info">
-                                    <figure class="image-box"><img src="{{ asset('images/resource/testimonial-9.png') }}" alt="">
+                                    <figure class="image-box"><img
+                                            src="{{ asset('images/resource/testimonial-9.png') }}" alt="">
                                     </figure>
                                     <h6>Willson Thomas</h6>
                                     <span class="designation">florida, usa</span>
@@ -161,7 +165,8 @@
                                         planning and investment strategies.</p>
                                 </div>
                                 <div class="author-info">
-                                    <figure class="image-box"><img src="{{ asset('images/resource/testimonial-9.png') }}" alt="">
+                                    <figure class="image-box"><img
+                                            src="{{ asset('images/resource/testimonial-9.png') }}" alt="">
                                     </figure>
                                     <h6>Willson Thomas</h6>
                                     <span class="designation">florida, usa</span>
@@ -173,7 +178,8 @@
                                         planning and investment strategies.</p>
                                 </div>
                                 <div class="author-info">
-                                    <figure class="image-box"><img src="{{ asset('images/resource/testimonial-9.png') }}" alt="">
+                                    <figure class="image-box"><img
+                                            src="{{ asset('images/resource/testimonial-9.png') }}" alt="">
                                     </figure>
                                     <h6>Willson Thomas</h6>
                                     <span class="designation">florida, usa</span>
@@ -195,11 +201,11 @@
                                 </li>
                             </ul>
                             <ul class="social-links clearfix">
-                                <li><a href="financial-analysis.html"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="financial-analysis.html"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="financial-analysis.html"><i class="fab fa-instagram"></i></a></li>
-                                <li><a href="financial-analysis.html"><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a href="financial-analysis.html"><i class="fab fa-pinterest-p"></i></a></li>
+                                <li><a href="{{ url('retirement_planning') }}"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="{{ url('retirement_planning') }}"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="{{ url('retirement_planning') }}"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="{{ url('retirement_planning') }}"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="{{ url('retirement_planning') }}"><i class="fab fa-pinterest-p"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -208,9 +214,9 @@
                             <h3>Downloads</h3>
                         </div>
                         <ul class="download-file clearfix">
-                            <li><a href="financial-analysis.html"><i class="fas fa-file-pdf"></i>Presentation
+                            <li><a href="{{ url('retirement_planning') }}"><i class="fas fa-file-pdf"></i>Presentation
                                     PDF</a></li>
-                            <li><a href="financial-analysis.html"><i class="fas fa-file"></i>Brochure DOC</a></li>
+                            <li><a href="{{ url('retirement_planning') }}"><i class="fas fa-file"></i>Brochure DOC</a></li>
                         </ul>
                     </div>
                 </div>

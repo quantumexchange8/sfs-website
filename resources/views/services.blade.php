@@ -27,13 +27,13 @@
                             <div class="overlay-box-1"></div>
                             <div class="overlay-box-2"></div>
                             <img src="{{ asset('images/service/service-1.jpg') }}" alt="">
-                            <a href="financial-analysis.html"><i class="fas fa-link"></i></a>
+                            <a href="{{ url('wealth_management') }}"><i class="fas fa-link"></i></a>
                         </figure>
                         <div class="lower-content">
-                            <h3><a href="financial-analysis.html">Wealth Management</a></h3>
+                            <h3><a href="{{ url('wealth_management') }}">Wealth Management</a></h3>
                             <p>Wealth management encompasses a comprehensive approach to financial planning and ...
                             </p>
-                            <div class="link"><a href="financial-analysis.html"><i
+                            <div class="link"><a href="{{ url('wealth_management') }}"><i
                                         class="fas fa-arrow-right"></i><span>Read More</span></a></div>
                         </div>
                     </div>
@@ -46,13 +46,13 @@
                             <div class="overlay-box-1"></div>
                             <div class="overlay-box-2"></div>
                             <img src="{{ asset('images/service/service-5.jpg') }}" alt="">
-                            <a href="taxation-planning.html"><i class="fas fa-link"></i></a>
+                            <a href="{{ url('retirement_planning') }}"><i class="fas fa-link"></i></a>
                         </figure>
                         <div class="lower-content">
-                            <h3><a href="taxation-planning.html">Retirement Planning</a></h3>
+                            <h3><a href="{{ url('retirement_planning') }}">Retirement Planning</a></h3>
                             <p>Retirement planning involves strategic financial management to secure a comfortable
                                 and ...</p>
-                            <div class="link"><a href="taxation-planning.html"><i
+                            <div class="link"><a href="{{ url('retirement_planning') }}"><i
                                         class="fas fa-arrow-right"></i><span>Read More</span></a></div>
                         </div>
                     </div>
@@ -65,12 +65,12 @@
                             <div class="overlay-box-1"></div>
                             <div class="overlay-box-2"></div>
                             <img src="{{ asset('images/service/service-2.jpg') }}" alt="">
-                            <a href="investment-trading.html"><i class="fas fa-link"></i></a>
+                            <a href="{{ url('real_estate') }}"><i class="fas fa-link"></i></a>
                         </figure>
                         <div class="lower-content">
-                            <h3><a href="investment-trading.html">Real Estate</a></h3>
+                            <h3><a href="{{ url('real_estate') }}">Real Estate</a></h3>
                             <p>Real estate refers to property consisting of land, buildings, and ...</p>
-                            <div class="link"><a href="investment-trading.html"><i
+                            <div class="link"><a href="{{ url('real_estate') }}"><i
                                         class="fas fa-arrow-right"></i><span>Read More</span></a></div>
                         </div>
                     </div>
@@ -83,12 +83,12 @@
                             <div class="overlay-box-1"></div>
                             <div class="overlay-box-2"></div>
                             <img src="{{ asset('images/service/service-3.jpg') }}" alt="">
-                            <a href="financial-analysis.html"><i class="fas fa-link"></i></a>
+                            <a href="{{ url('hedge_funds') }}"><i class="fas fa-link"></i></a>
                         </figure>
                         <div class="lower-content">
-                            <h3><a href="financial-analysis.html">Hedge Funds</a></h3>
+                            <h3><a href="{{ url('hedge_funds') }}">Hedge Funds</a></h3>
                             <p>Hedge funds are investment funds managed by professional managers using ...</p>
-                            <div class="link"><a href="financial-analysis.html"><i
+                            <div class="link"><a href="{{ url('hedge_funds') }}"><i
                                         class="fas fa-arrow-right"></i><span>Read More</span></a></div>
                         </div>
                     </div>
@@ -101,12 +101,12 @@
                             <div class="overlay-box-1"></div>
                             <div class="overlay-box-2"></div>
                             <img src="{{ asset('images/service/service-4.jpg') }}" alt="">
-                            <a href="taxation-planning.html"><i class="fas fa-link"></i></a>
+                            <a href="{{ url('private_equity') }}"><i class="fas fa-link"></i></a>
                         </figure>
                         <div class="lower-content">
-                            <h3><a href="taxation-planning.html">Private Equity</a></h3>
+                            <h3><a href="{{ url('private_equity') }}">Private Equity</a></h3>
                             <p>Private Equity involves investing in private companies or acquiring stakes ...</p>
-                            <div class="link"><a href="taxation-planning.html"><i
+                            <div class="link"><a href="{{ url('private_equity') }}"><i
                                         class="fas fa-arrow-right"></i><span>Read More</span></a></div>
                         </div>
                     </div>
