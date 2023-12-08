@@ -1,6 +1,9 @@
 @extends('layouts.master')
 
 @section('contents')
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
 <!--Page Title-->
 <section class="page-title centred" style="background-image: url(/images/background/page-title.jpg);">
     <div class="auto-container">
@@ -13,99 +16,98 @@
 
 <!--Rows of FAQs-->
 <section class="faq">
-    <div id="accordion">
-        <div class="card">
-            <div class="card-header" id="headingOne">
-                <h5 class="mb-0">
-                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false"
-                        aria-controls="collapseOne">
-                        Is SFS a registered company?
-                    </button>
-                </h5>
-            </div>
-            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                <div class="card-body">
-                    Yes, SFS is a registered company.
-                </div>
+    <div class="accordion" id="accordionPanels">
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseOne">
+                    Is SFS a registered company?
+                </button>
+            </h2>
+        </div>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+            aria-labelledby="panelsStayOpen-headingOne">
+            <div class="accordion-body">
+                Yes, SFS is a registered company.
             </div>
         </div>
-        <div class="card">
-            <div class="card-header" id="headingTwo">
-                <h5 class="mb-0">
-                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
-                        aria-expanded="false" aria-controls="collapseTwo">
-                        What steps do I need to take to join SFS?
-                    </button>
-                </h5>
-            </div>
-            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                <div class="card-body">
-                    Simply complete our online application form and submit the required KYC papers.Alternately, you may
-                    contact us and we will assist you with the various procedures.
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-header" id="headingThree">
-                <h5 class="mb-0">
-                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
-                        aria-expanded="false" aria-controls="collapseThree">
-                        How soon can I begin investing or trading with SFS?
-                    </button>
-                </h5>
-            </div>
-            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                <div class="card-body">
-                    As soon as we have evaluated your investment requirements and received your KYC documentation, one
-                    of
-                    our specialists will initiate your journey immediately.
-                </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseTwo">
+                What steps do I need to take to join SFS?
+            </button>
+        </h2>
+        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingTwo">
+            <div class="accordion-body">
+                Simply complete our online application form and submit the required KYC papers.Alternately, you may
+                contact us and we will assist you with the various procedures.
             </div>
         </div>
-        <div class="card">
-            <div class="card-header" id="headingFour">
-                <h5 class="mb-0">
-                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour"
-                        aria-expanded="false" aria-controls="collapseFour">
-                        Can I invest from anywhere in the world?
-                    </button>
-                </h5>
-            </div>
-            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
-                <div class="card-body">
-                    Our network's worldwide reach is exceptional, so you are never limited no matter where you are in
-                    the
-                    world.
-                </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree">
+                How soon can I begin investing or trading with SFS?
+            </button>
+        </h2>
+        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingThree">
+            <div class="accordion-body">
+                As soon as we have evaluated your investment requirements and received your KYC documentation, one
+                of our specialists will initiate your journey immediately.
             </div>
         </div>
-        <div class="card">
-            <div class="card-header" id="headingFive">
-                <h5 class="mb-0">
-                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive"
-                        aria-expanded="false" aria-controls="collapseFive">
-                        What if I don't know much about the financial markets?
-                    </button>
-                </h5>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseFour">
+                Can I invest from anywhere in the world?
+            </button>
+        </h2>
+        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingFour">
+            <div class="accordion-body">
+                Our network's worldwide reach is exceptional, so you are never limited no matter where you are in
+                the world.
+                << /div>
             </div>
-            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
-                <div class="card-body">
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseFive">
+                    What if I don't know much about the financial markets?
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingFive">
+                <div class="accordion-body">
                     Our expert team will guide you in every way possible to make you feel comfortable and understand
                     everything you need to know about the investment or trade you will be making.
                 </div>
             </div>
         </div>
-        <div class="card">
-            <div class="card-header" id="headingSix">
-                <h5 class="mb-0">
-                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix"
-                        aria-expanded="false" aria-controls="collapseSix">
-                        Does SFS have an internship program?
-                    </button>
-                </h5>
-            </div>
-            <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
-                <div class="card-body">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseSix">
+                    Does SFS have an internship program?
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingSix">
+                <div class="accordion-body">
                     We hire a small number of interns each year, so if you have any questions about
                     upcomingopportunities, please send us an email and a member of our staff will respond as soon as
                     possible. We hire a small number of interns each year, so if you have any questions about upcoming
@@ -113,17 +115,17 @@
                 </div>
             </div>
         </div>
-        <div class="card">
-            <div class="card-header" id="headingSeven">
-                <h5 class="mb-0">
-                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven"
-                        aria-expanded="false" aria-controls="collapseSeven">
-                        Can I invest or trade using Cryptocurrency?
-                    </button>
-                </h5>
-            </div>
-            <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
-                <div class="card-body">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingSeven">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseSeven">
+                    Can I invest or trade using Cryptocurrency?
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingSeven">
+                <div class="accordion-body">
                     Here at SFS, we accept all major Cryptocurrencies.
                 </div>
             </div>
@@ -161,10 +163,7 @@
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-<script>var collapseElements = document.querySelectorAll('.collapse');</script>
-<script>$('.collapse').each(function(index) {
-  if (index !== 0) {
-    $(this).collapse('hide');
-  }
-});</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 @endsection

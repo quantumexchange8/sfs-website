@@ -12788,53 +12788,38 @@ h4 a{
   padding: 20px;
 }
 
-.faq .card {
-  margin-bottom: 15px;
+.faq .accordion-item {
   border: none;
-  border-radius: 5px;
-  overflow: hidden;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: none;
 }
 
-.faq .card-header {
-  background-color: #f8f9fa;
-  padding: 15px;
-  border-bottom: 1px solid #dee2e6;
-}
-
-.faq .card-header button {
+.faq .accordion-button {
   width: 100%;
   text-align: left;
-  padding: 0;
+  padding: 15px;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: bolder;
   color: #f8952c;
   text-decoration: none;
+  background-color: #f8f9fa;
+  border: none;
 }
 
-.faq .card-header button:focus {
+.faq .accordion-button:focus {
   outline: none;
 }
 
-.faq .collapse {
+.faq .accordion-collapse {
   background-color: #fff;
-  padding: 15px;
-  border-top: 1px solid #dee2e6;
+  padding: 10px;
+}
+.faq .accordion-button:not(.collapsed) {
+  color: #f8952c;
 }
 
-/* Change the icon on the button when collapsed */
-.faq .card-header button.collapsed::after {
-  content: '\002B'; /* Plus symbol */
-  float: right;
-  color: #f8952c;
-  font-weight: bold;
-}
-
-.faq .card-header button::after {
-  content: '\2212'; /* Minus symbol */
-  float: right;
-  color: #f8952c;
-  font-weight: bold;
+.faq .accordion-body {
+  font-weight: 500;
+  background-color: #f8f9fa;
 }
 
 .hc-contact {
