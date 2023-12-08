@@ -10,7 +10,7 @@
     <title>SFS - HTML 5 Template Preview</title>
 
     <!-- Fav Icon -->
-    <link rel="icon" href="{{ asset('images/favicon.ico') }}" type="image/x-icon">
+    <link rel="icon" href="{{ asset('images/favicon-2.ico') }}" type="image/x-icon">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i&display=swap" rel="stylesheet">
