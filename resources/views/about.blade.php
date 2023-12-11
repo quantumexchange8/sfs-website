@@ -40,7 +40,7 @@
                         recognized as leaders in their fields. Our unique combination of artificial intelligence
                         (AI) and human intelligence sets us apart and drives our incredibly sophisticated trading
                         techniques.</p>
-                    <a href="index.html"><i class="fas fa-arrow-right"></i><span>Who We Are</span></a>
+                    <a href="{{ url('detail_about') }}"><i class="fas fa-arrow-right"></i><span>Who We Are</span></a>
                 </div>
             </div>
         </div>
@@ -251,24 +251,4 @@
     </div>
 </section>
 <!-- team-section end -->
-
-
-<!-- clients-section -->
-<section class="clients-section">
-    <div class="auto-container">
-        <div class="clients-carousel owl-carousel owl-theme owl-dots-none owl-nav-none">
-            <figure class="client-logo"><a href="index.html"><img src="{{ asset('images/clients/clients-1.png') }}" alt=""></a>
-            </figure>
-            <figure class="client-logo"><a href="index.html"><img src="{{ asset('images/clients/clients-2.png') }}" alt=""></a>
-            </figure>
-            <figure class="client-logo"><a href="index.html"><img src="{{ asset('images/clients/clients-3.png') }}" alt=""></a>
-            </figure>
-            <figure class="client-logo"><a href="index.html"><img src="{{ asset('images/clients/clients-4.png') }}" alt=""></a>
-            </figure>
-            <figure class="client-logo"><a href="index.html"><img src="{{ asset('images/clients/clients-5.png') }}" alt=""></a>
-            </figure>
-        </div>
-    </div>
-</section>
-<!-- clients-section end -->
 @endsection

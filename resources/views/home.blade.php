@@ -9,7 +9,7 @@
                 <div class="auto-container">
                     <div class="content-box">
                         <h5>Take a ride on the success avalanche</h5>
-                        <h1>Monetary Support<br />With Sincere Intentions</h1>
+                        <h1>With Professional Experts<br /> and Relevant Resources</h1>
                         <div class="btn-box">
                             <a href="index" class="user-btn"><i class="far fa-user"></i><span>Make Contact With an
                                     Expert</span></a>
@@ -22,11 +22,11 @@
                 <div class="auto-container">
                     <div class="content-box centred">
                         <ul class="list-item clearfix">
-                            <li>.&nbsp;Knowledgeable&nbsp;.&nbsp;</li>
-                            <li>Skilled&nbsp;.&nbsp;</li>
-                            <li>Competent&nbsp;.&nbsp;</li>
+                            <li>.&nbsp;Insightful&nbsp;.&nbsp;</li>
+                            <li>Accomplished&nbsp;.&nbsp;</li>
+                            <li>Proficient&nbsp;.&nbsp;</li>
                         </ul>
-                        <h1>Worldwide Network To<br />Offer Support</h1>
+                        <h1>Guiding Excellence,<br /> Shaping Success</h1>
                     </div>
                 </div>
             </div>
@@ -34,8 +34,8 @@
                 <div class="image-layer" style="background-image:url(/images/banner/banner-3.jpg)"></div>
                 <div class="auto-container">
                     <div class="content-box">
-                        <h5>Take a ride on the success avalanche</h5>
-                        <h1>Strengthening Bonds & <br />Faith at Any Time</h1>
+                        <h5>Guiding Paths to Triumph</h5>
+                        <h1>Building Trust, <br />Anytime, Anywhere</h1>
                         <div class="btn-box">
                             <a href="{{ url('contact') }}" class="banner-btn-two">Make Contact With an Expert</a>
                         </div>
@@ -681,24 +681,4 @@
         </div>
     </section>
     <!-- testimonial-section end -->
-
-
-    <!-- clients-section -->
-    <section class="clients-section">
-        <div class="auto-container">
-            <div class="clients-carousel owl-carousel owl-theme owl-dots-none owl-nav-none">
-                <figure class="client-logo"><a href="index.html"><img src="{{ asset('images/clients/clients-1.png') }}" alt=""></a>
-                </figure>
-                <figure class="client-logo"><a href="index.html"><img src="{{ asset('images/clients/clients-2.png') }}" alt=""></a>
-                </figure>
-                <figure class="client-logo"><a href="index.html"><img src="{{ asset('images/clients/clients-3.png') }}" alt=""></a>
-                </figure>
-                <figure class="client-logo"><a href="index.html"><img src="{{ asset('images/clients/clients-4.png') }}" alt=""></a>
-                </figure>
-                <figure class="client-logo"><a href="index.html"><img src="{{ asset('images/clients/clients-5.png') }}" alt=""></a>
-                </figure>
-            </div>
-        </div>
-    </section>
-    <!-- clients-section end -->
 @endsection

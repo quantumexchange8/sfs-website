@@ -31,13 +31,6 @@
                                 <li><i class="fas fa-headphones"></i>Support <a href="tel:01005200369">0100 5200 369</a>
                                 </li>
                             </ul>
-                            <ul class="social-links clearfix">
-                                <li><a href="{{ url('home') }}"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="{{ url('home') }}"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="{{ url('home') }}"><i class="fab fa-instagram"></i></a></li>
-                                <li><a href="{{ url('home') }}"><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a href="{{ url('home') }}"><i class="fab fa-pinterest-p"></i></a></li>
-                            </ul>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
@@ -48,8 +41,8 @@
                             <div class="widget-content">
                                 <ul class="list clearfix">
                                     <li><a href="{{ url('about') }}">About Us</a></li>
+                                    <li><a href="{{ url('detail_about') }}">Our Details</a></li>
                                     <li><a href="{{ url('experts_team') }}">Our Professional</a></li>
-                                    <li><a href="{{ url('pricing') }}">Our Plan</a></li>
                                     <li><a href="{{ url('contact') }}">Contact Us</a></li>
                                     <li><a href="{{ url('faq') }}">FAQs</a></li>
                                 </ul>

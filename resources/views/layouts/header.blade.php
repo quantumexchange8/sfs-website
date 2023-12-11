@@ -4,8 +4,8 @@
         <div class="auto-container">
             <div class="top-inner clearfix">
                 <ul class="info top-left pull-left">
-                    <li><a href="{{ url('about') }}">Login</a></li>
-                    <li><a href="{{ url('home') }}">Register</a></li>
+                    <li><a href="{{ url('login') }}">Login</a></li>
+                    <li><a href="{{ url('register') }}">Register</a></li>
                 </ul>
             </div>
         </div>
@@ -49,6 +49,7 @@
                                     <ul>
                                         <li><a href="{{ url('experts_team') }}">Experts Team</a></li>
                                         <li><a href="{{ url('about') }}">About Us</a></li>
+                                        <li><a href="{{ url('detail_about') }}">Our Details</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown"><a href="{{ url('services') }}">Services</a>
@@ -62,6 +63,8 @@
                                 </li>
                                 <li><a href="{{ url('contact') }}">Contact</a></li>
                                 <li><a href="{{ url('faq') }}">FAQs</a></li>
+                                <li><a href="{{ url('login') }}">Login</a></li>
+                                <li><a href="{{ url('register') }}">Sign up</a></li>
                             </ul>
                         </div>
                     </nav>
@@ -70,7 +73,7 @@
                             <button type="button" class="search-toggler"><i class="flaticon-search-1"></i></button>
                         </div>
                         <div class="btn-box">
-                            <a href="{{ url('login') }}" class="theme-btn style-two">Login</a>
+                            <a href="{{ url('contact') }}" class="theme-btn style-two">Contact with Us</a>
                         </div>
                     </div>
                 </div>

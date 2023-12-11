@@ -15,7 +15,6 @@
 </section>
 <!--End Page Title-->
 
-
 <!-- contact-information -->
 <section class="contact-information centred">
     <div class="auto-container">
@@ -57,48 +56,6 @@
     </div>
 </section>
 <!-- contact-information end -->
-
-<!-- funfact-style-four -->
-<section class="funfact-style-four contact-page centred">
-    <div class="auto-container">
-        <div class="row clearfix">
-            <div class="col-lg-3 col-md-6 col-sm-12 counter-column">
-                <div class="counter-block-four wow slideInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                    <div class="count-outer count-box">
-                        <span class="count-text" data-speed="1500" data-stop="10">0</span>k
-                    </div>
-                    <h3>Global <br />Customers</h3>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 counter-column">
-                <div class="counter-block-four wow slideInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                    <div class="count-outer count-box">
-                        <span class="count-text" data-speed="1500" data-stop="5">0</span>k+
-                    </div>
-                    <h3>Projects <br />Completed</h3>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 counter-column">
-                <div class="counter-block-four wow slideInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                    <div class="count-outer count-box">
-                        <span class="count-text" data-speed="1500" data-stop="370">0</span>
-                    </div>
-                    <h3>Expert <br />Employees</h3>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 counter-column">
-                <div class="counter-block-four wow slideInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                    <div class="count-outer count-box">
-                        <span class="count-text" data-speed="1500" data-stop="75">0</span>+
-                    </div>
-                    <h3>Countries <br />Served</h3>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- funfact-style-four -->
-
 
 <!-- contact-style-two -->
 <section class="contact-style-two" style="background-image: url(/images/background/contact-3.jpg);">
@@ -151,25 +108,6 @@
     </div>
 </section>
 <!-- google-map-section end -->
-
-<!-- clients-section -->
-<section class="clients-section">
-    <div class="auto-container">
-        <div class="clients-carousel owl-carousel owl-theme owl-dots-none owl-nav-none">
-            <figure class="client-logo"><a href="index.html"><img src="{{ asset('images/clients/clients-1.png') }}" alt=""></a>
-            </figure>
-            <figure class="client-logo"><a href="index.html"><img src="{{ asset('images/clients/clients-2.png') }}" alt=""></a>
-            </figure>
-            <figure class="client-logo"><a href="index.html"><img src="{{ asset('images/clients/clients-3.png') }}" alt=""></a>
-            </figure>
-            <figure class="client-logo"><a href="index.html"><img src="{{ asset('images/clients/clients-4.png') }}" alt=""></a>
-            </figure>
-            <figure class="client-logo"><a href="index.html"><img src="{{ asset('images/clients/clients-5.png') }}" alt=""></a>
-            </figure>
-        </div>
-    </div>
-</section>
-<!-- clients-section end -->
 @endsection
 
 @section('script')

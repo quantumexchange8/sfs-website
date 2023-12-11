@@ -23,6 +23,10 @@ Route::get('/about', function () {
     return view('about');
 });
 
+Route::get('/detail_about', function () {
+    return view('detail_about');
+});
+
 Route::get('/services', function () {
     return view('services');
 });
@@ -61,4 +65,12 @@ Route::get('/hedge_funds', function () {
 
 Route::get('/private_equity', function () {
     return view('services.private_equity');
+});
+
+Route::get('/login', function () {
+    return view('login');
+});
+
+Route::get('/register', function () {
+    return view('register');
 });
