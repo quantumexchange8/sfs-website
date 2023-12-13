@@ -74,3 +74,7 @@ Route::get('/login', function () {
 Route::get('/register', function () {
     return view('register');
 });
+
+Route::get('/track_record', function () {
+    return view('track_record');
+});

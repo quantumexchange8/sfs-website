@@ -7,7 +7,7 @@
         <div class="content-box clearfix">
             <h1>Experts Team</h1>
             <ul class="bread-crumb clearfix">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="{{ url('home') }}">Home</a></li>
                 <li>Experts Team</li>
             </ul>
         </div>
@@ -195,4 +195,6 @@
     </div>
 </section>
 <!-- team-style-three end -->
+
+@include('layouts.tracks')
 @endsection

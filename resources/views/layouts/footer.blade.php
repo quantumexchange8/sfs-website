@@ -43,6 +43,7 @@
                                     <li><a href="{{ url('about') }}">About Us</a></li>
                                     <li><a href="{{ url('detail_about') }}">Our Details</a></li>
                                     <li><a href="{{ url('experts_team') }}">Our Professional</a></li>
+                                    <li><a href="{{ url('track_record') }}">Track Record</a></li>
                                     <li><a href="{{ url('contact') }}">Contact Us</a></li>
                                     <li><a href="{{ url('faq') }}">FAQs</a></li>
                                 </ul>

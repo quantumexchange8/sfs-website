@@ -47,8 +47,8 @@
                                 <li><a href="{{ url('home') }}">Home</a></li>
                                 <li class="dropdown"><a href="{{ url('about') }}">About</a>
                                     <ul>
-                                        <li><a href="{{ url('experts_team') }}">Experts Team</a></li>
                                         <li><a href="{{ url('about') }}">About Us</a></li>
+                                        <li><a href="{{ url('experts_team') }}">Experts Team</a></li>
                                         <li><a href="{{ url('detail_about') }}">Our Details</a></li>
                                     </ul>
                                 </li>
@@ -61,7 +61,7 @@
                                         <li><a href="{{ url('private_equity') }}" class="active">Private Equity</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="{{ url('contact') }}">Contact</a></li>
+                                <li><a href="{{ url('track_record') }}">Track Record</a></li>
                                 <li><a href="{{ url('faq') }}">FAQs</a></li>
                                 <li><a href="{{ url('login') }}">Login</a></li>
                                 <li><a href="{{ url('register') }}">Sign up</a></li>

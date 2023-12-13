@@ -7,7 +7,7 @@
                 <h2>We help you to unlock & unleash the power within.</h2>
             </div>
             <div class="btn-box pull-right">
-                <a href="index.html">get in touch</a>
+                <a href="{{ url('contact') }}">get in touch</a>
             </div>
         </div>
     </div>

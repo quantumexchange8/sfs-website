@@ -7,7 +7,7 @@
         <div class="content-box clearfix">
             <h1>Contact Us</h1>
             <ul class="bread-crumb clearfix">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="{{ url('home') }}">Home</a></li>
                 <li>Get In Touch</li>
             </ul>
         </div>
@@ -92,27 +92,4 @@
     </div>
 </section>
 <!-- contact-style-two end -->
-
-<!-- google-map-section -->
-<section class="google-map-section">
-    <div class="map-column">
-        <div class="google-map-area">
-            <div class="google-map" id="contact-google-map" data-map-lat="40.712776" data-map-lng="-74.005974"
-                data-icon-path="{{ asset('images/icons/map-marker.png') }}" data-map-title="Brooklyn, New York, United Kingdom"
-                data-map-zoom="12" data-markers='{
-                        "marker-1": [40.712776, -74.005974, "<h4>Branch Office</h4><p>77/99 New York</p>","assets/images/shape/map-marker.png"]
-                    }'>
-
-            </div>
-        </div>
-    </div>
-</section>
-<!-- google-map-section end -->
 @endsection
-
-@section('script')
-<!-- map script -->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-CE0deH3Jhj6GN4YvdCFZS7DpbXexzGU"></script>
-<script src="/js/gmaps.js"></script>
-<script src="/js/map-helper.js"></script>
-@endsection('script')

@@ -11,7 +11,7 @@
                     <div class="content-inner">
                         <div class="upper-box">
                             <div class="logo">
-                                <a href="index.html"><img src="{{asset('images/sidebar-logo.png')}}" alt="" /></a>
+                                <a href="{{ url('home') }}"><img src="{{asset('images/sidebar-logo.png')}}" alt="" /></a>
                             </div>
                             <div class="text">
                                 <p>Should you have any inquiries, please do not hesitate to contact us.</p>

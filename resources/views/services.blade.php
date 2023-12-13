@@ -7,7 +7,7 @@
         <div class="content-box clearfix">
             <h1>What We Do</h1>
             <ul class="bread-crumb clearfix">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="{{ url('home') }}">Home</a></li>
                 <li>Services</li>
             </ul>
         </div>
