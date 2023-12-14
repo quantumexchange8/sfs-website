@@ -162,22 +162,22 @@
 
 <script>
     $(document).ready(function () {
-        $('.form-has-errors').hide(); // Hide the error message initially
+        $('.form-has-errors').hide();
 
         // Function to validate the form on submission
-        $('.signup-form').submit(function (event) {
-            var formHasErrors = false; // Flag to track if there are any errors
+        $('.signup-form').on('submit', function (event) {
+            var formHasErrors = false;
 
             // Check each input field for validation
-            $('.form-row').each(function () {
-                var input = $(this).find('input, select'); // Get input/select elements
-                var error = $(this).find('.cc-error'); // Get associated error message
+            $('.form-row input, .form-row select').each(function () {
+                var input = $(this);
+                var error = $(this).closest('.form-row').find('.cc-error');
 
                 if (input.prop('required') && input.val().trim() === '') {
-                    error.show(); // Show error message if field is required and empty
-                    formHasErrors = true; // Set flag to true if there are errors
+                    error.show();
+                    formHasErrors = true;
                 } else {
-                    error.hide(); // Hide error message if field is not empty or not required
+                    error.hide();
                 }
             });
 
@@ -186,37 +186,36 @@
             var tosError = $('.form-row.tos .cc-error');
 
             if (!agreeToTOS) {
-                tosError.show(); // Show error if checkbox is not checked
-                formHasErrors = true; // Set flag to true if there are errors
+                tosError.show();
+                formHasErrors = true;
             } else {
-                tosError.hide(); // Hide error if checkbox is checked
+                tosError.hide();
             }
 
             // Show or hide the form-has-errors message based on the formHasErrors flag
             if (formHasErrors) {
-                $('.form-has-errors').show(); // Display the error message
-                event.preventDefault(); // Prevent form submission if there are errors
+                $('.form-has-errors').show();
+                event.preventDefault();
             } else {
-                $('.form-has-errors').hide(); // Hide the error message if no errors
+                $('.form-has-errors').hide();
             }
         });
 
         // Function to hide error messages when the input/select value changes
         $('.form-row input, .form-row select').on('change', function () {
-            var error = $(this).closest('.form-row').find('.cc-error'); // Get associated error message
+            var error = $(this).closest('.form-row').find('.cc-error');
             if ($(this).prop('required') && $(this).val().trim() !== '') {
-                error.hide(); // Hide error message if field is not empty and is required
+                error.hide();
             }
         });
 
         // Checkbox change event to hide the error on check
-        $('#agree_to_tos1').change(function () {
+        $('#agree_to_tos1').on('change', function () {
             var tosError = $('.form-row.tos .cc-error');
             if ($(this).is(':checked')) {
-                tosError.hide(); // Hide error if checkbox is checked
+                tosError.hide();
             }
         });
     });
-
 </script>
 @endsection
