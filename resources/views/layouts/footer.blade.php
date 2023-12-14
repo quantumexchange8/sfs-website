@@ -25,7 +25,6 @@
                                 <p>Should you have any inquiries, please do not hesitate to contact us.</p>
                             </div>
                             <ul class="info-list clearfix">
-                                <li><i class="fas fa-map-marker-alt"></i>838 Andy Street, Madison, NJ 08003</li>
                                 <li><i class="fas fa-envelope"></i>Email <a
                                         href="mailto:support@my-domain.com">support@my-domain.com</a></li>
                                 <li><i class="fas fa-headphones"></i>Support <a href="tel:01005200369">0100 5200 369</a>
