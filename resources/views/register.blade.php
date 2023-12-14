@@ -162,8 +162,6 @@
 
 <script>
     $(document).ready(function () {
-        $('.form-has-errors').hide();
-
         // Function to validate the form on submission
         $('.signup-form').on('submit', function (event) {
             var formHasErrors = false;
@@ -202,7 +200,7 @@
         });
 
         // Function to hide error messages when the input/select value changes
-        $('.form-row input, .form-row select').on('change', function () {
+        $('.form-row input, .form-row select').on('input', function () {
             var error = $(this).closest('.form-row').find('.cc-error');
             if ($(this).prop('required') && $(this).val().trim() !== '') {
                 error.hide();
